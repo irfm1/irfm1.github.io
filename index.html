@@ -7,22 +7,68 @@
     <title>Ícaro Moura - Full-Stack Developer</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <meta name="theme-color" content="#1a202c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" href="logo.svg" type="image/svg+xml">
+    <style>
+        /* Mobile nav overlay */
+        .mobile-nav {
+            display: none;
+        }
+        @media (max-width: 640px) {
+            .desktop-nav {
+                display: none;
+            }
+            .mobile-nav {
+                display: flex;
+            }
+        }
+    </style>
 </head>
 <body class="bg-gray-100 text-gray-900">
 
     <!-- Navigation -->
-    <header class="bg-gray-800 text-white py-4 fixed w-full top-0 z-50">
-        <nav class="container mx-auto flex justify-center">
-            <ul class="flex space-x-6">
+    <header class="bg-gray-800 text-white py-4 fixed w-full top-0 z-50 shadow-md">
+        <nav class="container mx-auto flex justify-between items-center px-4">
+            <span class="font-bold text-lg tracking-wide">Ícaro Moura</span>
+            <!-- Desktop Nav -->
+            <ul class="flex space-x-6 desktop-nav">
                 <li><a href="#about" class="hover:text-yellow-400 transition" data-nav>About</a></li>
                 <li><a href="#services" class="hover:text-yellow-400 transition" data-nav>Skills</a></li>
                 <li><a href="#contact" class="hover:text-yellow-400 transition" data-nav>Contact</a></li>
             </ul>
+            <!-- Mobile Hamburger -->
+            <button id="mobile-menu-btn" class="sm:hidden focus:outline-none" aria-label="Open menu">
+                <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+                </svg>
+            </button>
         </nav>
+        <!-- Mobile Nav Overlay -->
+        <div id="mobile-nav" class="mobile-nav flex-col items-center justify-center fixed inset-0 bg-gray-900 bg-opacity-95 z-50 text-xl space-y-8 transition-all duration-200" style="display:none;">
+            <button id="mobile-menu-close" class="absolute top-4 right-4 text-white" aria-label="Close menu">
+                <svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
+                </svg>
+            </button>
+            <a href="#about" class="hover:text-yellow-400 transition" data-nav>About</a>
+            <a href="#services" class="hover:text-yellow-400 transition" data-nav>Skills</a>
+            <a href="#contact" class="hover:text-yellow-400 transition" data-nav>Contact</a>
+        </div>
     </header>
 
+    <!-- Hero Section -->
+    <section class="bg-gray-900 text-white flex justify-center items-center min-h-screen hero-section pt-20 pb-8">
+        <div class="container mx-auto text-center px-4">
+            <img src="profile_img.jpeg" alt="Ícaro Moura" class="rounded-full w-28 h-28 md:w-48 md:h-48 mx-auto mb-4 shadow-lg object-cover border-4 border-yellow-400">
+            <h1 class="text-3xl md:text-6xl font-bold">Ícaro Moura</h1>
+            <p class="text-lg md:text-2xl mt-4">Full-Stack Developer</p>
+        </div>
+    </section>
+
     <!-- Main Content (SPA) -->
-    <main class="flex justify-center items-center min-h-screen pt-16 container mx-auto px-4" id="content">
+    <main class="bg-gray-900 flex justify-center items-center min-h-screen pt-24 pb-8 container mx-auto px-2 sm:px-4" id="content" aria-live="polite">
         <!-- Initial Content will be dynamically loaded here -->
     </main>
 
@@ -31,7 +77,21 @@
         <p>&copy; 2024 Ícaro Moura. All rights reserved.</p>
     </footer>
 
-    <!-- JavaScript for SPA Navigation -->
+    <!-- JavaScript for SPA Navigation and Mobile Menu -->
     <script src="js/scripts.js"></script>
+    <script>
+    // Mobile menu toggle
+    const mobileBtn = document.getElementById('mobile-menu-btn');
+    const mobileNav = document.getElementById('mobile-nav');
+    const mobileClose = document.getElementById('mobile-menu-close');
+    if (mobileBtn && mobileNav && mobileClose) {
+        mobileBtn.onclick = () => { mobileNav.style.display = 'flex'; };
+        mobileClose.onclick = () => { mobileNav.style.display = 'none'; };
+        // Close on nav click
+        mobileNav.querySelectorAll('[data-nav]').forEach(link => {
+            link.onclick = () => { mobileNav.style.display = 'none'; };
+        });
+    }
+    </script>
 </body>
 </html>

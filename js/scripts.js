@@ -1,36 +1,46 @@
 // Array of section content to load dynamically for SPA
 const sections = {
     about: `
-        <section id="about" class="my-8">
-            <h1 class="text-3xl font-bold">About Me</h1>
+        <section id="about" class="my-8 p-4 bg-white shadow-md rounded-lg">
+            <h1 class="text-3xl font-bold">Sobre</h1>
             <p class="mt-4 text-lg">Olá, sou um desenvolvedor de software full-stack experiente do Brasil. Atualmente, estou aproveitando minhas habilidades no mercado freelance.</p>
             <p class="mt-2">Como um ávido defensor de projetos de código aberto, estou sempre em busca de desafios inovadores que ultrapassem os limites da tecnologia.</p>
             <p class="mt-2">Tenho experiência enraizada no Laravel, que aprimorei ao longo dos anos. Sinta-se à vontade para entrar em contato se tiver algum projeto intrigante, sugestões perspicazes ou simplesmente desejar se conectar. Bom desenvolvimento!</p>
         </section>
     `,
     services: `
-        <section id="services" class="my-8">
+        <section id="services" class="my-8 p-4 bg-white shadow-md rounded-lg">
             <h1 class="text-3xl font-bold">My Skills</h1>
             <ul class="mt-4 space-y-2">
                 <li>Full-stack Development</li>
                 <li>Laravel Framework</li>
-                <li>Open-source Contributions</li>
                 <li>API Development and Integration</li>
                 <li>Database Management</li>
             </ul>
         </section>
     `,
     contact: `
-        <section id="contact" class="my-8">
-            <h1 class="text-3xl font-bold">Contact Me</h1>
-            <p class="mt-4">Email: <a href="mailto:mythirfm@gmail.com" class="text-blue-600">mythirfm@gmail.com</a></p>
-            <p class="mt-2">Phone: <a href="tel:+5582988288586" class="text-blue-600">+55 82 98828 8586</a></p>
-            <p class="mt-2">Social Media:</p>
-            <ul class="mt-2 space-y-2">
-                <li><a href="https://www.linkedin.com/in/mythirfm/" target="_blank" class="text-blue-600">LinkedIn</a></li>
-                <li><a href="https://github.com/irfm1" target="_blank" class="text-blue-600">GitHub</a></li>
-                <li><a href="https://www.instagram.com/icaro.rfmoura" target="_blank" class="text-blue-600">Instagram</a></li>
-            </ul>
+        <section id="contact" class="my-8 p-4 bg-white shadow-md rounded-lg">
+            <h1 class="text-3xl font-bold">Contato</h1>
+            <p class="mt-4">Feel free to reach out to me through any of the following methods:</p>
+            <div class="mt-4 space-y-4">
+                <div>
+                    <h2 class="text-xl font-semibold">Email</h2>
+                    <p><a href="mailto:mythirfm@gmail.com" class="text-blue-600 hover:underline">mythirfm@gmail.com</a></p>
+                </div>
+                <div>
+                    <h2 class="text-xl font-semibold">Phone</h2>
+                    <p><a href="tel:+5582988288586" class="text-blue-600 hover:underline">+55 82 98828 8586</a></p>
+                </div>
+                <div>
+                    <h2 class="text-xl font-semibold">Social Media</h2>
+                    <ul class="mt-2 space-y-2">
+                        <li><a href="https://www.linkedin.com/in/mythirfm/" target="_blank" class="text-blue-600 hover:underline">LinkedIn</a></li>
+                        <li><a href="https://github.com/irfm1" target="_blank" class="text-blue-600 hover:underline">GitHub</a></li>
+                        <li><a href="https://www.instagram.com/icaro.rfmoura" target="_blank" class="text-blue-600 hover:underline">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
         </section>
     `
 };
@@ -85,3 +95,30 @@ styleSheet.innerText = `
     }
 `;
 document.head.appendChild(styleSheet);
+
+document.addEventListener('DOMContentLoaded', function() {
+    const navLinks = document.querySelectorAll('[data-nav]');
+    const heroSection = document.querySelector('.hero-section');
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            //remove hero section
+            heroSection.innerHTML = '';
+            heroSection.outerHTML = '';
+        });
+    });
+});
+
+// Smooth scroll for anchor links
+document.querySelectorAll('[data-nav]').forEach(link => {
+    link.addEventListener('click', function(e) {
+        const href = this.getAttribute('href');
+        if (href && href.startsWith('#')) {
+            e.preventDefault();
+            const target = document.querySelector(href);
+            if (target) {
+                window.scrollTo({ top: target.offsetTop - 64, behavior: 'smooth' });
+            }
+        }
+    });
+});
