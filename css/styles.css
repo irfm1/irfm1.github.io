@@ -12,94 +12,65 @@ body {
   background: var(--background);
   color: var(--text);
   min-height: 100vh;
-  padding-bottom: 70px;
+  padding-bottom: 56px;
+  overflow-x: hidden;
 }
 
-header {
-  background: var(--primary);
-  color: #fff;
-  padding: 1rem 1.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: sticky;
-  top: 0;
-  z-index: 10;
-}
-
-.logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  letter-spacing: 1px;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.hamburger {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-  gap: 4px;
-}
-
+/* Remover completamente header/hamburger customizados */
+header,
+.hamburger,
 .hamburger span {
-  width: 26px;
-  height: 3px;
-  background: #fff;
-  border-radius: 2px;
-  transition: all 0.3s;
-}
-
-nav {
-  display: flex;
-  gap: 1.5rem;
-}
-
-nav a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 1.1rem;
-  transition: color 0.2s;
-}
-
-nav a:hover,
-nav a.active {
-  color: var(--accent);
+  display: none !important;
+  height: 0 !important;
+  width: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  position: static !important;
+  background: none !important;
 }
 
 /* Menu fixo inferior tipo app */
 .bottom-nav {
   position: fixed;
-  bottom: 0;
   left: 0;
-  width: 100%; /* Corrigido de 100vw para 100% */
+  right: 0;
+  bottom: 0;
+  width: 100%;
   background: #fff;
   box-shadow: 0 -2px 8px rgba(0,0,0,0.07);
-  display: flex;
+  display: flex !important;
   justify-content: space-around;
   align-items: center;
-  padding: 0.5rem 0;
-  z-index: 20;
+  padding: 0;
+  z-index: 1050;
+  height: 56px;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
 .bottom-nav a {
   color: var(--secondary);
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.1em; /* Reduzido para evitar espaçamento excessivo */
+  justify-content: center;
+  gap: 0;
   transition: color 0.2s;
-  min-width: 60px;
-  min-height: 44px;
-  padding: 0.2em 0.5em;
+  min-width: 0;
+  min-height: 0;
+  padding: 0 0.5em;
+  line-height: 1.1;
+  height: 54px;
+  box-sizing: border-box;
 }
 
 .bottom-nav a span {
-  font-size: 0.95em;
+  font-size: 0.85em;
   margin-top: 0.1em;
+  line-height: 1;
 }
 
 .bottom-nav a.active,
@@ -284,42 +255,24 @@ img.responsive-img:focus {
 
 /* Responsividade */
 @media (max-width: 700px) {
-  header {
-    flex-direction: row;
-    padding: 1rem 0.7rem;
-  }
-  nav {
-    display: none;
-    position: absolute;
-    top: 60px;
-    right: 0;
-    background: var(--primary);
-    flex-direction: column;
-    width: 180px;
-    border-radius: 0 0 0 12px;
-    box-shadow: var(--shadow);
-    z-index: 15;
-  }
-  nav.active {
-    display: flex;
-  }
-  .hamburger {
-    display: flex;
-  }
   main {
     padding: 1.2rem 0.5rem 1rem 0.5rem;
   }
   .card-grid {
     grid-template-columns: 1fr;
+    gap: 1rem;
+    margin: 1rem 0;
   }
   .bottom-nav {
     font-size: 1rem;
-    padding: 0.3rem 0;
+    padding: 0;
+    height: 54px;
   }
   .bottom-nav a {
     font-size: 1rem;
-    gap: 0.05em;
-    padding: 0.1em 0.2em;
+    gap: 0;
+    padding: 0 0.3em;
+    height: 52px;
   }
 }
 
@@ -334,5 +287,61 @@ img.responsive-img:focus {
     padding: 0.5rem;
   }
 }
+  }
+  .bottom-nav a {
+    font-size: 1rem;
+    gap: 0;
+    padding: 0 0.3em;
+    height: 52px;
+  }
+}
+
+@media (max-width: 400px) {
+  .logo {
+    font-size: 1.1rem;
+  }
+  .card {
+    padding: 1rem 0.5rem;
+  }
+  .modal-content {
+    padding: 0.5rem;
+  }
+}
+}
+    padding: 0.5rem;
+  }
+}
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+  .bottom-nav {
+    font-size: 1rem;
+    padding: 0;
+    height: 54px;
+  }
+  .bottom-nav a {
+    font-size: 1rem;
+    gap: 0;
+    padding: 0 0.3em;
+    height: 52px;
+  }
+}
+
+@media (max-width: 400px) {
+  .logo {
+    font-size: 1.1rem;
+  }
+  .card {
+    padding: 1rem 0.5rem;
+  }
+  .modal-content {
+    padding: 0.5rem;
+  }
+}
+  .card {
+    padding: 1rem 0.5rem;
+  }
+  .modal-content {
+    padding: 0.5rem;
   }
 }
