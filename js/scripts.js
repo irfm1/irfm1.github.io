@@ -1,21 +1,5 @@
 // Menu hambúrguer
 document.addEventListener('DOMContentLoaded', function () {
-  const hamburger = document.querySelector('.hamburger');
-  const nav = document.querySelector('header nav');
-  if (hamburger && nav) {
-    hamburger.addEventListener('click', () => {
-      nav.classList.toggle('active');
-      hamburger.classList.toggle('active');
-    });
-    // Fecha menu ao clicar fora
-    document.addEventListener('click', (e) => {
-      if (!nav.contains(e.target) && !hamburger.contains(e.target)) {
-        nav.classList.remove('active');
-        hamburger.classList.remove('active');
-      }
-    });
-  }
-
   // Scroll suave para âncoras internas
   document.querySelectorAll('a[href^="#"]').forEach(link => {
     link.addEventListener('click', function (e) {
