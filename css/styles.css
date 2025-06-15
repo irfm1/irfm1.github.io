@@ -973,3 +973,13 @@ img.responsive-img:focus {
     font-size: 0.7rem;
   }
 }
+
+@media (max-width: 480px) {
+  .bottom-nav a span {
+    font-size: 0.65rem;
+  }
+  
+  .bottom-nav a {
+    padding: 0.25rem 0.125rem;
+  }
+}
