@@ -157,7 +157,7 @@ Encontrou algum bug ou tem uma sugestão?
 
 ## 📞 Contato
 
-- **Email:** [contato através do site](https://irfm1.github.io/contato.html)
+- **Email:** [Ícaro Moura](mailto:irfm1@aluno.ifal.edu.br)
 - **Instituição:** Instituto Federal de Alagoas - Campus Maceió
 - **Curso:** Bacharelado em Sistemas de Informação
 
