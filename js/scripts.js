@@ -1,124 +1,78 @@
-// Array of section content to load dynamically for SPA
-const sections = {
-    about: `
-        <section id="about" class="my-8 p-4 bg-white shadow-md rounded-lg">
-            <h1 class="text-3xl font-bold">Sobre</h1>
-            <p class="mt-4 text-lg">Olá, sou um desenvolvedor de software full-stack experiente do Brasil. Atualmente, estou aproveitando minhas habilidades no mercado freelance.</p>
-            <p class="mt-2">Como um ávido defensor de projetos de código aberto, estou sempre em busca de desafios inovadores que ultrapassem os limites da tecnologia.</p>
-            <p class="mt-2">Tenho experiência enraizada no Laravel, que aprimorei ao longo dos anos. Sinta-se à vontade para entrar em contato se tiver algum projeto intrigante, sugestões perspicazes ou simplesmente desejar se conectar. Bom desenvolvimento!</p>
-        </section>
-    `,
-    services: `
-        <section id="services" class="my-8 p-4 bg-white shadow-md rounded-lg">
-            <h1 class="text-3xl font-bold">My Skills</h1>
-            <ul class="mt-4 space-y-2">
-                <li>Full-stack Development</li>
-                <li>Laravel Framework</li>
-                <li>API Development and Integration</li>
-                <li>Database Management</li>
-            </ul>
-        </section>
-    `,
-    contact: `
-        <section id="contact" class="my-8 p-4 bg-white shadow-md rounded-lg">
-            <h1 class="text-3xl font-bold">Contato</h1>
-            <p class="mt-4">Feel free to reach out to me through any of the following methods:</p>
-            <div class="mt-4 space-y-4">
-                <div>
-                    <h2 class="text-xl font-semibold">Email</h2>
-                    <p><a href="mailto:mythirfm@gmail.com" class="text-blue-600 hover:underline">mythirfm@gmail.com</a></p>
-                </div>
-                <div>
-                    <h2 class="text-xl font-semibold">Phone</h2>
-                    <p><a href="tel:+5582988288586" class="text-blue-600 hover:underline">+55 82 98828 8586</a></p>
-                </div>
-                <div>
-                    <h2 class="text-xl font-semibold">Social Media</h2>
-                    <ul class="mt-2 space-y-2">
-                        <li><a href="https://www.linkedin.com/in/mythirfm/" target="_blank" class="text-blue-600 hover:underline">LinkedIn</a></li>
-                        <li><a href="https://github.com/irfm1" target="_blank" class="text-blue-600 hover:underline">GitHub</a></li>
-                        <li><a href="https://www.instagram.com/icaro.rfmoura" target="_blank" class="text-blue-600 hover:underline">Instagram</a></li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-    `
-};
+// Menu hambúrguer
+document.addEventListener('DOMContentLoaded', function () {
+  const hamburger = document.querySelector('.hamburger');
+  const nav = document.querySelector('header nav');
+  if (hamburger && nav) {
+    hamburger.addEventListener('click', () => {
+      nav.classList.toggle('active');
+      hamburger.classList.toggle('active');
+    });
+    // Fecha menu ao clicar fora
+    document.addEventListener('click', (e) => {
+      if (!nav.contains(e.target) && !hamburger.contains(e.target)) {
+        nav.classList.remove('active');
+        hamburger.classList.remove('active');
+      }
+    });
+  }
 
-// Function to load the appropriate section into the content area
-function loadContent(section) {
-    const contentDiv = document.getElementById('content');
-    
-    // Show loading spinner
-    contentDiv.innerHTML = `<div class="loader my-8"></div>`;
-    
-    setTimeout(() => {
-        contentDiv.innerHTML = sections[section];
-        // Smooth scroll to top after content loads
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    }, 300);  // Simulate a loading delay for demonstration
-}
-
-// Set up event listeners for navigation links
-document.querySelectorAll('a[data-nav]').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
+  // Scroll suave para âncoras internas
+  document.querySelectorAll('a[href^="#"]').forEach(link => {
+    link.addEventListener('click', function (e) {
+      const target = document.querySelector(this.getAttribute('href'));
+      if (target) {
         e.preventDefault();
-        const sectionId = this.getAttribute('href').substring(1); // Get the ID without '#'
-        loadContent(sectionId);
-        localStorage.setItem('currentSection', sectionId);  // Save the current section
+        target.scrollIntoView({ behavior: 'smooth' });
+      }
     });
-});
+  });
 
-// Load the last viewed section or 'about' by default
-window.addEventListener('DOMContentLoaded', () => {
-    const lastSection = localStorage.getItem('currentSection') || 'about';
-    loadContent(lastSection);
-});
-
-// Loader animation (minimal CSS)
-const styleSheet = document.createElement("style");
-styleSheet.type = "text/css";
-styleSheet.innerText = `
-    .loader {
-        border: 4px solid #f3f3f3;
-        border-radius: 50%;
-        border-top: 4px solid #3498db;
-        width: 40px;
-        height: 40px;
-        animation: spin 1s linear infinite;
-        margin: 0 auto;
-    }
-
-    @keyframes spin {
-        0% { transform: rotate(0deg); }
-        100% { transform: rotate(360deg); }
-    }
-`;
-document.head.appendChild(styleSheet);
-
-document.addEventListener('DOMContentLoaded', function() {
-    const navLinks = document.querySelectorAll('[data-nav]');
-    const heroSection = document.querySelector('.hero-section');
-
-    navLinks.forEach(link => {
-        link.addEventListener('click', function() {
-            //remove hero section
-            heroSection.innerHTML = '';
-            heroSection.outerHTML = '';
-        });
+  // Modal para infográficos
+  document.querySelectorAll('.responsive-img[data-modal]').forEach(img => {
+    // Clique do mouse
+    img.addEventListener('click', function () {
+      const modal = document.getElementById('modal');
+      const modalImg = modal.querySelector('img');
+      modalImg.src = this.src;
+      modalImg.alt = this.alt;
+      modal.classList.add('active');
+      // Foca botão fechar para acessibilidade
+      setTimeout(() => {
+        modal.querySelector('.modal-close').focus();
+      }, 100);
     });
-});
-
-// Smooth scroll for anchor links
-document.querySelectorAll('[data-nav]').forEach(link => {
-    link.addEventListener('click', function(e) {
-        const href = this.getAttribute('href');
-        if (href && href.startsWith('#')) {
-            e.preventDefault();
-            const target = document.querySelector(href);
-            if (target) {
-                window.scrollTo({ top: target.offsetTop - 64, behavior: 'smooth' });
-            }
-        }
+    // Teclado: Enter ou Espaço abre modal
+    img.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        this.click();
+      }
     });
+  });
+
+  // Fechar modal
+  const modal = document.getElementById('modal');
+  if (modal) {
+    modal.querySelector('.modal-close').addEventListener('click', () => {
+      modal.classList.remove('active');
+    });
+    // Fecha modal com ESC
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') modal.classList.remove('active');
+    });
+    // Fecha modal ao clicar fora da imagem
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) modal.classList.remove('active');
+    });
+  }
+
+  // Fecha menu hambúrguer ao navegar por teclado (Tab em link)
+  if (hamburger && nav) {
+    nav.querySelectorAll('a').forEach(link => {
+      link.addEventListener('focus', () => {
+        nav.classList.remove('active');
+        hamburger.classList.remove('active');
+      });
+    });
+  }
 });

@@ -1,97 +1,149 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ícaro Moura - Full-Stack Developer</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-    <meta name="theme-color" content="#1a202c">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="mobile-web-app-capable" content="yes">
-    <link rel="icon" href="logo.svg" type="image/svg+xml">
-    <style>
-        /* Mobile nav overlay */
-        .mobile-nav {
-            display: none;
-        }
-        @media (max-width: 640px) {
-            .desktop-nav {
-                display: none;
-            }
-            .mobile-nav {
-                display: flex;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Portal educacional sobre segurança digital e uso consciente da tecnologia. Infográficos e tutoriais simplificados para todos.">
+  <title>Segurança Digital | IFAL</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
-<body class="bg-gray-100 text-gray-900">
-
-    <!-- Navigation -->
-    <header class="bg-gray-800 text-white py-4 fixed w-full top-0 z-50 shadow-md">
-        <nav class="container mx-auto flex justify-between items-center px-4">
-            <span class="font-bold text-lg tracking-wide">Ícaro Moura</span>
-            <!-- Desktop Nav -->
-            <ul class="flex space-x-6 desktop-nav">
-                <li><a href="#about" class="hover:text-yellow-400 transition" data-nav>About</a></li>
-                <li><a href="#services" class="hover:text-yellow-400 transition" data-nav>Skills</a></li>
-                <li><a href="#contact" class="hover:text-yellow-400 transition" data-nav>Contact</a></li>
-            </ul>
-            <!-- Mobile Hamburger -->
-            <button id="mobile-menu-btn" class="sm:hidden focus:outline-none" aria-label="Open menu">
-                <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
-                </svg>
-            </button>
-        </nav>
-        <!-- Mobile Nav Overlay -->
-        <div id="mobile-nav" class="mobile-nav flex-col items-center justify-center fixed inset-0 bg-gray-900 bg-opacity-95 z-50 text-xl space-y-8 transition-all duration-200" style="display:none;">
-            <button id="mobile-menu-close" class="absolute top-4 right-4 text-white" aria-label="Close menu">
-                <svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
-                </svg>
-            </button>
-            <a href="#about" class="hover:text-yellow-400 transition" data-nav>About</a>
-            <a href="#services" class="hover:text-yellow-400 transition" data-nav>Skills</a>
-            <a href="#contact" class="hover:text-yellow-400 transition" data-nav>Contact</a>
-        </div>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="bg-gray-900 text-white flex justify-center items-center min-h-screen hero-section pt-20 pb-8">
-        <div class="container mx-auto text-center px-4">
-            <img src="profile_img.jpeg" alt="Ícaro Moura" class="rounded-full w-28 h-28 md:w-48 md:h-48 mx-auto mb-4 shadow-lg object-cover border-4 border-yellow-400">
-            <h1 class="text-3xl md:text-6xl font-bold">Ícaro Moura</h1>
-            <p class="text-lg md:text-2xl mt-4">Full-Stack Developer</p>
-        </div>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+    <div class="container">
+      <a class="navbar-brand logo" href="index.html">
+        <i class="fa-solid fa-shield-halved"></i> Segurança Digital
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Abrir menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="#categorias">Categorias</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main class="container my-4">
+    <section aria-label="Boas-vindas" class="mb-4">
+      <h1 class="mb-3">Bem-vindo ao Portal de Segurança Digital</h1>
+      <p>
+        Este portal foi criado como parte de uma ação de extensão do IFAL, com o objetivo de democratizar o acesso à informação sobre segurança digital. Aqui você encontrará infográficos e tutoriais simples sobre como navegar na internet de forma segura, protegendo seus dados e sua identidade.
+      </p>
     </section>
-
-    <!-- Main Content (SPA) -->
-    <main class="bg-gray-900 flex justify-center items-center min-h-screen pt-24 pb-8 container mx-auto px-2 sm:px-4" id="content" aria-live="polite">
-        <!-- Initial Content will be dynamically loaded here -->
-    </main>
-
-    <!-- Footer -->
-    <footer class="bg-gray-800 text-white text-center py-4">
-        <p>&copy; 2024 Ícaro Moura. All rights reserved.</p>
-    </footer>
-
-    <!-- JavaScript for SPA Navigation and Mobile Menu -->
-    <script src="js/scripts.js"></script>
-    <script>
-    // Mobile menu toggle
-    const mobileBtn = document.getElementById('mobile-menu-btn');
-    const mobileNav = document.getElementById('mobile-nav');
-    const mobileClose = document.getElementById('mobile-menu-close');
-    if (mobileBtn && mobileNav && mobileClose) {
-        mobileBtn.onclick = () => { mobileNav.style.display = 'flex'; };
-        mobileClose.onclick = () => { mobileNav.style.display = 'none'; };
-        // Close on nav click
-        mobileNav.querySelectorAll('[data-nav]').forEach(link => {
-            link.onclick = () => { mobileNav.style.display = 'none'; };
-        });
-    }
-    </script>
+    <section id="categorias" aria-label="Categorias de conteúdo" class="mb-5">
+      <h2 class="mb-4">Categorias</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 text-center">
+            <div class="icon mt-3"><i class="fa-solid fa-key"></i></div>
+            <div class="card-body">
+              <h3 class="card-title">Senhas seguras</h3>
+              <p class="card-text">Dicas para criar e gerenciar senhas fortes e seguras.</p>
+              <a href="senhas.html" class="btn btn-primary mt-2" aria-label="Acessar Senhas Seguras">Acessar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 text-center">
+            <div class="icon mt-3"><i class="fa-solid fa-fish"></i></div>
+            <div class="card-body">
+              <h3 class="card-title">Golpes e Phishing</h3>
+              <p class="card-text">Como identificar e evitar golpes digitais e tentativas de phishing.</p>
+              <a href="golpes.html" class="btn btn-primary mt-2" aria-label="Acessar Golpes e Phishing">Acessar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 text-center">
+            <div class="icon mt-3"><i class="fa-solid fa-user-shield"></i></div>
+            <div class="card-body">
+              <h3 class="card-title">Privacidade de dados</h3>
+              <p class="card-text">Proteja suas informações pessoais e entenda seus direitos.</p>
+              <a href="privacidade.html" class="btn btn-primary mt-2" aria-label="Acessar Privacidade de Dados">Acessar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 text-center">
+            <div class="icon mt-3"><i class="fa-solid fa-robot"></i></div>
+            <div class="card-body">
+              <h3 class="card-title">Fake news e IA</h3>
+              <p class="card-text">Como identificar notícias falsas e o papel da inteligência artificial.</p>
+              <a href="fakenews.html" class="btn btn-primary mt-2" aria-label="Acessar Fake News e IA">Acessar</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 text-center">
+            <div class="icon mt-3"><i class="fa-solid fa-globe"></i></div>
+            <div class="card-body">
+              <h3 class="card-title">Navegação segura</h3>
+              <p class="card-text">Boas práticas para navegar na internet com segurança.</p>
+              <a href="navegacao.html" class="btn btn-primary mt-2" aria-label="Acessar Navegação Segura">Acessar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="sobre" aria-label="Sobre o projeto" class="mb-5">
+      <h2>Sobre</h2>
+      <p>
+        Este site é um repositório visual de conteúdos adaptados da <a href="https://cartilha.cert.br/" target="_blank" rel="noopener">Cartilha de Segurança na Internet do NIC.br</a>. Nosso objetivo é tornar o conhecimento sobre segurança digital acessível para todos, especialmente para jovens, adultos e comunidades vulneráveis.
+      </p>
+      <p>
+        <a href="https://github.com/irfm1/irfm1.github.io" target="_blank" rel="noopener">
+          <i class="fa-brands fa-github"></i> Repositório no GitHub
+        </a>
+      </p>
+    </section>
+    <section id="contato" aria-label="Contato ou feedback" class="mb-5">
+      <h2>Contato</h2>
+      <form class="contact-form" autocomplete="off" action="#" method="post" id="main-contact-form">
+        <div class="mb-3">
+          <label for="nome" class="form-label">Nome</label>
+          <input type="text" id="nome" name="nome" class="form-control" required maxlength="60">
+        </div>
+        <div class="mb-3">
+          <label for="mensagem" class="form-label">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" class="form-control" rows="3" required maxlength="500"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+        <span id="form-feedback" style="display:none;color:var(--primary);margin-top:0.5em;">Mensagem enviada! Obrigado pelo contato.</span>
+      </form>
+    </section>
+  </main>
+  <!-- Modal para visualização de infográficos -->
+  <div class="modal fade" id="modal" tabindex="-1" aria-modal="true" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content position-relative">
+        <button type="button" class="modal-close btn-close position-absolute top-0 end-0 m-2" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        <img src="" alt="Infográfico ampliado" tabindex="0" class="w-100">
+      </div>
+    </div>
+  </div>
+  <nav class="bottom-nav" aria-label="Menu inferior">
+    <a href="index.html" class="active"><i class="fa-solid fa-house"></i><span>Início</span></a>
+    <a href="#categorias"><i class="fa-solid fa-layer-group"></i><span>Categorias</span></a>
+    <a href="#sobre"><i class="fa-solid fa-circle-info"></i><span>Sobre</span></a>
+    <a href="#contato"><i class="fa-solid fa-envelope"></i><span>Contato</span></a>
+  </nav>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/scripts.js"></script>
+  <script>
+    document.getElementById('main-contact-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      document.getElementById('form-feedback').style.display = 'inline';
+      this.reset();
+      setTimeout(() => {
+        document.getElementById('form-feedback').style.display = 'none';
+      }, 3500);
+    });
+  </script>
 </body>
 </html>

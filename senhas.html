@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Dicas e infográficos sobre como criar e gerenciar senhas seguras.">
+  <title>Senhas Seguras | Segurança Digital IFAL</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <i class="fa-solid fa-shield-halved"></i>
+      Segurança Digital IFAL
+    </div>
+    <div class="hamburger" aria-label="Abrir menu" tabindex="0">
+      <span></span><span></span><span></span>
+    </div>
+    <nav aria-label="Menu principal">
+      <a href="index.html">Início</a>
+      <a href="#conteudo" class="active">Conteúdo</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+  <main>
+    <section id="conteudo" aria-label="Senhas seguras">
+      <h1>Senhas seguras</h1>
+      <p>
+        Senhas são a primeira linha de defesa para proteger suas contas e dados pessoais. Utilizar senhas fortes e únicas para cada serviço é fundamental para evitar invasões e golpes.
+      </p>
+      <p>
+        Evite informações óbvias, como datas de nascimento ou nomes de familiares. Prefira combinações longas, misturando letras, números e símbolos.
+      </p>
+      <div class="card-grid">
+        <article class="card">
+          <img src="img/infografico-senhas1.webp"
+               srcset="img/infografico-senhas1-480.webp 480w, img/infografico-senhas1.webp 800w"
+               sizes="(max-width: 600px) 100vw, 400px"
+               alt="Infográfico: Como criar uma senha forte"
+               class="responsive-img"
+               data-modal
+               tabindex="0">
+          <p>Como criar uma senha forte</p>
+        </article>
+        <article class="card">
+          <img src="img/infografico-senhas2.webp"
+               srcset="img/infografico-senhas2-480.webp 480w, img/infografico-senhas2.webp 800w"
+               sizes="(max-width: 600px) 100vw, 400px"
+               alt="Infográfico: Gerenciadores de senhas"
+               class="responsive-img"
+               data-modal
+               tabindex="0">
+          <p>Gerenciadores de senhas</p>
+        </article>
+      </div>
+      <a href="pdf/senhas.pdf" class="btn" download>
+        <i class="fa-solid fa-file-arrow-down"></i> Baixar PDF
+      </a>
+      <a href="index.html" class="btn" style="margin-left:1em;">
+        <i class="fa-solid fa-arrow-left"></i> Voltar
+      </a>
+    </section>
+    <section id="contato" aria-label="Formulário de contato">
+      <h2>Contato</h2>
+      <form class="contact-form" autocomplete="off" action="#" method="post">
+        <div class="form-group">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" required>
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn">
+          <i class="fa-solid fa-paper-plane"></i> Enviar
+        </button>
+      </form>
+    </section>
+  </main>
+  <div class="modal" id="modal" aria-modal="true" role="dialog" tabindex="-1">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Fechar"><i class="fa-solid fa-xmark"></i></button>
+      <img src="" alt="Infográfico ampliado" tabindex="0">
+    </div>
+  </div>
+  <nav class="bottom-nav" aria-label="Menu inferior">
+    <a href="index.html"><i class="fa-solid fa-house"></i><span>Início</span></a>
+    <a href="#conteudo" class="active"><i class="fa-solid fa-key"></i><span>Senhas</span></a>
+    <a href="#sobre"><i class="fa-solid fa-circle-info"></i><span>Sobre</span></a>
+    <a href="#contato"><i class="fa-solid fa-envelope"></i><span>Contato</span></a>
+  </nav>
+  <script src="js/scripts.js"></script>
+</body>
+</html>

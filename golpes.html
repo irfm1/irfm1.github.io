@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Aprenda a identificar e evitar golpes digitais e tentativas de phishing.">
+  <title>Golpes e Phishing | Segurança Digital IFAL</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <i class="fa-solid fa-shield-halved"></i>
+      Segurança Digital IFAL
+    </div>
+    <div class="hamburger" aria-label="Abrir menu" tabindex="0">
+      <span></span><span></span><span></span>
+    </div>
+    <nav aria-label="Menu principal">
+      <a href="index.html">Início</a>
+      <a href="#conteudo" class="active">Conteúdo</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+  <main>
+    <section id="conteudo" aria-label="Golpes e Phishing">
+      <h1>Golpes e Phishing</h1>
+      <p>
+        Golpes digitais e tentativas de phishing são cada vez mais comuns. Eles buscam enganar usuários para roubar informações pessoais, financeiras ou instalar programas maliciosos.
+      </p>
+      <p>
+        Fique atento a mensagens suspeitas, links desconhecidos e ofertas "boas demais para ser verdade". Sempre verifique a autenticidade antes de clicar ou fornecer dados.
+      </p>
+      <div class="card-grid">
+        <article class="card">
+          <img src="img/infografico-golpes1.webp"
+               srcset="img/infografico-golpes1-480.webp 480w, img/infografico-golpes1.webp 800w"
+               sizes="(max-width: 600px) 100vw, 400px"
+               alt="Infográfico: Como identificar phishing"
+               class="responsive-img"
+               data-modal
+               tabindex="0">
+          <p>Como identificar phishing</p>
+        </article>
+        <article class="card">
+          <img src="img/infografico-golpes2.webp"
+               srcset="img/infografico-golpes2-480.webp 480w, img/infografico-golpes2.webp 800w"
+               sizes="(max-width: 600px) 100vw, 400px"
+               alt="Infográfico: Exemplos de golpes digitais"
+               class="responsive-img"
+               data-modal
+               tabindex="0">
+          <p>Exemplos de golpes digitais</p>
+        </article>
+      </div>
+      <a href="pdf/golpes.pdf" class="btn" download>
+        <i class="fa-solid fa-file-arrow-down"></i> Baixar PDF
+      </a>
+      <a href="index.html" class="btn" style="margin-left:1em;">
+        <i class="fa-solid fa-arrow-left"></i> Voltar
+      </a>
+    </section>
+  </main>
+  <div class="modal" id="modal" aria-modal="true" role="dialog" tabindex="-1">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Fechar"><i class="fa-solid fa-xmark"></i></button>
+      <img src="" alt="Infográfico ampliado" tabindex="0">
+    </div>
+  </div>
+  <nav class="bottom-nav" aria-label="Menu inferior">
+    <a href="index.html"><i class="fa-solid fa-house"></i><span>Início</span></a>
+    <a href="#conteudo" class="active"><i class="fa-solid fa-fish"></i><span>Golpes</span></a>
+    <a href="#sobre"><i class="fa-solid fa-circle-info"></i><span>Sobre</span></a>
+    <a href="#contato"><i class="fa-solid fa-envelope"></i><span>Contato</span></a>
+  </nav>
+  <script src="js/scripts.js"></script>
+</body>
+</html>

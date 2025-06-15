@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Dicas e infográficos sobre proteção de dados pessoais e privacidade digital.">
+  <title>Privacidade de Dados | Segurança Digital IFAL</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <i class="fa-solid fa-shield-halved"></i>
+      Segurança Digital IFAL
+    </div>
+    <div class="hamburger" aria-label="Abrir menu" tabindex="0">
+      <span></span><span></span><span></span>
+    </div>
+    <nav aria-label="Menu principal">
+      <a href="index.html">Início</a>
+      <a href="#conteudo" class="active">Conteúdo</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+  <main>
+    <section id="conteudo" aria-label="Privacidade de dados">
+      <h1>Privacidade de dados</h1>
+      <p>
+        Proteger sua privacidade digital é essencial para evitar o uso indevido de suas informações pessoais. Saiba como controlar o que compartilha e como seus dados são utilizados por aplicativos e sites.
+      </p>
+      <p>
+        Utilize configurações de privacidade, evite expor dados sensíveis e conheça seus direitos garantidos pela legislação, como a LGPD.
+      </p>
+      <div class="card-grid">
+        <article class="card">
+          <img src="img/infografico-privacidade1.webp"
+               srcset="img/infografico-privacidade1-480.webp 480w, img/infografico-privacidade1.webp 800w"
+               sizes="(max-width: 600px) 100vw, 400px"
+               alt="Infográfico: Proteja seus dados pessoais"
+               class="responsive-img"
+               data-modal
+               tabindex="0">
+          <p>Proteja seus dados pessoais</p>
+        </article>
+        <article class="card">
+          <img src="img/infografico-privacidade2.webp"
+               srcset="img/infografico-privacidade2-480.webp 480w, img/infografico-privacidade2.webp 800w"
+               sizes="(max-width: 600px) 100vw, 400px"
+               alt="Infográfico: Configurações de privacidade"
+               class="responsive-img"
+               data-modal
+               tabindex="0">
+          <p>Configurações de privacidade</p>
+        </article>
+      </div>
+      <a href="pdf/privacidade.pdf" class="btn" download>
+        <i class="fa-solid fa-file-arrow-down"></i> Baixar PDF
+      </a>
+      <a href="index.html" class="btn" style="margin-left:1em;">
+        <i class="fa-solid fa-arrow-left"></i> Voltar
+      </a>
+    </section>
+  </main>
+  <div class="modal" id="modal" aria-modal="true" role="dialog" tabindex="-1">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Fechar"><i class="fa-solid fa-xmark"></i></button>
+      <img src="" alt="Infográfico ampliado" tabindex="0">
+    </div>
+  </div>
+  <nav class="bottom-nav" aria-label="Menu inferior">
+    <a href="index.html"><i class="fa-solid fa-house"></i><span>Início</span></a>
+    <a href="#conteudo" class="active"><i class="fa-solid fa-user-shield"></i><span>Privacidade</span></a>
+    <a href="#sobre"><i class="fa-solid fa-circle-info"></i><span>Sobre</span></a>
+    <a href="#contato"><i class="fa-solid fa-envelope"></i><span>Contato</span></a>
+  </nav>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
