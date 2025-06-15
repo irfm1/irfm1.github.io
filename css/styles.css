@@ -6,6 +6,7 @@
   --accent: #38bdf8;
   --text: #1e293b;
   --shadow: 0 2px 8px rgba(0,0,0,0.07);
+  --gradient-bg: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
 
 body {
@@ -14,12 +15,28 @@ body {
   min-height: 100vh;
   padding-bottom: 56px;
   overflow-x: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Remover completamente header/hamburger customizados */
-header,
-.hamburger,
-.hamburger span {
+/* Remover apenas header customizado das páginas de conteúdo, não o Bootstrap navbar */
+.fakenews-page header,
+.fakenews-page .hamburger,
+.fakenews-page .hamburger span,
+.senhas-page header,
+.senhas-page .hamburger,
+.senhas-page .hamburger span,
+.golpes-page header,
+.golpes-page .hamburger,
+.golpes-page .hamburger span,
+.privacidade-page header,
+.privacidade-page .hamburger,
+.privacidade-page .hamburger span,
+.navegacao-page header,
+.navegacao-page .hamburger,
+.navegacao-page .hamburger span,
+.furto-celular-page header,
+.furto-celular-page .hamburger,
+.furto-celular-page .hamburger span {
   display: none !important;
   height: 0 !important;
   width: 0 !important;
@@ -28,6 +45,26 @@ header,
   border: none !important;
   position: static !important;
   background: none !important;
+}
+
+/* Bootstrap customizations */
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.bg-primary {
+  background-color: var(--primary) !important;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-primary:hover {
+  background-color: var(--accent);
+  border-color: var(--accent);
 }
 
 /* Menu fixo inferior tipo app */
@@ -78,10 +115,21 @@ header,
   color: var(--primary);
 }
 
+/* Container adjustments for Bootstrap */
+.container:not(.infographic-container) {
+  max-width: 900px;
+}
+
+/* Main content for non-Bootstrap pages */
 main {
   max-width: 900px;
   margin: 0 auto;
   padding: 2rem 1rem 1rem 1rem;
+}
+
+/* Bootstrap page specific adjustments */
+.container.my-4 {
+  padding-bottom: 1rem;
 }
 
 h1, h2, h3 {
@@ -90,9 +138,111 @@ h1, h2, h3 {
   margin-bottom: 0.5em;
 }
 
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
 p, li {
   font-size: 1.1rem;
   line-height: 1.6;
+}
+
+/* Estilização do infográfico */
+.infographic-container {
+  background: white;
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  margin: 2rem 0;
+  overflow: hidden;
+  border: 2px solid #e2e8f0;
+  max-width: none !important;
+}
+
+.header {
+  background: var(--gradient-bg);
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.content {
+  padding: 2rem;
+}
+
+.tip-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: linear-gradient(145deg, #f8fafc, #e2e8f0);
+  border-radius: 12px;
+  border-left: 4px solid var(--primary);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.tip-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(37,99,235,0.1);
+}
+
+.tip-icon {
+  font-size: 2rem;
+  min-width: 50px;
+  text-align: center;
+  background: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.tip-text h3 {
+  margin: 0 0 0.5rem 0;
+  color: var(--primary);
+  font-size: 1.2rem;
+}
+
+.tip-text p {
+  margin: 0 0 0.5rem 0;
+  color: var(--text);
+}
+
+.tip-text ul {
+  margin: 0.5rem 0 0 0;
+  padding-left: 1.2rem;
+}
+
+.tip-text li {
+  margin-bottom: 0.4rem;
+  color: var(--text);
+  position: relative;
+  padding-left: 0.5rem;
+}
+
+.tip-text li::before {
+  content: '•';
+  color: var(--primary);
+  font-weight: bold;
+  position: absolute;
+  left: -0.8rem;
+}
+
+.tip-text strong {
+  color: var(--primary);
+  font-weight: 700;
+}
+
+.tip-text p + ul {
+  margin-top: 0.8rem;
 }
 
 .card-grid {
@@ -106,6 +256,7 @@ p, li {
   border-radius: 12px !important;
   box-shadow: var(--shadow);
   border: none;
+  transition: transform 0.2s, box-shadow 0.2s;
 }
 
 .card:hover {
@@ -128,11 +279,16 @@ p, li {
   font-size: 1rem;
   margin-top: 1em;
   cursor: pointer;
-  transition: background 0.2s;
+  transition: all 0.2s;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
-.card button:hover, .btn:hover {
+.card button:hover, .btn:hover:not(.btn-primary) {
   background: var(--accent);
+  transform: translateY(-1px);
 }
 
 img.responsive-img {
@@ -233,61 +389,36 @@ img.responsive-img:focus {
   main {
     padding: 1.2rem 0.5rem 1rem 0.5rem;
   }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  .content {
+    padding: 1rem;
+  }
+  
+  .tip-item {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .tip-icon {
+    align-self: center;
+  }
+  
   .card-grid {
     grid-template-columns: 1fr;
     gap: 1rem;
     margin: 1rem 0;
   }
-  .bottom-nav {
-    font-size: 1rem;
-    padding: 0;
-    height: 54px;
-  }
-  .bottom-nav a {
-    font-size: 1rem;
-    gap: 0;
-    padding: 0 0.3em;
-    height: 52px;
-  }
-}
-
-@media (max-width: 400px) {
-  .logo {
-    font-size: 1.1rem;
-  }
-  .card {
-    padding: 1rem 0.5rem;
-  }
-  .modal-content {
-    padding: 0.5rem;
-  }
-
   
   .bottom-nav {
     font-size: 1rem;
     padding: 0;
     height: 54px;
   }
-  .bottom-nav a {
-    font-size: 1rem;
-    gap: 0;
-    padding: 0 0.3em;
-    height: 52px;
-  }
-}
-
-
-@media (max-width: 400px) {
-  .logo {
-    font-size: 1.1rem;
-  }
-  .card {
-    padding: 1rem 0.5rem;
-  }
-  .modal-content {
-    padding: 0.5rem;
-  }
-
   
   .bottom-nav a {
     font-size: 1rem;
@@ -298,47 +429,398 @@ img.responsive-img:focus {
 }
 
 @media (max-width: 400px) {
-  .logo {
-    font-size: 1.1rem;
+  .header {
+    font-size: 1.2rem;
+    padding: 1rem;
   }
+  
+  .tip-item {
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+  }
+  
+  .tip-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+  }
+  
   .card {
     padding: 1rem 0.5rem;
   }
+  
   .modal-content {
     padding: 0.5rem;
-  }
-
-  .card-grid {
-    grid-template-columns: 1fr;
-  }
-  .bottom-nav {
-    font-size: 1rem;
-    padding: 0;
-    height: 54px;
-  }
-  .bottom-nav a {
-    font-size: 1rem;
-    gap: 0;
-    padding: 0 0.3em;
-    height: 52px;
   }
 }
 
-@media (max-width: 400px) {
-  .logo {
+/* Enhanced hero section styling */
+.hero-section {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+  color: white;
+  padding: 3rem 0;
+  margin: -1.5rem -15px 2rem -15px;
+  border-radius: 0 0 24px 24px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M 10 0 L 0 0 0 10" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/></pattern></defs><rect width="100" height="100" fill="url(%23grid)"/></svg>');
+  opacity: 0.3;
+}
+
+.hero-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-section h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.hero-section p {
+  font-size: 1.3rem;
+  opacity: 0.95;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+/* Enhanced card styling */
+.category-card {
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+  background: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.category-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--gradient-bg);
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+.category-card:hover::before {
+  transform: scaleX(1);
+}
+
+.category-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 28px rgba(37,99,235,0.15);
+}
+
+.category-card .icon {
+  font-size: 3rem;
+  color: var(--primary);
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background: linear-gradient(135deg, rgba(37,99,235,0.1), rgba(56,189,248,0.1));
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5rem auto 1rem auto;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+}
+
+.category-card:hover .icon {
+  transform: scale(1.1);
+  background: linear-gradient(135deg, rgba(37,99,235,0.2), rgba(56,189,248,0.2));
+}
+
+.category-card .card-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 1rem 1.5rem 1.5rem 1.5rem;
+}
+
+.category-card .card-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 1rem;
+  min-height: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.category-card .card-text {
+  color: var(--secondary);
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  min-height: 4.8rem;
+}
+
+.category-card .btn {
+  background: var(--primary);
+  border: none;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  margin-top: auto;
+  align-self: center;
+  min-width: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.category-card .btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  transition: left 0.5s ease;
+}
+
+.category-card .btn:hover::before {
+  left: 100%;
+}
+
+.category-card .btn:hover {
+  background: var(--accent);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(56,189,248,0.3);
+}
+
+/* Enhanced section styling */
+.content-section {
+  margin-bottom: 4rem;
+  padding: 2rem 0;
+}
+
+.content-section h2 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.content-section h2::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background: var(--gradient-bg);
+  border-radius: 2px;
+}
+
+/* About and contact sections */
+.info-section {
+  background: white;
+  border-radius: 16px;
+  padding: 2.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  margin-bottom: 2rem;
+  border-left: 4px solid var(--primary);
+}
+
+.info-section h2 {
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.info-section h2::after {
+  display: none;
+}
+
+.github-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 2px solid var(--primary);
+  margin-top: 1rem;
+}
+
+.github-link:hover {
+  background: var(--primary);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(37,99,235,0.3);
+}
+
+/* Fix external links styling */
+.tip-text a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 1px solid var(--primary);
+  transition: all 0.2s ease;
+}
+
+.tip-text a:hover {
+  background: var(--primary);
+  color: white;
+  padding: 0.1rem 0.3rem;
+  border-radius: 4px;
+  border-bottom: none;
+}
+
+/* Improve focus states for better accessibility */
+.tip-item:focus-within {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+/* Fix button hover states consistency */
+.btn:hover {
+  background: var(--accent) !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(56,189,248,0.3);
+}
+
+/* Improve loading states */
+.tip-item {
+  opacity: 1;
+  animation: fadeInUp 0.6s ease-out;
+}
+
+/* Fix responsive issues */
+@media (max-width: 576px) {
+  .tip-text {
+    text-align: left;
+  }
+  
+  .tip-item {
+    text-align: left;
+  }
+}
+
+/* Performance improvements - reduce animations on slower devices */
+@media (prefers-reduced-motion: reduce) {
+  .tip-item,
+  .category-card,
+  .btn,
+  .animate-on-scroll {
+    animation: none;
+    transition: none;
+  }
+  
+  .tip-item:hover,
+  .category-card:hover {
+    transform: none;
+  }
+}
+
+/* ...existing code... */
+
+/* Enhanced responsive design */
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 2rem 0;
+    margin: -1.5rem -15px 1.5rem -15px;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.2rem;
+  }
+  
+  .hero-section p {
     font-size: 1.1rem;
   }
-  .card {
-    padding: 1rem 0.5rem;
+  
+  .content-section h2 {
+    font-size: 2rem;
   }
-  .modal-content {
-    padding: 0.5rem;
+  
+  .category-card .icon {
+    width: 60px;
+    height: 60px;
+    font-size: 2.2rem;
   }
+  
+  .category-card .card-text {
+    min-height: 3.6rem;
+    font-size: 0.95rem;
+  }
+  
+  .info-section {
+    padding: 1.5rem;
+  }
+}
 
-  .card {
-    padding: 1rem 0.5rem;
+@media (max-width: 576px) {
+  .hero-section h1 {
+    font-size: 1.8rem;
   }
-  .modal-content {
-    padding: 0.5rem;
+  
+  .content-section h2 {
+    font-size: 1.7rem;
   }
+  
+  .category-card {
+    margin-bottom: 1rem;
+  }
+  
+  .category-card .card-text {
+    min-height: 3.2rem;
+    font-size: 0.9rem;
+  }
+  
+  .category-card .btn {
+    min-width: 120px;
+    padding: 0.65rem 1.2rem;
+  }
+}
+
+/* Styling específico para código inline */
+code {
+  background: rgba(37,99,235,0.1);
+  color: var(--primary);
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 0.9em;
+  font-weight: 600;
 }

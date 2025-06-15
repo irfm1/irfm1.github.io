@@ -11,20 +11,19 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
-  // Modal para infográficos
-  document.querySelectorAll('.responsive-img[data-modal]').forEach(img => {
-    // Clique do mouse
+  // Modal para imagens (se existir)
+  document.querySelectorAll('.responsive-img').forEach(img => {
     img.addEventListener('click', function () {
       const modal = document.getElementById('modal');
-      const modalImg = modal.querySelector('img');
-      modalImg.src = this.src;
-      modalImg.alt = this.alt;
-      modal.classList.add('active');
-      // Foca botão fechar para acessibilidade
-      setTimeout(() => {
-        modal.querySelector('.modal-close').focus();
-      }, 100);
+      if (modal) {
+        modal.querySelector('img').src = this.src;
+        modal.classList.add('active');
+        setTimeout(() => {
+          modal.querySelector('.modal-close').focus();
+        }, 100);
+      }
     });
+    
     // Teclado: Enter ou Espaço abre modal
     img.addEventListener('keydown', function (e) {
       if (e.key === 'Enter' || e.key === ' ') {
@@ -50,7 +49,9 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  // Fecha menu hambúrguer ao navegar por teclado (Tab em link)
+  // Fecha menu hambúrguer ao navegar por teclado (se existir)
+  const hamburger = document.querySelector('.hamburger');
+  const nav = document.querySelector('nav');
   if (hamburger && nav) {
     nav.querySelectorAll('a').forEach(link => {
       link.addEventListener('focus', () => {
@@ -58,5 +59,43 @@ document.addEventListener('DOMContentLoaded', function () {
         hamburger.classList.remove('active');
       });
     });
+  }
+
+  // Improve external link handling
+  document.querySelectorAll('a[href^="http"]').forEach(link => {
+    if (!link.hasAttribute('target')) {
+      link.setAttribute('target', '_blank');
+      link.setAttribute('rel', 'noopener noreferrer');
+    }
+  });
+
+  // Add loading state for PDF downloads
+  document.querySelectorAll('a[download]').forEach(link => {
+    link.addEventListener('click', function() {
+      const original = this.innerHTML;
+      this.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Baixando...';
+      this.style.pointerEvents = 'none';
+      
+      setTimeout(() => {
+        this.innerHTML = original;
+        this.style.pointerEvents = 'auto';
+      }, 3000);
+    });
+  });
+
+  // Improve keyboard navigation
+  document.querySelectorAll('.tip-item').forEach(item => {
+    item.setAttribute('tabindex', '0');
+    item.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        this.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    });
+  });
+
+  // Add print functionality
+  if (window.matchMedia && window.matchMedia('print').matches) {
+    document.body.classList.add('print-mode');
   }
 });

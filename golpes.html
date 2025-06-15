@@ -9,7 +9,7 @@
   <link rel="icon" href="favicon.ico">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
-<body>
+<body class="golpes-page">
   <header>
     <div class="logo">
       <i class="fa-solid fa-shield-halved"></i>
@@ -27,41 +27,243 @@
   </header>
   <main>
     <section id="conteudo" aria-label="Golpes e Phishing">
-      <h1>Golpes e Phishing</h1>
-      <p>
-        Golpes digitais e tentativas de phishing são cada vez mais comuns. Eles buscam enganar usuários para roubar informações pessoais, financeiras ou instalar programas maliciosos.
+      <h1><i class="fa-solid fa-fish" style="color: #dc2626; margin-right: 0.5rem;"></i>Golpes e Phishing</h1>
+      <p style="text-align: center; font-size: 1.2rem; margin-bottom: 2rem; color: var(--secondary);">
+        Golpes digitais e tentativas de phishing são cada vez mais comuns. Eles buscam enganar usuários 
+        para roubar informações pessoais, financeiras ou instalar programas maliciosos.
       </p>
-      <p>
-        Fique atento a mensagens suspeitas, links desconhecidos e ofertas "boas demais para ser verdade". Sempre verifique a autenticidade antes de clicar ou fornecer dados.
-      </p>
-      <div class="card-grid">
-        <article class="card">
-          <img src="img/infografico-golpes1.webp"
-               srcset="img/infografico-golpes1-480.webp 480w, img/infografico-golpes1.webp 800w"
-               sizes="(max-width: 600px) 100vw, 400px"
-               alt="Infográfico: Como identificar phishing"
-               class="responsive-img"
-               data-modal
-               tabindex="0">
-          <p>Como identificar phishing</p>
-        </article>
-        <article class="card">
-          <img src="img/infografico-golpes2.webp"
-               srcset="img/infografico-golpes2-480.webp 480w, img/infografico-golpes2.webp 800w"
-               sizes="(max-width: 600px) 100vw, 400px"
-               alt="Infográfico: Exemplos de golpes digitais"
-               class="responsive-img"
-               data-modal
-               tabindex="0">
-          <p>Exemplos de golpes digitais</p>
-        </article>
+      
+      <!-- Enhanced infographic section -->
+      <article class="infographic-container">
+        <header class="header">
+          <i class="fa-solid fa-shield-virus" style="margin-right: 0.5rem;"></i>
+          Combata a Desinformação na Internet
+        </header>
+        <div class="content">
+          <div class="tip-item">
+            <div class="tip-icon">❓</div>
+            <div class="tip-text">
+              <h3>O que são Boatos?</h3>
+              <p>Boatos, <strong>hoaxes</strong>, correntes e <strong>fake news</strong> são informações falsas ou distorcidas.</p>
+              <p><strong>Riscos:</strong> Engano, manipulação de opiniões, fraudes financeiras e desinformação em massa.</p>
+            </div>
+          </div>
+          
+          <div class="tip-item">
+            <div class="tip-icon">🚨</div>
+            <div class="tip-text">
+              <h3>Como Reconhecer um Boato</h3>
+              <p>Fique atento a estas características:</p>
+              <ul>
+                <li><strong>Título alarmista</strong> ou sensacionalista</li>
+                <li><strong>Pedido urgente</strong> para compartilhar</li>
+                <li><strong>Ausência de fonte</strong> ou autor confiável</li>
+                <li><strong>Conteúdo fora de contexto</strong> ou sem data</li>
+                <li><strong>Imagens ou dados</strong> sem evidência verificável</li>
+                <li><strong>Promessas impossíveis</strong> ou ofertas suspeitas</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="tip-item">
+            <div class="tip-icon">🔍</div>
+            <div class="tip-text">
+              <h3>Vá Direto à Fonte</h3>
+              <p>Sempre verifique a origem da informação:</p>
+              <ul>
+                <li><strong>Identifique o autor</strong> e sua credibilidade</li>
+                <li><strong>Verifique sites oficiais</strong> de órgãos competentes</li>
+                <li><strong>Compare com outras fontes</strong> confiáveis</li>
+                <li><strong>Procure evidências</strong> e documentação</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="tip-item">
+            <div class="tip-icon">📅</div>
+            <div class="tip-text">
+              <h3>Verifique Data e Contexto</h3>
+              <p><strong>Atenção:</strong> Notícias antigas são frequentemente reaproveitadas como se fossem recentes.</p>
+              <ul>
+                <li>Confira a <strong>data de publicação</strong></li>
+                <li>Verifique o <strong>local dos fatos</strong></li>
+                <li>Analise se o <strong>contexto atual</strong> faz sentido</li>
+                <li>Busque por <strong>atualizações</strong> da informação</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="tip-item">
+            <div class="tip-icon">🎣</div>
+            <div class="tip-text">
+              <h3>Cuidado com Títulos e Clickbaits</h3>
+              <p>Títulos exagerados servem apenas para <strong>atrair cliques e gerar lucro</strong>.</p>
+              <p><strong>Recomendações:</strong></p>
+              <ul>
+                <li>Pesquise palavras-chave do título</li>
+                <li>Leia o conteúdo completo, não apenas o título</li>
+                <li>Desconfie de promessas extraordinárias</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="tip-item">
+            <div class="tip-icon">🖼️</div>
+            <div class="tip-text">
+              <h3>Verificação de Imagens e Vídeos</h3>
+              <p>Tecnologias como <strong>deepfakes</strong> podem criar conteúdo falso muito realista.</p>
+              <p><strong>Sinais de edição:</strong></p>
+              <ul>
+                <li>Distorções visuais ou cortes estranhos</li>
+                <li>Qualidade inconsistente</li>
+                <li>Sombreamento ou iluminação artificial</li>
+                <li>Movimentos não naturais</li>
+              </ul>
+              <p><strong>Dica:</strong> Use a busca reversa de imagens do Google.</p>
+            </div>
+          </div>
+          
+          <div class="tip-item">
+            <div class="tip-icon">🎧</div>
+            <div class="tip-text">
+              <h3>Desconfiança com Áudios</h3>
+              <p>Áudios falsos com <strong>vozes simuladas</strong> são cada vez mais comuns.</p>
+              <p><strong>Como verificar:</strong></p>
+              <ul>
+                <li>Analise a <strong>naturalidade da fala</strong></li>
+                <li>Procure por <strong>ruídos ou cortes</strong> suspeitos</li>
+                <li>Verifique se o <strong>contexto faz sentido</strong></li>
+                <li>Pesquise trechos ou nomes mencionados</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="tip-item">
+            <div class="tip-icon">📰</div>
+            <div class="tip-text">
+              <h3>Cheque em Mais de Uma Fonte</h3>
+              <p><strong>Sempre confirme</strong> com veículos de comunicação confiáveis:</p>
+              <ul>
+                <li>Grandes portais de notícias</li>
+                <li>Órgãos oficiais do governo</li>
+                <li>Instituições reconhecidas</li>
+                <li>Agências de fact-checking</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="tip-item">
+            <div class="tip-icon">✅</div>
+            <div class="tip-text">
+              <h3>Consulte Agências de Checagem</h3>
+              <p>Use serviços especializados em verificação:</p>
+              <ul>
+                <li><strong>Aos Fatos</strong> - aosfatos.org</li>
+                <li><strong>Agência Lupa</strong> - lupa.uol.com.br</li>
+                <li><strong>Comprova</strong> - projetocomprova.com.br</li>
+                <li><strong>Fato ou Fake</strong> - g1.globo.com/fato-ou-fake</li>
+              </ul>
+              <p>Entenda as <strong>classificações de veracidade</strong> usadas por essas agências.</p>
+            </div>
+          </div>
+          
+          <div class="tip-item">
+            <div class="tip-icon">🚫</div>
+            <div class="tip-text">
+              <h3>Não Compartilhe Boatos</h3>
+              <p><strong>Você tem responsabilidade</strong> sobre o que compartilha!</p>
+              <ul>
+                <li><strong>Reflita antes de enviar</strong> qualquer conteúdo</li>
+                <li>Converse com outras pessoas para ter certeza</li>
+                <li>Use o <strong>senso crítico</strong> sempre</li>
+                <li>Diversifique suas fontes de informação</li>
+                <li>Evite viver em <strong>bolhas de informação</strong></li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="tip-item">
+            <div class="tip-icon">👥</div>
+            <div class="tip-text">
+              <h3>Oriente Outras Pessoas</h3>
+              <p>Ajude a <strong>reduzir a propagação</strong> de desinformação:</p>
+              <ul>
+                <li>Ensine amigos e familiares a identificar boatos</li>
+                <li>Compartilhe informações corretas</li>
+                <li>Seja paciente ao corrigir informações falsas</li>
+                <li>Promova o pensamento crítico</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="tip-item">
+            <div class="tip-icon">💰</div>
+            <div class="tip-text">
+              <h3>Atenção a Golpes</h3>
+              <p>Boatos são frequentemente usados como <strong>isca para golpes</strong>:</p>
+              <ul>
+                <li><strong>Phishing</strong> - roubo de dados pessoais</li>
+                <li><strong>Pix falso</strong> - campanhas fraudulentas</li>
+                <li><strong>Links maliciosos</strong> - instalação de malware</li>
+                <li><strong>Ofertas falsas</strong> - produtos inexistentes</li>
+              </ul>
+              <p><strong>Sempre verifique</strong> antes de doar ou transferir dinheiro!</p>
+            </div>
+          </div>
+          
+          <div class="tip-item">
+            <div class="tip-icon">🤖</div>
+            <div class="tip-text">
+              <h3>Denuncie Contas Falsas</h3>
+              <p>Perfis fakes e <strong>bots</strong> espalham boatos em massa:</p>
+              <ul>
+                <li><strong>Identifique</strong> contas suspeitas</li>
+                <li><strong>Bloqueie</strong> perfis problemáticos</li>
+                <li><strong>Denuncie</strong> às plataformas</li>
+                <li>Não interaja com conteúdo suspeito</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="tip-item">
+            <div class="tip-icon">🔐</div>
+            <div class="tip-text">
+              <h3>Proteja Suas Contas</h3>
+              <p>Mantenha suas contas seguras:</p>
+              <ul>
+                <li>Use <strong>senhas fortes</strong> e únicas</li>
+                <li>Ative <strong>autenticação em duas etapas</strong></li>
+                <li>Configure <strong>alertas de segurança</strong></li>
+                <li>Monitore atividades suspeitas</li>
+                <li>Mantenha aplicativos atualizados</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="tip-item">
+            <div class="tip-icon">📚</div>
+            <div class="tip-text">
+              <h3>Fontes Confiáveis</h3>
+              <p>Para mais informações sobre segurança digital:</p>
+              <ul>
+                <li><strong>Cartilha CERT.br</strong> - cartilha.cert.br</li>
+                <li><strong>Internet Segura</strong> - internetsegura.br</li>
+                <li><strong>Ministério da Justiça</strong> - gov.br</li>
+                <li><strong>Agências de fact-checking</strong> certificadas</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </article>
+      
+      <div style="text-align: center; margin-top: 2rem;">
+        <a href="https://cartilha.cert.br/fasciculos/phishing-golpes/fasciculo-phishing-golpes.pdf" class="btn" download>
+          <i class="fa-solid fa-file-arrow-down"></i> Baixar PDF Completo
+        </a>
+        <a href="index.html" class="btn" style="margin-left:1em; background: var(--secondary);">
+          <i class="fa-solid fa-arrow-left"></i> Voltar ao Início
+        </a>
       </div>
-      <a href="pdf/golpes.pdf" class="btn" download>
-        <i class="fa-solid fa-file-arrow-down"></i> Baixar PDF
-      </a>
-      <a href="index.html" class="btn" style="margin-left:1em;">
-        <i class="fa-solid fa-arrow-left"></i> Voltar
-      </a>
     </section>
   </main>
   <div class="modal" id="modal" aria-modal="true" role="dialog" tabindex="-1">

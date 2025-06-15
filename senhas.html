@@ -9,7 +9,7 @@
   <link rel="icon" href="favicon.ico">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
-<body>
+<body class="senhas-page">
   <header>
     <div class="logo">
       <i class="fa-solid fa-shield-halved"></i>
@@ -27,50 +27,119 @@
   </header>
   <main>
     <section id="conteudo" aria-label="Senhas seguras">
-      <h1>Senhas seguras</h1>
-      <p>
-        Senhas são a primeira linha de defesa para proteger suas contas e dados pessoais. Utilizar senhas fortes e únicas para cada serviço é fundamental para evitar invasões e golpes.
+      <h1><i class="fa-solid fa-key" style="color: #059669; margin-right: 0.5rem;"></i>Senhas Seguras</h1>
+      <p style="text-align: center; font-size: 1.2rem; margin-bottom: 2rem; color: var(--secondary);">
+        Senhas são a primeira linha de defesa para proteger suas contas e dados pessoais. 
+        Utilizar senhas fortes e únicas para cada serviço é fundamental para evitar invasões e golpes.
       </p>
-      <p>
-        Evite informações óbvias, como datas de nascimento ou nomes de familiares. Prefira combinações longas, misturando letras, números e símbolos.
-      </p>
-      <div class="card-grid">
-        <article class="card">
-          <img src="img/infografico-senhas1.webp"
-               srcset="img/infografico-senhas1-480.webp 480w, img/infografico-senhas1.webp 800w"
-               sizes="(max-width: 600px) 100vw, 400px"
-               alt="Infográfico: Como criar uma senha forte"
-               class="responsive-img"
-               data-modal
-               tabindex="0">
-          <p>Como criar uma senha forte</p>
-        </article>
-        <article class="card">
-          <img src="img/infografico-senhas2.webp"
-               srcset="img/infografico-senhas2-480.webp 480w, img/infografico-senhas2.webp 800w"
-               sizes="(max-width: 600px) 100vw, 400px"
-               alt="Infográfico: Gerenciadores de senhas"
-               class="responsive-img"
-               data-modal
-               tabindex="0">
-          <p>Gerenciadores de senhas</p>
-        </article>
+      
+      <!-- Enhanced infographic section -->
+      <article class="infographic-container">
+        <header class="header">
+          <i class="fa-solid fa-shield-alt" style="margin-right: 0.5rem;"></i>
+          Infográfico: Como Criar uma Senha Forte
+        </header>
+        <div class="content">
+          <div class="tip-item">
+            <div class="tip-icon">📏</div>
+            <div class="tip-text">
+              <h3>Comprimento é Poder!</h3>
+              <p><strong>Mínimo de 12 caracteres</strong>, idealmente 16 ou mais. Senhas longas são exponencialmente mais difíceis de quebrar.</p>
+            </div>
+          </div>
+          <div class="tip-item">
+            <div class="tip-icon">🔀</div>
+            <div class="tip-text">
+              <h3>Misture e Combine!</h3>
+              <p>Use uma combinação de:</p>
+              <ul>
+                <li>Letras maiúsculas (A-Z)</li>
+                <li>Letras minúsculas (a-z)</li>
+                <li>Números (0-9)</li>
+                <li>Símbolos (!@#$%^&*)</li>
+              </ul>
+            </div>
+          </div>
+          <div class="tip-item">
+            <div class="tip-icon">🔒</div>
+            <div class="tip-text">
+              <h3>Seja Único, Sempre!</h3>
+              <p>Nunca reuse senhas. Cada conta deve ter uma senha exclusiva. Se uma conta for comprometida, as outras permanecerão seguras.</p>
+            </div>
+          </div>
+          <div class="tip-item">
+            <div class="tip-icon">🚫</div>
+            <div class="tip-text">
+              <h3>Evite o Óbvio!</h3>
+              <p>Não use informações pessoais facilmente descobertas:</p>
+              <ul>
+                <li>Datas de nascimento</li>
+                <li>Nomes de familiares ou pets</li>
+                <li>Sequências como "123456" ou "abcdef"</li>
+                <li>Palavras do dicionário</li>
+              </ul>
+            </div>
+          </div>
+          <div class="tip-item">
+            <div class="tip-icon">💬</div>
+            <div class="tip-text">
+              <h3>Pense em Frases!</h3>
+              <p>Use frases secretas longas e memoráveis. Exemplo:<br>
+              <strong>"Meu café favorito custa R$5,50 na padaria!"</strong><br>
+              Transforme em: <code>McfcR$5,50np!</code></p>
+            </div>
+          </div>
+          <div class="tip-item">
+            <div class="tip-icon">🔑</div>
+            <div class="tip-text">
+              <h3>Use um Gerenciador de Senhas!</h3>
+              <p>Ferramentas como 1Password, Bitwarden ou LastPass podem:</p>
+              <ul>
+                <li>Gerar senhas complexas automaticamente</li>
+                <li>Armazenar senhas de forma segura</li>
+                <li>Preencher formulários automaticamente</li>
+                <li>Sincronizar entre dispositivos</li>
+              </ul>
+            </div>
+          </div>
+          <div class="tip-item">
+            <div class="tip-icon">📲</div>
+            <div class="tip-text">
+              <h3>Ative a Autenticação de Dois Fatores (2FA)!</h3>
+              <p>Adicione uma camada extra de segurança:</p>
+              <ul>
+                <li>SMS (menos seguro, mas melhor que nada)</li>
+                <li>Apps autenticadores (Google Authenticator, Authy)</li>
+                <li>Chaves de segurança físicas (mais seguro)</li>
+              </ul>
+            </div>
+          </div>
+          <div class="tip-item">
+            <div class="tip-icon">⚠️</div>
+            <div class="tip-text">
+              <h3>Sinais de Alerta!</h3>
+              <p>Troque suas senhas imediatamente se:</p>
+              <ul>
+                <li>Receber alertas de login suspeito</li>
+                <li>Notar atividade estranha nas contas</li>
+                <li>Uma empresa reportar vazamento de dados</li>
+                <li>Compartilhou a senha acidentalmente</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </article>
+      
+      <div style="text-align: center; margin-top: 2rem;">
+        <a href="https://cartilha.cert.br/fasciculos/autenticacao/fasciculo-autenticacao.pdf" class="btn" download>
+          <i class="fa-solid fa-file-arrow-down"></i> Baixar PDF Completo
+        </a>
+        <a href="index.html" class="btn" style="margin-left:1em; background: var(--secondary);">
+          <i class="fa-solid fa-arrow-left"></i> Voltar ao Início
+        </a>
       </div>
-      <a href="pdf/senhas.pdf" class="btn" download>
-        <i class="fa-solid fa-file-arrow-down"></i> Baixar PDF
-      </a>
-      <a href="index.html" class="btn" style="margin-left:1em;">
-        <i class="fa-solid fa-arrow-left"></i> Voltar
-      </a>
     </section>
-
   </main>
-  <div class="modal" id="modal" aria-modal="true" role="dialog" tabindex="-1">
-    <div class="modal-content">
-      <button class="modal-close" aria-label="Fechar"><i class="fa-solid fa-xmark"></i></button>
-      <img src="" alt="Infográfico ampliado" tabindex="0">
-    </div>
-  </div>
   <nav class="bottom-nav" aria-label="Menu inferior">
     <a href="index.html"><i class="fa-solid fa-house"></i><span>Início</span></a>
     <a href="#conteudo" class="active"><i class="fa-solid fa-key"></i><span>Senhas</span></a>

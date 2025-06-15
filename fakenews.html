@@ -9,7 +9,7 @@
   <link rel="icon" href="favicon.ico">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
-<body>
+<body class="fakenews-page">
   <header>
     <div class="logo">
       <i class="fa-solid fa-shield-halved"></i>
@@ -26,42 +26,127 @@
     </nav>
   </header>
   <main>
-    <section id="conteudo" aria-label="Fake news e IA">
-      <h1>Fake news e IA</h1>
-      <p>
-        Fake news são informações falsas ou enganosas espalhadas principalmente pela internet. A inteligência artificial pode ser usada tanto para criar quanto para detectar notícias falsas.
+    <section id="conteudo" aria-label="Boatos e Fake News">
+      <h1><i class="fa-solid fa-exclamation-triangle" style="color: #f59e0b; margin-right: 0.5rem;"></i>Boatos e Fake News</h1>
+      <p style="text-align: center; font-size: 1.2rem; margin-bottom: 2rem; color: var(--secondary);">
+        Boatos, também chamados de hoaxes, correntes ou fake news, são informações falsas ou distorcidas que se espalham para enganar, manipular opiniões ou aplicar golpes.
       </p>
-      <p>
-        Sempre verifique a fonte das informações, desconfie de conteúdos sensacionalistas e utilize ferramentas confiáveis para checar fatos.
-      </p>
-      <div class="card-grid">
-        <article class="card">
-          <img src="img/infografico-fakenews1.webp"
-               srcset="img/infografico-fakenews1-480.webp 480w, img/infografico-fakenews1.webp 800w"
-               sizes="(max-width: 600px) 100vw, 400px"
-               alt="Infográfico: Como identificar fake news"
-               class="responsive-img"
-               data-modal
-               tabindex="0">
-          <p>Como identificar fake news</p>
-        </article>
-        <article class="card">
-          <img src="img/infografico-fakenews2.webp"
-               srcset="img/infografico-fakenews2-480.webp 480w, img/infografico-fakenews2.webp 800w"
-               sizes="(max-width: 600px) 100vw, 400px"
-               alt="Infográfico: IA e checagem de fatos"
-               class="responsive-img"
-               data-modal
-               tabindex="0">
-          <p>IA e checagem de fatos</p>
-        </article>
+      
+      <!-- Infográfico em HTML com melhor apresentação -->
+      <article class="infographic-container">
+        <header class="header">
+          <i class="fa-solid fa-magnifying-glass" style="margin-right: 0.5rem;"></i>
+          Infográfico: Como Reconhecer e Evitar Boatos (Fake News)
+        </header>
+        <div class="content">
+          <div class="tip-item">
+            <div class="tip-icon">❓</div>
+            <div class="tip-text">
+              <h3>O que são Boatos?</h3>
+              <p>Informações falsas ou distorcidas (hoaxes, fake news) que visam enganar, manipular opiniões ou espalhar golpes e malware.</p>
+            </div>
+          </div>
+          <div class="tip-item">
+            <div class="tip-icon">⚠️</div>
+            <div class="tip-text">
+              <h3>Como Reconhecer um Boato?</h3>
+              <ul>
+                <li>Título sensacionalista ou alarmista</li>
+                <li>Pedido para compartilhar</li>
+                <li>Muitas curtidas/comentários</li>
+                <li>Sem autor ou com autor famoso (falso)</li>
+                <li>Sem fonte ou com fontes duvidosas</li>
+                <li>Data ou local ausentes</li>
+                <li>Imagens fora de contexto ou distorcidas</li>
+                <li>Fatos sem comprovação</li>
+              </ul>
+            </div>
+          </div>
+          <div class="tip-item">
+            <div class="tip-icon">🕵️‍♀️</div>
+            <div class="tip-text">
+              <h3>Investigando a Verdade</h3>
+              <ul>
+                <li>Vá à fonte original</li>
+                <li>Verifique data e contexto</li>
+                <li>Analise se há embasamento</li>
+                <li>Compare com outras fontes confiáveis</li>
+                <li>Consulte agências de checagem (Ex: Lupa, Aos Fatos)</li>
+              </ul>
+            </div>
+          </div>
+          <div class="tip-item">
+            <div class="tip-icon">🎣</div>
+            <div class="tip-text">
+              <h3>Cuidado com Clickbaits</h3>
+              <p>Títulos exagerados atraem cliques, lucros... e mentiras.<br>
+              Antes de clicar:</p>
+              <ul>
+                <li>Pesquise palavras do título</li>
+                <li>Confirme em portais jornalísticos reconhecidos</li>
+              </ul>
+            </div>
+          </div>
+          <div class="tip-item">
+            <div class="tip-icon">🖼️</div>
+            <div class="tip-text">
+              <h3>Imagens e Vídeos Falsos</h3>
+              <ul>
+                <li>Podem ser manipulados com IA ou edição</li>
+                <li>Sincronia dos lábios, sombreamento estranho</li>
+                <li>Cortes, distorções, descontinuidades</li>
+              </ul>
+            </div>
+          </div>
+          <div class="tip-item">
+            <div class="tip-icon">🎧</div>
+            <div class="tip-text">
+              <h3>E os Áudios?</h3>
+              <ul>
+                <li>Podem simular vozes reais</li>
+                <li>Avalie naturalidade e contexto</li>
+                <li>Ruídos, cortes ou vozes “estranhas” são suspeitos</li>
+                <li>Pesquise trechos ou nomes citados</li>
+              </ul>
+            </div>
+          </div>
+          <div class="tip-item">
+            <div class="tip-icon">📡</div>
+            <div class="tip-text">
+              <h3>Proteja-se e Ajude</h3>
+              <ul>
+                <li>Não compartilhe conteúdos suspeitos</li>
+                <li>Converse com pessoas, diversifique fontes</li>
+                <li>Use o senso crítico</li>
+                <li>Oriente amigos e familiares</li>
+                <li>Denuncie contas falsas e bots</li>
+                <li>Proteja suas senhas e ative verificação em duas etapas</li>
+              </ul>
+            </div>
+          </div>
+          <div class="tip-item">
+            <div class="tip-icon">🚨</div>
+            <div class="tip-text">
+              <h3>Golpes disfarçados de Boato</h3>
+              <p>Links maliciosos, Pix falso, campanhas enganosas.<br>
+              Antes de doar ou transferir:</p>
+              <ul>
+                <li>Verifique sites oficiais</li>
+                <li>Nunca clique sem analisar</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </article>
+      
+      <div style="text-align: center; margin-top: 2rem;">
+        <a href="https://cartilha.cert.br/fasciculos/boatos/fasciculo-boatos.pdf" class="btn" download>
+          <i class="fa-solid fa-file-arrow-down"></i> Baixar PDF Completo
+        </a>
+        <a href="index.html" class="btn" style="margin-left:1em; background: var(--secondary);">
+          <i class="fa-solid fa-arrow-left"></i> Voltar ao Início
+        </a>
       </div>
-      <a href="pdf/fakenews.pdf" class="btn" download>
-        <i class="fa-solid fa-file-arrow-down"></i> Baixar PDF
-      </a>
-      <a href="index.html" class="btn" style="margin-left:1em;">
-        <i class="fa-solid fa-arrow-left"></i> Voltar
-      </a>
     </section>
   </main>
   <div class="modal" id="modal" aria-modal="true" role="dialog" tabindex="-1">
