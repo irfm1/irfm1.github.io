@@ -1,7 +1,12 @@
+# 🛡️ Portal Segurança Digital
 
-# 🛡️ Portal Segurança Digital IFAL
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Deployed-brightgreen)
+![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-blue)
+![Responsive](https://img.shields.io/badge/Responsive-Yes-green)
 
-**Portal Segurança Digital IFAL** é uma iniciativa de extensão educacional desenvolvida no Instituto Federal de Alagoas (IFAL), com o objetivo de promover o uso consciente e seguro da tecnologia. Este site responsivo e otimizado para dispositivos móveis atua como um repositório aberto de **infográficos, tutoriais e materiais didáticos**, baseados na [Cartilha de Segurança na Internet do NIC.br](https://cartilha.cert.br/).
+**Portal Segurança Digital** é uma iniciativa de extensão educacional desenvolvida no Instituto Federal de Alagoas (IFAL), com o objetivo de promover o uso consciente e seguro da tecnologia. Este site responsivo e otimizado para dispositivos móveis atua como um repositório aberto de **infográficos, tutoriais e materiais didáticos**, baseados na [Cartilha de Segurança na Internet do NIC.br](https://cartilha.cert.br/).
+
+🌐 **Acesse o site:** [https://irfm1.github.io](https://irfm1.github.io)
 
 ---
 
@@ -86,6 +91,75 @@ Quer contribuir com melhorias ou novos conteúdos?
 Este projeto está licenciado sob a **Creative Commons - Atribuição-NãoComercial 4.0 Internacional**.  
 Uso livre para fins **educacionais e não comerciais**.  
 Mais informações: [https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/)
+
+---
+
+## 🚀 Instalação e Execução
+
+### Pré-requisitos
+- Navegador web moderno
+- Servidor web local (opcional, para desenvolvimento)
+
+### Executando localmente
+
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/irfm1/irfm1.github.io.git
+   cd irfm1.github.io
+   ```
+
+2. **Execute um servidor local** (opcional):
+   ```bash
+   # Com Python 3
+   python -m http.server 8000
+   
+   # Com Node.js (live-server)
+   npx live-server
+   
+   # Ou simplesmente abra index.html no navegador
+   ```
+
+3. **Acesse:** `http://localhost:8000` ou abra `index.html` diretamente
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **HTML5** - Estrutura semântica
+- **CSS3** - Estilização customizada
+- **Bootstrap 5** - Framework CSS responsivo
+- **JavaScript** - Interatividade e modais
+- **GitHub Pages** - Hospedagem gratuita
+- **WebP** - Formato otimizado para imagens
+
+---
+
+## 🐛 Reportar Problemas
+
+Encontrou algum bug ou tem uma sugestão? 
+
+1. Verifique se já não existe uma [issue aberta](https://github.com/irfm1/irfm1.github.io/issues)
+2. Crie uma nova issue descrevendo o problema ou sugestão
+3. Use labels apropriados (bug, enhancement, documentation, etc.)
+
+---
+
+## 📊 Status do Projeto
+
+- ✅ **v1.0** - Lançamento inicial com 5 categorias
+- 🔄 **v1.1** - Em desenvolvimento
+  - [ ] Modo escuro
+  - [ ] Busca por conteúdo
+  - [ ] Novas categorias
+  - [ ] PWA (Progressive Web App)
+
+---
+
+## 📞 Contato
+
+- **Email:** [contato através do site](https://irfm1.github.io/contato.html)
+- **Instituição:** Instituto Federal de Alagoas - Campus Maceió
+- **Curso:** Bacharelado em Sistemas de Informação
 
 ---
 
