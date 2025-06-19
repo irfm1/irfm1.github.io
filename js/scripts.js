@@ -355,4 +355,99 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     navScrollTimeout = setTimeout(handleNavVisibility, 10);
   });
+
+  // Audio Widget Functionality
+  const audioWidgets = document.querySelectorAll('.audio-widget');
+  
+  audioWidgets.forEach(widget => {
+    const audio = widget.querySelector('audio');
+    if (!audio) return;
+    
+    // Add loading state
+    widget.classList.add('loading');
+    
+    // Handle audio loading
+    audio.addEventListener('loadstart', () => {
+      widget.classList.add('loading');
+    });
+    
+    audio.addEventListener('canplay', () => {
+      widget.classList.remove('loading');
+      widget.classList.remove('error');
+    });
+    
+    audio.addEventListener('error', (e) => {
+      widget.classList.remove('loading');
+      widget.classList.add('error');
+      const audioInfo = widget.querySelector('.audio-info span');
+      if (audioInfo) {
+        audioInfo.textContent = 'Erro ao carregar o áudio. Verifique sua conexão.';
+      }
+      console.error('Erro no áudio:', e);
+    });
+    
+    // Analytics for audio usage (if needed)
+    audio.addEventListener('play', () => {
+      console.log('Áudio iniciado');
+      // Track audio play event
+    });
+    
+    audio.addEventListener('pause', () => {
+      console.log('Áudio pausado');
+      // Track audio pause event
+    });
+    
+    audio.addEventListener('ended', () => {
+      console.log('Áudio finalizado');
+      // Track audio completion
+    });
+    
+    // Keyboard shortcuts for audio control
+    audio.addEventListener('keydown', (e) => {
+      switch(e.key) {
+        case ' ':
+        case 'k':
+          e.preventDefault();
+          if (audio.paused) {
+            audio.play();
+          } else {
+            audio.pause();
+          }
+          break;
+        case 'ArrowLeft':
+          e.preventDefault();
+          audio.currentTime = Math.max(0, audio.currentTime - 10);
+          break;
+        case 'ArrowRight':
+          e.preventDefault();
+          audio.currentTime = Math.min(audio.duration, audio.currentTime + 10);
+          break;
+        case '0':
+          e.preventDefault();
+          audio.currentTime = 0;
+          break;
+      }
+    });
+    
+    // Show/hide audio controls based on user preference
+    if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      audio.controls = true; // Ensure controls are always visible for accessibility
+    }
+    
+    // Handle audio focus for screen readers
+    audio.addEventListener('focus', () => {
+      const audioInfo = widget.querySelector('.audio-info span');
+      if (audioInfo && !audioInfo.dataset.originalText) {
+        audioInfo.dataset.originalText = audioInfo.textContent;
+        audioInfo.textContent = 'Use Espaço para reproduzir/pausar, setas para navegar';
+      }
+    });
+    
+    audio.addEventListener('blur', () => {
+      const audioInfo = widget.querySelector('.audio-info span');
+      if (audioInfo && audioInfo.dataset.originalText) {
+        audioInfo.textContent = audioInfo.dataset.originalText;
+      }
+    });
+  });
 });
