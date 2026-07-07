@@ -1,0 +1,4314 @@
+{
+  "settings": {
+    "catalogTitle": "Catálogo de Semijoias",
+    "catalogSubtitle": "Coleção Exclusiva",
+    "theme": "gold",
+    "customColor": "#cda851",
+    "layoutColumns": "3",
+    "showPrices": true,
+    "showCodes": true,
+    "showPageNumbers": true,
+    "coverLayout": "classic",
+    "coverDescription": "Semijoias de alta qualidade com acabamento impecável e design sofisticado.",
+    "backCoverText": "Agradecemos a sua preferência!\nConsulte nossa equipe para verificar a disponibilidade das peças e realizar o seu pedido.",
+    "contactWhatsApp": "5582993011616",
+    "contactInstagram": "@simonedfa",
+    "contactWebsite": "",
+    "categoriesConfig": [
+      {
+        "name": "1.Relógios Femininos",
+        "displayName": "Relógios Femininos"
+      },
+      {
+        "name": "2.Relógios Masculinos",
+        "displayName": "Relógios Masculinos"
+      },
+      {
+        "name": "Anéis",
+        "displayName": "Anéis"
+      },
+      {
+        "name": "Argolas",
+        "displayName": "Argolas"
+      },
+      {
+        "name": "Braceletes",
+        "displayName": "Braceletes"
+      },
+      {
+        "name": "Brincos",
+        "displayName": "Brincos"
+      },
+      {
+        "name": "Choker",
+        "displayName": "Choker"
+      },
+      {
+        "name": "Colares",
+        "displayName": "Colares"
+      },
+      {
+        "name": "Coleção Afeto",
+        "displayName": "Coleção Afeto"
+      },
+      {
+        "name": "Conjuntos",
+        "displayName": "Conjuntos"
+      },
+      {
+        "name": "Escapularios",
+        "displayName": "Escapularios"
+      },
+      {
+        "name": "Masculinos",
+        "displayName": "Masculinos"
+      },
+      {
+        "name": "Peças Premium",
+        "displayName": "Peças Premium"
+      },
+      {
+        "name": "Pulseiras",
+        "displayName": "Pulseiras"
+      },
+      {
+        "name": "Religioso",
+        "displayName": "Religioso"
+      },
+      {
+        "name": "Solitários",
+        "displayName": "Solitários"
+      },
+      {
+        "name": "Trios",
+        "displayName": "Trios"
+      }
+    ]
+  },
+  "categories": [
+    {
+      "name": "1.Relógios Femininos",
+      "displayName": "Relógios Femininos",
+      "products": [
+        {
+          "relPath": "1.Relógios Femininos/90_20260624_125758_0000.png",
+          "name": "Relógios Femininos Item 1",
+          "price": "",
+          "code": "RF-001",
+          "description": "",
+          "visible": true,
+          "order": 0
+        },
+        {
+          "relPath": "1.Relógios Femininos/90_20260624_125811_0000.png",
+          "name": "Relógios Femininos Item 2",
+          "price": "",
+          "code": "RF-002",
+          "description": "",
+          "visible": true,
+          "order": 1
+        },
+        {
+          "relPath": "1.Relógios Femininos/90_20260624_125818_0000.png",
+          "name": "Relógios Femininos Item 3",
+          "price": "",
+          "code": "RF-003",
+          "description": "",
+          "visible": true,
+          "order": 2
+        },
+        {
+          "relPath": "1.Relógios Femininos/90_20260624_125825_0000.png",
+          "name": "Relógios Femininos Item 4",
+          "price": "",
+          "code": "RF-004",
+          "description": "",
+          "visible": true,
+          "order": 3
+        },
+        {
+          "relPath": "1.Relógios Femininos/90_20260624_125838_0000.png",
+          "name": "Relógios Femininos Item 5",
+          "price": "",
+          "code": "RF-005",
+          "description": "",
+          "visible": true,
+          "order": 4
+        },
+        {
+          "relPath": "1.Relógios Femininos/90_20260624_125845_0000.png",
+          "name": "Relógios Femininos Item 6",
+          "price": "",
+          "code": "RF-006",
+          "description": "",
+          "visible": true,
+          "order": 5
+        },
+        {
+          "relPath": "1.Relógios Femininos/90_20260625_145316_0000.png",
+          "name": "Relógios Femininos Item 7",
+          "price": "",
+          "code": "RF-007",
+          "description": "",
+          "visible": true,
+          "order": 6
+        },
+        {
+          "relPath": "1.Relógios Femininos/90_20260625_145323_0000.png",
+          "name": "Relógios Femininos Item 8",
+          "price": "",
+          "code": "RF-008",
+          "description": "",
+          "visible": true,
+          "order": 7
+        },
+        {
+          "relPath": "1.Relógios Femininos/90_20260625_145330_0000.png",
+          "name": "Relógios Femininos Item 9",
+          "price": "",
+          "code": "RF-009",
+          "description": "",
+          "visible": true,
+          "order": 8
+        },
+        {
+          "relPath": "1.Relógios Femininos/90_20260625_145338_0000.png",
+          "name": "Relógios Femininos Item 10",
+          "price": "",
+          "code": "RF-010",
+          "description": "",
+          "visible": true,
+          "order": 9
+        },
+        {
+          "relPath": "1.Relógios Femininos/90_20260625_145346_0000.png",
+          "name": "Relógios Femininos Item 11",
+          "price": "",
+          "code": "RF-011",
+          "description": "",
+          "visible": true,
+          "order": 10
+        },
+        {
+          "relPath": "1.Relógios Femininos/90_20260625_145356_0000.png",
+          "name": "Relógios Femininos Item 12",
+          "price": "",
+          "code": "RF-012",
+          "description": "",
+          "visible": true,
+          "order": 11
+        },
+        {
+          "relPath": "1.Relógios Femininos/90_20260625_145404_0000.png",
+          "name": "Relógios Femininos Item 13",
+          "price": "",
+          "code": "RF-013",
+          "description": "",
+          "visible": true,
+          "order": 12
+        },
+        {
+          "relPath": "1.Relógios Femininos/90_20260625_145414_0000.png",
+          "name": "Relógios Femininos Item 14",
+          "price": "",
+          "code": "RF-014",
+          "description": "",
+          "visible": true,
+          "order": 13
+        },
+        {
+          "relPath": "1.Relógios Femininos/90_20260625_145421_0000.png",
+          "name": "Relógios Femininos Item 15",
+          "price": "",
+          "code": "RF-015",
+          "description": "",
+          "visible": true,
+          "order": 14
+        },
+        {
+          "relPath": "1.Relógios Femininos/90_20260625_145428_0000.png",
+          "name": "Relógios Femininos Item 16",
+          "price": "",
+          "code": "RF-016",
+          "description": "",
+          "visible": true,
+          "order": 15
+        },
+        {
+          "relPath": "1.Relógios Femininos/90_20260625_145435_0000.png",
+          "name": "Relógios Femininos Item 17",
+          "price": "",
+          "code": "RF-017",
+          "description": "",
+          "visible": true,
+          "order": 16
+        },
+        {
+          "relPath": "1.Relógios Femininos/90_20260625_145442_0000.png",
+          "name": "Relógios Femininos Item 18",
+          "price": "",
+          "code": "RF-018",
+          "description": "",
+          "visible": true,
+          "order": 17
+        },
+        {
+          "relPath": "1.Relógios Femininos/90_20260625_145450_0000.png",
+          "name": "Relógios Femininos Item 19",
+          "price": "",
+          "code": "RF-019",
+          "description": "",
+          "visible": true,
+          "order": 18
+        },
+        {
+          "relPath": "1.Relógios Femininos/90_20260625_145457_0000.png",
+          "name": "Relógios Femininos Item 20",
+          "price": "",
+          "code": "RF-020",
+          "description": "",
+          "visible": true,
+          "order": 19
+        },
+        {
+          "relPath": "1.Relógios Femininos/90_20260625_145505_0000.png",
+          "name": "Relógios Femininos Item 21",
+          "price": "",
+          "code": "RF-021",
+          "description": "",
+          "visible": true,
+          "order": 20
+        },
+        {
+          "relPath": "1.Relógios Femininos/90_20260625_145512_0000.png",
+          "name": "Relógios Femininos Item 22",
+          "price": "",
+          "code": "RF-022",
+          "description": "",
+          "visible": true,
+          "order": 21
+        },
+        {
+          "relPath": "1.Relógios Femininos/90_20260625_145519_0000.png",
+          "name": "Relógios Femininos Item 23",
+          "price": "",
+          "code": "RF-023",
+          "description": "",
+          "visible": true,
+          "order": 22
+        },
+        {
+          "relPath": "1.Relógios Femininos/90_20260625_145526_0000.png",
+          "name": "Relógios Femininos Item 24",
+          "price": "",
+          "code": "RF-024",
+          "description": "",
+          "visible": true,
+          "order": 23
+        }
+      ]
+    },
+    {
+      "name": "2.Relógios Masculinos",
+      "displayName": "Relógios Masculinos",
+      "products": [
+        {
+          "relPath": "2.Relógios Masculinos/90_20260624_122701_0000.png",
+          "name": "Relógios Masculinos Item 1",
+          "price": "",
+          "code": "RM-001",
+          "description": "",
+          "visible": true,
+          "order": 0
+        },
+        {
+          "relPath": "2.Relógios Masculinos/90_20260624_122715_0000.png",
+          "name": "Relógios Masculinos Item 2",
+          "price": "",
+          "code": "RM-002",
+          "description": "",
+          "visible": true,
+          "order": 1
+        },
+        {
+          "relPath": "2.Relógios Masculinos/90_20260624_122729_0000.png",
+          "name": "Relógios Masculinos Item 3",
+          "price": "",
+          "code": "RM-003",
+          "description": "",
+          "visible": true,
+          "order": 2
+        },
+        {
+          "relPath": "2.Relógios Masculinos/90_20260624_122737_0000.png",
+          "name": "Relógios Masculinos Item 4",
+          "price": "",
+          "code": "RM-004",
+          "description": "",
+          "visible": true,
+          "order": 3
+        },
+        {
+          "relPath": "2.Relógios Masculinos/90_20260624_122744_0000.png",
+          "name": "Relógios Masculinos Item 5",
+          "price": "",
+          "code": "RM-005",
+          "description": "",
+          "visible": true,
+          "order": 4
+        },
+        {
+          "relPath": "2.Relógios Masculinos/90_20260624_122754_0000.png",
+          "name": "Relógios Masculinos Item 6",
+          "price": "",
+          "code": "RM-006",
+          "description": "",
+          "visible": true,
+          "order": 5
+        },
+        {
+          "relPath": "2.Relógios Masculinos/90_20260624_122800_0000.png",
+          "name": "Relógios Masculinos Item 7",
+          "price": "",
+          "code": "RM-007",
+          "description": "",
+          "visible": true,
+          "order": 6
+        },
+        {
+          "relPath": "2.Relógios Masculinos/90_20260624_122807_0000.png",
+          "name": "Relógios Masculinos Item 8",
+          "price": "",
+          "code": "RM-008",
+          "description": "",
+          "visible": true,
+          "order": 7
+        },
+        {
+          "relPath": "2.Relógios Masculinos/90_20260624_122818_0000.png",
+          "name": "Relógios Masculinos Item 9",
+          "price": "",
+          "code": "RM-009",
+          "description": "",
+          "visible": true,
+          "order": 8
+        },
+        {
+          "relPath": "2.Relógios Masculinos/90_20260624_122825_0000.png",
+          "name": "Relógios Masculinos Item 10",
+          "price": "",
+          "code": "RM-010",
+          "description": "",
+          "visible": true,
+          "order": 9
+        },
+        {
+          "relPath": "2.Relógios Masculinos/90_20260624_122833_0000.png",
+          "name": "Relógios Masculinos Item 11",
+          "price": "",
+          "code": "RM-011",
+          "description": "",
+          "visible": true,
+          "order": 10
+        },
+        {
+          "relPath": "2.Relógios Masculinos/90_20260624_122851_0000.png",
+          "name": "Relógios Masculinos Item 12",
+          "price": "",
+          "code": "RM-012",
+          "description": "",
+          "visible": true,
+          "order": 11
+        },
+        {
+          "relPath": "2.Relógios Masculinos/90_20260624_122859_0000.png",
+          "name": "Relógios Masculinos Item 13",
+          "price": "",
+          "code": "RM-013",
+          "description": "",
+          "visible": true,
+          "order": 12
+        },
+        {
+          "relPath": "2.Relógios Masculinos/90_20260624_122907_0000.png",
+          "name": "Relógios Masculinos Item 14",
+          "price": "",
+          "code": "RM-014",
+          "description": "",
+          "visible": true,
+          "order": 13
+        },
+        {
+          "relPath": "2.Relógios Masculinos/90_20260624_122922_0000.png",
+          "name": "Relógios Masculinos Item 15",
+          "price": "",
+          "code": "RM-015",
+          "description": "",
+          "visible": true,
+          "order": 14
+        },
+        {
+          "relPath": "2.Relógios Masculinos/90_20260624_122930_0000.png",
+          "name": "Relógios Masculinos Item 16",
+          "price": "",
+          "code": "RM-016",
+          "description": "",
+          "visible": true,
+          "order": 15
+        },
+        {
+          "relPath": "2.Relógios Masculinos/90_20260624_122938_0000.png",
+          "name": "Relógios Masculinos Item 17",
+          "price": "",
+          "code": "RM-017",
+          "description": "",
+          "visible": true,
+          "order": 16
+        },
+        {
+          "relPath": "2.Relógios Masculinos/90_20260624_122945_0000.png",
+          "name": "Relógios Masculinos Item 18",
+          "price": "",
+          "code": "RM-018",
+          "description": "",
+          "visible": true,
+          "order": 17
+        },
+        {
+          "relPath": "2.Relógios Masculinos/90_20260624_122953_0000.png",
+          "name": "Relógios Masculinos Item 19",
+          "price": "",
+          "code": "RM-019",
+          "description": "",
+          "visible": true,
+          "order": 18
+        },
+        {
+          "relPath": "2.Relógios Masculinos/90_20260624_123000_0000.png",
+          "name": "Relógios Masculinos Item 20",
+          "price": "",
+          "code": "RM-020",
+          "description": "",
+          "visible": true,
+          "order": 19
+        }
+      ]
+    },
+    {
+      "name": "Anéis",
+      "displayName": "Anéis",
+      "products": [
+        {
+          "relPath": "Anéis/WhatsApp Image 2026-05-22 at 08.56.25 (3).jpeg",
+          "name": "Anéis Item 1",
+          "price": "",
+          "code": "AD-001",
+          "description": "",
+          "visible": true,
+          "order": 0
+        },
+        {
+          "relPath": "Anéis/WhatsApp Image 2026-05-22 at 08.56.25 (4).jpeg",
+          "name": "Anéis Item 2",
+          "price": "",
+          "code": "AD-002",
+          "description": "",
+          "visible": true,
+          "order": 1
+        },
+        {
+          "relPath": "Anéis/WhatsApp Image 2026-05-22 at 08.56.26 (1).jpeg",
+          "name": "Anéis Item 3",
+          "price": "",
+          "code": "AD-003",
+          "description": "",
+          "visible": true,
+          "order": 2
+        },
+        {
+          "relPath": "Anéis/WhatsApp Image 2026-05-22 at 08.56.26 (4).jpeg",
+          "name": "Anéis Item 4",
+          "price": "",
+          "code": "AD-004",
+          "description": "",
+          "visible": true,
+          "order": 3
+        },
+        {
+          "relPath": "Anéis/WhatsApp Image 2026-05-22 at 08.56.26 (5).jpeg",
+          "name": "Anéis Item 5",
+          "price": "",
+          "code": "AD-005",
+          "description": "",
+          "visible": true,
+          "order": 4
+        },
+        {
+          "relPath": "Anéis/WhatsApp Image 2026-05-22 at 08.56.26 (6).jpeg",
+          "name": "Anéis Item 6",
+          "price": "",
+          "code": "AD-006",
+          "description": "",
+          "visible": true,
+          "order": 5
+        },
+        {
+          "relPath": "Anéis/WhatsApp Image 2026-05-22 at 08.56.26.jpeg",
+          "name": "Anéis Item 7",
+          "price": "",
+          "code": "AD-007",
+          "description": "",
+          "visible": true,
+          "order": 6
+        },
+        {
+          "relPath": "Anéis/WhatsApp Image 2026-05-22 at 08.56.27 (1).jpeg",
+          "name": "Anéis Item 8",
+          "price": "",
+          "code": "AD-008",
+          "description": "",
+          "visible": true,
+          "order": 7
+        },
+        {
+          "relPath": "Anéis/WhatsApp Image 2026-05-22 at 08.56.27 (3).jpeg",
+          "name": "Anéis Item 9",
+          "price": "",
+          "code": "AD-009",
+          "description": "",
+          "visible": true,
+          "order": 8
+        },
+        {
+          "relPath": "Anéis/WhatsApp Image 2026-05-22 at 08.56.27 (5).jpeg",
+          "name": "Anéis Item 10",
+          "price": "",
+          "code": "AD-010",
+          "description": "",
+          "visible": true,
+          "order": 9
+        },
+        {
+          "relPath": "Anéis/WhatsApp Image 2026-05-22 at 08.56.27 (6).jpeg",
+          "name": "Anéis Item 11",
+          "price": "",
+          "code": "AD-011",
+          "description": "",
+          "visible": true,
+          "order": 10
+        },
+        {
+          "relPath": "Anéis/WhatsApp Image 2026-05-22 at 08.56.27.jpeg",
+          "name": "Anéis Item 12",
+          "price": "",
+          "code": "AD-012",
+          "description": "",
+          "visible": true,
+          "order": 11
+        },
+        {
+          "relPath": "Anéis/WhatsApp Image 2026-05-22 at 08.56.28 (2).jpeg",
+          "name": "Anéis Item 13",
+          "price": "",
+          "code": "AD-013",
+          "description": "",
+          "visible": true,
+          "order": 12
+        },
+        {
+          "relPath": "Anéis/WhatsApp Image 2026-05-22 at 08.56.28 (5).jpeg",
+          "name": "Anéis Item 14",
+          "price": "",
+          "code": "AD-014",
+          "description": "",
+          "visible": true,
+          "order": 13
+        },
+        {
+          "relPath": "Anéis/WhatsApp Image 2026-05-22 at 08.56.29 (2).jpeg",
+          "name": "Anéis Item 15",
+          "price": "",
+          "code": "AD-015",
+          "description": "",
+          "visible": true,
+          "order": 14
+        },
+        {
+          "relPath": "Anéis/WhatsApp Image 2026-05-22 at 08.56.29 (3).jpeg",
+          "name": "Anéis Item 16",
+          "price": "",
+          "code": "AD-016",
+          "description": "",
+          "visible": true,
+          "order": 15
+        },
+        {
+          "relPath": "Anéis/WhatsApp Image 2026-05-22 at 08.56.29 (4).jpeg",
+          "name": "Anéis Item 17",
+          "price": "",
+          "code": "AD-017",
+          "description": "",
+          "visible": true,
+          "order": 16
+        },
+        {
+          "relPath": "Anéis/WhatsApp Image 2026-05-22 at 08.56.29 (5).jpeg",
+          "name": "Anéis Item 18",
+          "price": "",
+          "code": "AD-018",
+          "description": "",
+          "visible": true,
+          "order": 17
+        },
+        {
+          "relPath": "Anéis/WhatsApp Image 2026-05-22 at 08.56.29 (6).jpeg",
+          "name": "Anéis Item 19",
+          "price": "",
+          "code": "AD-019",
+          "description": "",
+          "visible": true,
+          "order": 18
+        },
+        {
+          "relPath": "Anéis/WhatsApp Image 2026-05-22 at 08.56.29.jpeg",
+          "name": "Anéis Item 20",
+          "price": "",
+          "code": "AD-020",
+          "description": "",
+          "visible": true,
+          "order": 19
+        },
+        {
+          "relPath": "Anéis/WhatsApp Image 2026-05-22 at 08.56.30 (1).jpeg",
+          "name": "Anéis Item 21",
+          "price": "",
+          "code": "AD-021",
+          "description": "",
+          "visible": true,
+          "order": 20
+        },
+        {
+          "relPath": "Anéis/WhatsApp Image 2026-05-22 at 08.56.30 (4).jpeg",
+          "name": "Anéis Item 22",
+          "price": "",
+          "code": "AD-022",
+          "description": "",
+          "visible": true,
+          "order": 21
+        },
+        {
+          "relPath": "Anéis/WhatsApp Image 2026-05-22 at 08.56.30 (5).jpeg",
+          "name": "Anéis Item 23",
+          "price": "",
+          "code": "AD-023",
+          "description": "",
+          "visible": true,
+          "order": 22
+        },
+        {
+          "relPath": "Anéis/WhatsApp Image 2026-05-22 at 08.56.30 (6).jpeg",
+          "name": "Anéis Item 24",
+          "price": "",
+          "code": "AD-024",
+          "description": "",
+          "visible": true,
+          "order": 23
+        },
+        {
+          "relPath": "Anéis/WhatsApp Image 2026-05-22 at 08.56.30.jpeg",
+          "name": "Anéis Item 25",
+          "price": "",
+          "code": "AD-025",
+          "description": "",
+          "visible": true,
+          "order": 24
+        },
+        {
+          "relPath": "Anéis/WhatsApp Image 2026-05-22 at 08.56.31 (1).jpeg",
+          "name": "Anéis Item 26",
+          "price": "",
+          "code": "AD-026",
+          "description": "",
+          "visible": true,
+          "order": 25
+        },
+        {
+          "relPath": "Anéis/WhatsApp Image 2026-05-22 at 08.56.31 (4).jpeg",
+          "name": "Anéis Item 27",
+          "price": "",
+          "code": "AD-027",
+          "description": "",
+          "visible": true,
+          "order": 26
+        },
+        {
+          "relPath": "Anéis/WhatsApp Image 2026-05-22 at 08.56.31 (6).jpeg",
+          "name": "Anéis Item 28",
+          "price": "",
+          "code": "AD-028",
+          "description": "",
+          "visible": true,
+          "order": 27
+        },
+        {
+          "relPath": "Anéis/WhatsApp Image 2026-05-22 at 08.56.31.jpeg",
+          "name": "Anéis Item 29",
+          "price": "",
+          "code": "AD-029",
+          "description": "",
+          "visible": true,
+          "order": 28
+        },
+        {
+          "relPath": "Anéis/WhatsApp Image 2026-05-22 at 08.56.32 (2).jpeg",
+          "name": "Anéis Item 30",
+          "price": "",
+          "code": "AD-030",
+          "description": "",
+          "visible": true,
+          "order": 29
+        },
+        {
+          "relPath": "Anéis/WhatsApp Image 2026-05-22 at 08.56.32 (3).jpeg",
+          "name": "Anéis Item 31",
+          "price": "",
+          "code": "AD-031",
+          "description": "",
+          "visible": true,
+          "order": 30
+        },
+        {
+          "relPath": "Anéis/WhatsApp Image 2026-05-22 at 08.56.32 (5).jpeg",
+          "name": "Anéis Item 32",
+          "price": "",
+          "code": "AD-032",
+          "description": "",
+          "visible": true,
+          "order": 31
+        },
+        {
+          "relPath": "Anéis/WhatsApp Image 2026-05-22 at 08.56.32.jpeg",
+          "name": "Anéis Item 33",
+          "price": "",
+          "code": "AD-033",
+          "description": "",
+          "visible": true,
+          "order": 32
+        }
+      ]
+    },
+    {
+      "name": "Argolas",
+      "displayName": "Argolas",
+      "products": [
+        {
+          "relPath": "Argolas/17.png",
+          "name": "Argolas Item 1",
+          "price": "",
+          "code": "AD-001",
+          "description": "",
+          "visible": true,
+          "order": 0
+        },
+        {
+          "relPath": "Argolas/18.png",
+          "name": "Argolas Item 2",
+          "price": "",
+          "code": "AD-002",
+          "description": "",
+          "visible": true,
+          "order": 1
+        },
+        {
+          "relPath": "Argolas/20.png",
+          "name": "Argolas Item 3",
+          "price": "",
+          "code": "AD-003",
+          "description": "",
+          "visible": true,
+          "order": 2
+        },
+        {
+          "relPath": "Argolas/23.png",
+          "name": "Argolas Item 4",
+          "price": "",
+          "code": "AD-004",
+          "description": "",
+          "visible": true,
+          "order": 3
+        },
+        {
+          "relPath": "Argolas/24.png",
+          "name": "Argolas Item 5",
+          "price": "",
+          "code": "AD-005",
+          "description": "",
+          "visible": true,
+          "order": 4
+        },
+        {
+          "relPath": "Argolas/26.png",
+          "name": "Argolas Item 6",
+          "price": "",
+          "code": "AD-006",
+          "description": "",
+          "visible": true,
+          "order": 5
+        },
+        {
+          "relPath": "Argolas/27.png",
+          "name": "Argolas Item 7",
+          "price": "",
+          "code": "AD-007",
+          "description": "",
+          "visible": true,
+          "order": 6
+        },
+        {
+          "relPath": "Argolas/29.png",
+          "name": "Argolas Item 8",
+          "price": "",
+          "code": "AD-008",
+          "description": "",
+          "visible": true,
+          "order": 7
+        },
+        {
+          "relPath": "Argolas/30.png",
+          "name": "Argolas Item 9",
+          "price": "",
+          "code": "AD-009",
+          "description": "",
+          "visible": true,
+          "order": 8
+        },
+        {
+          "relPath": "Argolas/31.png",
+          "name": "Argolas Item 10",
+          "price": "",
+          "code": "AD-010",
+          "description": "",
+          "visible": true,
+          "order": 9
+        },
+        {
+          "relPath": "Argolas/33.png",
+          "name": "Argolas Item 11",
+          "price": "",
+          "code": "AD-011",
+          "description": "",
+          "visible": true,
+          "order": 10
+        },
+        {
+          "relPath": "Argolas/34.png",
+          "name": "Argolas Item 12",
+          "price": "",
+          "code": "AD-012",
+          "description": "",
+          "visible": true,
+          "order": 11
+        },
+        {
+          "relPath": "Argolas/35.png",
+          "name": "Argolas Item 13",
+          "price": "",
+          "code": "AD-013",
+          "description": "",
+          "visible": true,
+          "order": 12
+        },
+        {
+          "relPath": "Argolas/36.png",
+          "name": "Argolas Item 14",
+          "price": "",
+          "code": "AD-014",
+          "description": "",
+          "visible": true,
+          "order": 13
+        },
+        {
+          "relPath": "Argolas/37.png",
+          "name": "Argolas Item 15",
+          "price": "",
+          "code": "AD-015",
+          "description": "",
+          "visible": true,
+          "order": 14
+        },
+        {
+          "relPath": "Argolas/38.png",
+          "name": "Argolas Item 16",
+          "price": "",
+          "code": "AD-016",
+          "description": "",
+          "visible": true,
+          "order": 15
+        },
+        {
+          "relPath": "Argolas/39.png",
+          "name": "Argolas Item 17",
+          "price": "",
+          "code": "AD-017",
+          "description": "",
+          "visible": true,
+          "order": 16
+        },
+        {
+          "relPath": "Argolas/40.png",
+          "name": "Argolas Item 18",
+          "price": "",
+          "code": "AD-018",
+          "description": "",
+          "visible": true,
+          "order": 17
+        },
+        {
+          "relPath": "Argolas/42.png",
+          "name": "Argolas Item 19",
+          "price": "",
+          "code": "AD-019",
+          "description": "",
+          "visible": true,
+          "order": 18
+        },
+        {
+          "relPath": "Argolas/51.png",
+          "name": "Argolas Item 20",
+          "price": "",
+          "code": "AD-020",
+          "description": "",
+          "visible": true,
+          "order": 19
+        },
+        {
+          "relPath": "Argolas/52.png",
+          "name": "Argolas Item 21",
+          "price": "",
+          "code": "AD-021",
+          "description": "",
+          "visible": true,
+          "order": 20
+        },
+        {
+          "relPath": "Argolas/53.png",
+          "name": "Argolas Item 22",
+          "price": "",
+          "code": "AD-022",
+          "description": "",
+          "visible": true,
+          "order": 21
+        },
+        {
+          "relPath": "Argolas/56.png",
+          "name": "Argolas Item 23",
+          "price": "",
+          "code": "AD-023",
+          "description": "",
+          "visible": true,
+          "order": 22
+        },
+        {
+          "relPath": "Argolas/59.png",
+          "name": "Argolas Item 24",
+          "price": "",
+          "code": "AD-024",
+          "description": "",
+          "visible": true,
+          "order": 23
+        },
+        {
+          "relPath": "Argolas/60.png",
+          "name": "Argolas Item 25",
+          "price": "",
+          "code": "AD-025",
+          "description": "",
+          "visible": true,
+          "order": 24
+        },
+        {
+          "relPath": "Argolas/135_20260529_083706_0000.png",
+          "name": "Argolas Item 26",
+          "price": "",
+          "code": "AD-026",
+          "description": "",
+          "visible": true,
+          "order": 25
+        },
+        {
+          "relPath": "Argolas/136_20260529_083707_0001.png",
+          "name": "Argolas Item 27",
+          "price": "",
+          "code": "AD-027",
+          "description": "",
+          "visible": true,
+          "order": 26
+        },
+        {
+          "relPath": "Argolas/137_20260529_083707_0002.png",
+          "name": "Argolas Item 28",
+          "price": "",
+          "code": "AD-028",
+          "description": "",
+          "visible": true,
+          "order": 27
+        },
+        {
+          "relPath": "Argolas/139_20260529_083707_0004.png",
+          "name": "Argolas Item 29",
+          "price": "",
+          "code": "AD-029",
+          "description": "",
+          "visible": true,
+          "order": 28
+        },
+        {
+          "relPath": "Argolas/140_20260529_083707_0005.png",
+          "name": "Argolas Item 30",
+          "price": "",
+          "code": "AD-030",
+          "description": "",
+          "visible": true,
+          "order": 29
+        },
+        {
+          "relPath": "Argolas/141_20260529_083707_0006.png",
+          "name": "Argolas Item 31",
+          "price": "",
+          "code": "AD-031",
+          "description": "",
+          "visible": true,
+          "order": 30
+        },
+        {
+          "relPath": "Argolas/142_20260529_083707_0007.png",
+          "name": "Argolas Item 32",
+          "price": "",
+          "code": "AD-032",
+          "description": "",
+          "visible": true,
+          "order": 31
+        },
+        {
+          "relPath": "Argolas/143_20260529_083707_0008.png",
+          "name": "Argolas Item 33",
+          "price": "",
+          "code": "AD-033",
+          "description": "",
+          "visible": true,
+          "order": 32
+        },
+        {
+          "relPath": "Argolas/144_20260529_083707_0009.png",
+          "name": "Argolas Item 34",
+          "price": "",
+          "code": "AD-034",
+          "description": "",
+          "visible": true,
+          "order": 33
+        },
+        {
+          "relPath": "Argolas/145_20260529_083707_0010.png",
+          "name": "Argolas Item 35",
+          "price": "",
+          "code": "AD-035",
+          "description": "",
+          "visible": true,
+          "order": 34
+        },
+        {
+          "relPath": "Argolas/146_20260529_083707_0011.png",
+          "name": "Argolas Item 36",
+          "price": "",
+          "code": "AD-036",
+          "description": "",
+          "visible": true,
+          "order": 35
+        },
+        {
+          "relPath": "Argolas/147_20260529_083707_0012.png",
+          "name": "Argolas Item 37",
+          "price": "",
+          "code": "AD-037",
+          "description": "",
+          "visible": true,
+          "order": 36
+        },
+        {
+          "relPath": "Argolas/148_20260529_083707_0013.png",
+          "name": "Argolas Item 38",
+          "price": "",
+          "code": "AD-038",
+          "description": "",
+          "visible": true,
+          "order": 37
+        },
+        {
+          "relPath": "Argolas/20260608_143238_0000.png",
+          "name": "Argolas Item 39",
+          "price": "",
+          "code": "AD-039",
+          "description": "",
+          "visible": true,
+          "order": 38
+        },
+        {
+          "relPath": "Argolas/20260608_143238_0001.png",
+          "name": "Argolas Item 40",
+          "price": "",
+          "code": "AD-040",
+          "description": "",
+          "visible": true,
+          "order": 39
+        },
+        {
+          "relPath": "Argolas/IMG-20260602-WA0091.jpg",
+          "name": "Argolas Item 41",
+          "price": "",
+          "code": "AD-041",
+          "description": "",
+          "visible": true,
+          "order": 40
+        },
+        {
+          "relPath": "Argolas/IMG-20260602-WA0092.jpg",
+          "name": "Argolas Item 42",
+          "price": "",
+          "code": "AD-042",
+          "description": "",
+          "visible": true,
+          "order": 41
+        },
+        {
+          "relPath": "Argolas/IMG-20260602-WA0093.jpg",
+          "name": "Argolas Item 43",
+          "price": "",
+          "code": "AD-043",
+          "description": "",
+          "visible": true,
+          "order": 42
+        },
+        {
+          "relPath": "Argolas/IMG-20260602-WA0094.jpg",
+          "name": "Argolas Item 44",
+          "price": "",
+          "code": "AD-044",
+          "description": "",
+          "visible": true,
+          "order": 43
+        },
+        {
+          "relPath": "Argolas/IMG-20260602-WA0095.jpg",
+          "name": "Argolas Item 45",
+          "price": "",
+          "code": "AD-045",
+          "description": "",
+          "visible": true,
+          "order": 44
+        },
+        {
+          "relPath": "Argolas/IMG-20260602-WA0096.jpg",
+          "name": "Argolas Item 46",
+          "price": "",
+          "code": "AD-046",
+          "description": "",
+          "visible": true,
+          "order": 45
+        },
+        {
+          "relPath": "Argolas/IMG-20260602-WA0097.jpg",
+          "name": "Argolas Item 47",
+          "price": "",
+          "code": "AD-047",
+          "description": "",
+          "visible": true,
+          "order": 46
+        },
+        {
+          "relPath": "Argolas/IMG-20260602-WA0098.jpg",
+          "name": "Argolas Item 48",
+          "price": "",
+          "code": "AD-048",
+          "description": "",
+          "visible": true,
+          "order": 47
+        },
+        {
+          "relPath": "Argolas/IMG-20260602-WA0099.jpg",
+          "name": "Argolas Item 49",
+          "price": "",
+          "code": "AD-049",
+          "description": "",
+          "visible": true,
+          "order": 48
+        },
+        {
+          "relPath": "Argolas/IMG-20260602-WA0100.jpg",
+          "name": "Argolas Item 50",
+          "price": "",
+          "code": "AD-050",
+          "description": "",
+          "visible": true,
+          "order": 49
+        },
+        {
+          "relPath": "Argolas/IMG-20260602-WA0101.jpg",
+          "name": "Argolas Item 51",
+          "price": "",
+          "code": "AD-051",
+          "description": "",
+          "visible": true,
+          "order": 50
+        }
+      ]
+    },
+    {
+      "name": "Braceletes",
+      "displayName": "Braceletes",
+      "products": [
+        {
+          "relPath": "Braceletes/80_20260527_112349_0000.png",
+          "name": "Braceletes Item 1",
+          "price": "",
+          "code": "BD-001",
+          "description": "",
+          "visible": true,
+          "order": 0
+        },
+        {
+          "relPath": "Braceletes/81_20260527_112349_0001.png",
+          "name": "Braceletes Item 2",
+          "price": "",
+          "code": "BD-002",
+          "description": "",
+          "visible": true,
+          "order": 1
+        },
+        {
+          "relPath": "Braceletes/83_20260527_112349_0003.png",
+          "name": "Braceletes Item 3",
+          "price": "",
+          "code": "BD-003",
+          "description": "",
+          "visible": true,
+          "order": 2
+        },
+        {
+          "relPath": "Braceletes/84_20260527_112349_0004.png",
+          "name": "Braceletes Item 4",
+          "price": "",
+          "code": "BD-004",
+          "description": "",
+          "visible": true,
+          "order": 3
+        },
+        {
+          "relPath": "Braceletes/98_20260527_112350_0018.png",
+          "name": "Braceletes Item 5",
+          "price": "",
+          "code": "BD-005",
+          "description": "",
+          "visible": true,
+          "order": 4
+        },
+        {
+          "relPath": "Braceletes/132.png",
+          "name": "Braceletes Item 6",
+          "price": "",
+          "code": "BD-006",
+          "description": "",
+          "visible": true,
+          "order": 5
+        },
+        {
+          "relPath": "Braceletes/133.png",
+          "name": "Braceletes Item 7",
+          "price": "",
+          "code": "BD-007",
+          "description": "",
+          "visible": true,
+          "order": 6
+        },
+        {
+          "relPath": "Braceletes/134.png",
+          "name": "Braceletes Item 8",
+          "price": "",
+          "code": "BD-008",
+          "description": "",
+          "visible": true,
+          "order": 7
+        }
+      ]
+    },
+    {
+      "name": "Brincos",
+      "displayName": "Brincos",
+      "products": [
+        {
+          "relPath": "Brincos/1.png",
+          "name": "Brincos Item 1",
+          "price": "",
+          "code": "BD-001",
+          "description": "",
+          "visible": true,
+          "order": 0
+        },
+        {
+          "relPath": "Brincos/2.png",
+          "name": "Brincos Item 2",
+          "price": "",
+          "code": "BD-002",
+          "description": "",
+          "visible": true,
+          "order": 1
+        },
+        {
+          "relPath": "Brincos/3.png",
+          "name": "Brincos Item 3",
+          "price": "",
+          "code": "BD-003",
+          "description": "",
+          "visible": true,
+          "order": 2
+        },
+        {
+          "relPath": "Brincos/4.png",
+          "name": "Brincos Item 4",
+          "price": "",
+          "code": "BD-004",
+          "description": "",
+          "visible": true,
+          "order": 3
+        },
+        {
+          "relPath": "Brincos/5.png",
+          "name": "Brincos Item 5",
+          "price": "",
+          "code": "BD-005",
+          "description": "",
+          "visible": true,
+          "order": 4
+        },
+        {
+          "relPath": "Brincos/6.png",
+          "name": "Brincos Item 6",
+          "price": "",
+          "code": "BD-006",
+          "description": "",
+          "visible": true,
+          "order": 5
+        },
+        {
+          "relPath": "Brincos/7.png",
+          "name": "Brincos Item 7",
+          "price": "",
+          "code": "BD-007",
+          "description": "",
+          "visible": true,
+          "order": 6
+        },
+        {
+          "relPath": "Brincos/8.png",
+          "name": "Brincos Item 8",
+          "price": "",
+          "code": "BD-008",
+          "description": "",
+          "visible": true,
+          "order": 7
+        },
+        {
+          "relPath": "Brincos/9.png",
+          "name": "Brincos Item 9",
+          "price": "",
+          "code": "BD-009",
+          "description": "",
+          "visible": true,
+          "order": 8
+        },
+        {
+          "relPath": "Brincos/10.png",
+          "name": "Brincos Item 10",
+          "price": "",
+          "code": "BD-010",
+          "description": "",
+          "visible": true,
+          "order": 9
+        },
+        {
+          "relPath": "Brincos/11.png",
+          "name": "Brincos Item 11",
+          "price": "",
+          "code": "BD-011",
+          "description": "",
+          "visible": true,
+          "order": 10
+        },
+        {
+          "relPath": "Brincos/12.png",
+          "name": "Brincos Item 12",
+          "price": "",
+          "code": "BD-012",
+          "description": "",
+          "visible": true,
+          "order": 11
+        },
+        {
+          "relPath": "Brincos/14.png",
+          "name": "Brincos Item 13",
+          "price": "",
+          "code": "BD-013",
+          "description": "",
+          "visible": true,
+          "order": 12
+        },
+        {
+          "relPath": "Brincos/15.png",
+          "name": "Brincos Item 14",
+          "price": "",
+          "code": "BD-014",
+          "description": "",
+          "visible": true,
+          "order": 13
+        },
+        {
+          "relPath": "Brincos/16.png",
+          "name": "Brincos Item 15",
+          "price": "",
+          "code": "BD-015",
+          "description": "",
+          "visible": true,
+          "order": 14
+        },
+        {
+          "relPath": "Brincos/25.png",
+          "name": "Brincos Item 16",
+          "price": "",
+          "code": "BD-016",
+          "description": "",
+          "visible": true,
+          "order": 15
+        },
+        {
+          "relPath": "Brincos/28.png",
+          "name": "Brincos Item 17",
+          "price": "",
+          "code": "BD-017",
+          "description": "",
+          "visible": true,
+          "order": 16
+        },
+        {
+          "relPath": "Brincos/32.png",
+          "name": "Brincos Item 18",
+          "price": "",
+          "code": "BD-018",
+          "description": "",
+          "visible": true,
+          "order": 17
+        },
+        {
+          "relPath": "Brincos/44.png",
+          "name": "Brincos Item 19",
+          "price": "",
+          "code": "BD-019",
+          "description": "",
+          "visible": true,
+          "order": 18
+        },
+        {
+          "relPath": "Brincos/45.png",
+          "name": "Brincos Item 20",
+          "price": "",
+          "code": "BD-020",
+          "description": "",
+          "visible": true,
+          "order": 19
+        },
+        {
+          "relPath": "Brincos/46.png",
+          "name": "Brincos Item 21",
+          "price": "",
+          "code": "BD-021",
+          "description": "",
+          "visible": true,
+          "order": 20
+        },
+        {
+          "relPath": "Brincos/47.png",
+          "name": "Brincos Item 22",
+          "price": "",
+          "code": "BD-022",
+          "description": "",
+          "visible": true,
+          "order": 21
+        },
+        {
+          "relPath": "Brincos/50.png",
+          "name": "Brincos Item 23",
+          "price": "",
+          "code": "BD-023",
+          "description": "",
+          "visible": true,
+          "order": 22
+        },
+        {
+          "relPath": "Brincos/54.png",
+          "name": "Brincos Item 24",
+          "price": "",
+          "code": "BD-024",
+          "description": "",
+          "visible": true,
+          "order": 23
+        },
+        {
+          "relPath": "Brincos/55.png",
+          "name": "Brincos Item 25",
+          "price": "",
+          "code": "BD-025",
+          "description": "",
+          "visible": true,
+          "order": 24
+        },
+        {
+          "relPath": "Brincos/57.png",
+          "name": "Brincos Item 26",
+          "price": "",
+          "code": "BD-026",
+          "description": "",
+          "visible": true,
+          "order": 25
+        },
+        {
+          "relPath": "Brincos/58.png",
+          "name": "Brincos Item 27",
+          "price": "",
+          "code": "BD-027",
+          "description": "",
+          "visible": true,
+          "order": 26
+        },
+        {
+          "relPath": "Brincos/90_20260701_114205_0000.png",
+          "name": "Brincos Item 28",
+          "price": "",
+          "code": "BD-028",
+          "description": "",
+          "visible": true,
+          "order": 27
+        },
+        {
+          "relPath": "Brincos/193_20260602_132656_0000.png",
+          "name": "Brincos Item 29",
+          "price": "",
+          "code": "BD-029",
+          "description": "",
+          "visible": true,
+          "order": 28
+        },
+        {
+          "relPath": "Brincos/194_20260602_132656_0001.png",
+          "name": "Brincos Item 30",
+          "price": "",
+          "code": "BD-030",
+          "description": "",
+          "visible": true,
+          "order": 29
+        },
+        {
+          "relPath": "Brincos/195_20260602_132656_0002.png",
+          "name": "Brincos Item 31",
+          "price": "",
+          "code": "BD-031",
+          "description": "",
+          "visible": true,
+          "order": 30
+        },
+        {
+          "relPath": "Brincos/196_20260602_132656_0003.png",
+          "name": "Brincos Item 32",
+          "price": "",
+          "code": "BD-032",
+          "description": "",
+          "visible": true,
+          "order": 31
+        },
+        {
+          "relPath": "Brincos/197_20260602_132656_0004.png",
+          "name": "Brincos Item 33",
+          "price": "",
+          "code": "BD-033",
+          "description": "",
+          "visible": true,
+          "order": 32
+        },
+        {
+          "relPath": "Brincos/198_20260602_132656_0005.png",
+          "name": "Brincos Item 34",
+          "price": "",
+          "code": "BD-034",
+          "description": "",
+          "visible": true,
+          "order": 33
+        },
+        {
+          "relPath": "Brincos/199_20260602_132657_0006.png",
+          "name": "Brincos Item 35",
+          "price": "",
+          "code": "BD-035",
+          "description": "",
+          "visible": true,
+          "order": 34
+        },
+        {
+          "relPath": "Brincos/200_20260602_132657_0007.png",
+          "name": "Brincos Item 36",
+          "price": "",
+          "code": "BD-036",
+          "description": "",
+          "visible": true,
+          "order": 35
+        },
+        {
+          "relPath": "Brincos/201_20260602_132657_0008.png",
+          "name": "Brincos Item 37",
+          "price": "",
+          "code": "BD-037",
+          "description": "",
+          "visible": true,
+          "order": 36
+        },
+        {
+          "relPath": "Brincos/202_20260602_132657_0009.png",
+          "name": "Brincos Item 38",
+          "price": "",
+          "code": "BD-038",
+          "description": "",
+          "visible": true,
+          "order": 37
+        },
+        {
+          "relPath": "Brincos/203_20260602_132657_0010.png",
+          "name": "Brincos Item 39",
+          "price": "",
+          "code": "BD-039",
+          "description": "",
+          "visible": true,
+          "order": 38
+        },
+        {
+          "relPath": "Brincos/204_20260602_132657_0011.png",
+          "name": "Brincos Item 40",
+          "price": "",
+          "code": "BD-040",
+          "description": "",
+          "visible": true,
+          "order": 39
+        },
+        {
+          "relPath": "Brincos/205_20260602_132657_0012.png",
+          "name": "Brincos Item 41",
+          "price": "",
+          "code": "BD-041",
+          "description": "",
+          "visible": true,
+          "order": 40
+        },
+        {
+          "relPath": "Brincos/206_20260602_132657_0013.png",
+          "name": "Brincos Item 42",
+          "price": "",
+          "code": "BD-042",
+          "description": "",
+          "visible": true,
+          "order": 41
+        },
+        {
+          "relPath": "Brincos/207_20260602_132657_0014.png",
+          "name": "Brincos Item 43",
+          "price": "",
+          "code": "BD-043",
+          "description": "",
+          "visible": true,
+          "order": 42
+        },
+        {
+          "relPath": "Brincos/208_20260602_132657_0015.png",
+          "name": "Brincos Item 44",
+          "price": "",
+          "code": "BD-044",
+          "description": "",
+          "visible": true,
+          "order": 43
+        },
+        {
+          "relPath": "Brincos/209_20260602_132657_0016.png",
+          "name": "Brincos Item 45",
+          "price": "",
+          "code": "BD-045",
+          "description": "",
+          "visible": true,
+          "order": 44
+        },
+        {
+          "relPath": "Brincos/210_20260602_132657_0017.png",
+          "name": "Brincos Item 46",
+          "price": "",
+          "code": "BD-046",
+          "description": "",
+          "visible": true,
+          "order": 45
+        },
+        {
+          "relPath": "Brincos/211_20260602_132657_0018.png",
+          "name": "Brincos Item 47",
+          "price": "",
+          "code": "BD-047",
+          "description": "",
+          "visible": true,
+          "order": 46
+        },
+        {
+          "relPath": "Brincos/212_20260602_132658_0019.png",
+          "name": "Brincos Item 48",
+          "price": "",
+          "code": "BD-048",
+          "description": "",
+          "visible": true,
+          "order": 47
+        },
+        {
+          "relPath": "Brincos/213_20260602_132658_0020.png",
+          "name": "Brincos Item 49",
+          "price": "",
+          "code": "BD-049",
+          "description": "",
+          "visible": true,
+          "order": 48
+        },
+        {
+          "relPath": "Brincos/214_20260602_132658_0021.png",
+          "name": "Brincos Item 50",
+          "price": "",
+          "code": "BD-050",
+          "description": "",
+          "visible": true,
+          "order": 49
+        },
+        {
+          "relPath": "Brincos/215_20260602_132658_0022.png",
+          "name": "Brincos Item 51",
+          "price": "",
+          "code": "BD-051",
+          "description": "",
+          "visible": true,
+          "order": 50
+        },
+        {
+          "relPath": "Brincos/216_20260602_132658_0023.png",
+          "name": "Brincos Item 52",
+          "price": "",
+          "code": "BD-052",
+          "description": "",
+          "visible": true,
+          "order": 51
+        },
+        {
+          "relPath": "Brincos/217_20260602_132658_0024.png",
+          "name": "Brincos Item 53",
+          "price": "",
+          "code": "BD-053",
+          "description": "",
+          "visible": true,
+          "order": 52
+        },
+        {
+          "relPath": "Brincos/218_20260602_132658_0025.png",
+          "name": "Brincos Item 54",
+          "price": "",
+          "code": "BD-054",
+          "description": "",
+          "visible": true,
+          "order": 53
+        },
+        {
+          "relPath": "Brincos/Cópia de Fotos pro Pessoal Atacado_20260529_151513_0000.png",
+          "name": "Brincos Item 55",
+          "price": "",
+          "code": "BD-055",
+          "description": "",
+          "visible": true,
+          "order": 54
+        },
+        {
+          "relPath": "Brincos/Cópia de Fotos pro Pessoal Atacado_20260529_151513_0001.png",
+          "name": "Brincos Item 56",
+          "price": "",
+          "code": "BD-056",
+          "description": "",
+          "visible": true,
+          "order": 55
+        },
+        {
+          "relPath": "Brincos/Cópia de Fotos pro Pessoal Atacado_20260529_151513_0002.png",
+          "name": "Brincos Item 57",
+          "price": "",
+          "code": "BD-057",
+          "description": "",
+          "visible": true,
+          "order": 56
+        },
+        {
+          "relPath": "Brincos/Cópia de Fotos pro Pessoal Atacado_20260529_151513_0003.png",
+          "name": "Brincos Item 58",
+          "price": "",
+          "code": "BD-058",
+          "description": "",
+          "visible": true,
+          "order": 57
+        },
+        {
+          "relPath": "Brincos/Cópia de Fotos pro Pessoal Atacado_20260529_151514_0004.png",
+          "name": "Brincos Item 59",
+          "price": "",
+          "code": "BD-059",
+          "description": "",
+          "visible": true,
+          "order": 58
+        },
+        {
+          "relPath": "Brincos/Cópia de Fotos pro Pessoal Atacado_20260529_151514_0005.png",
+          "name": "Brincos Item 60",
+          "price": "",
+          "code": "BD-060",
+          "description": "",
+          "visible": true,
+          "order": 59
+        },
+        {
+          "relPath": "Brincos/Cópia de Fotos pro Pessoal Atacado_20260529_153809_0000.png",
+          "name": "Brincos Item 61",
+          "price": "",
+          "code": "BD-061",
+          "description": "",
+          "visible": true,
+          "order": 60
+        },
+        {
+          "relPath": "Brincos/Cópia de Fotos pro Pessoal Atacado_20260529_153809_0002.png",
+          "name": "Brincos Item 62",
+          "price": "",
+          "code": "BD-062",
+          "description": "",
+          "visible": true,
+          "order": 61
+        },
+        {
+          "relPath": "Brincos/Cópia de Fotos pro Pessoal Atacado_20260529_153809_0003.png",
+          "name": "Brincos Item 63",
+          "price": "",
+          "code": "BD-063",
+          "description": "",
+          "visible": true,
+          "order": 62
+        },
+        {
+          "relPath": "Brincos/Cópia de Fotos pro Pessoal Atacado_20260529_153810_0004.png",
+          "name": "Brincos Item 64",
+          "price": "",
+          "code": "BD-064",
+          "description": "",
+          "visible": true,
+          "order": 63
+        },
+        {
+          "relPath": "Brincos/Cópia de Fotos pro Pessoal Atacado_20260529_153810_0005.png",
+          "name": "Brincos Item 65",
+          "price": "",
+          "code": "BD-065",
+          "description": "",
+          "visible": true,
+          "order": 64
+        },
+        {
+          "relPath": "Brincos/Cópia de Fotos pro Pessoal Atacado_20260529_153810_0006.png",
+          "name": "Brincos Item 66",
+          "price": "",
+          "code": "BD-066",
+          "description": "",
+          "visible": true,
+          "order": 65
+        },
+        {
+          "relPath": "Brincos/Cópia de Fotos pro Pessoal Atacado_20260529_153810_0007.png",
+          "name": "Brincos Item 67",
+          "price": "",
+          "code": "BD-067",
+          "description": "",
+          "visible": true,
+          "order": 66
+        },
+        {
+          "relPath": "Brincos/Cópia de Fotos pro Pessoal Atacado_20260529_153810_0008.png",
+          "name": "Brincos Item 68",
+          "price": "",
+          "code": "BD-068",
+          "description": "",
+          "visible": true,
+          "order": 67
+        },
+        {
+          "relPath": "Brincos/Cópia de Fotos pro Pessoal Atacado_20260529_161301_0000.png",
+          "name": "Brincos Item 69",
+          "price": "",
+          "code": "BD-069",
+          "description": "",
+          "visible": true,
+          "order": 68
+        },
+        {
+          "relPath": "Brincos/Cópia de Fotos pro Pessoal Atacado_20260529_161302_0001.png",
+          "name": "Brincos Item 70",
+          "price": "",
+          "code": "BD-070",
+          "description": "",
+          "visible": true,
+          "order": 69
+        },
+        {
+          "relPath": "Brincos/Cópia de Fotos pro Pessoal Atacado_20260529_161302_0002.png",
+          "name": "Brincos Item 71",
+          "price": "",
+          "code": "BD-071",
+          "description": "",
+          "visible": true,
+          "order": 70
+        },
+        {
+          "relPath": "Brincos/Cópia de Fotos pro Pessoal Atacado_20260529_161302_0003.png",
+          "name": "Brincos Item 72",
+          "price": "",
+          "code": "BD-072",
+          "description": "",
+          "visible": true,
+          "order": 71
+        },
+        {
+          "relPath": "Brincos/Cópia de Fotos pro Pessoal Atacado_20260529_161302_0004.png",
+          "name": "Brincos Item 73",
+          "price": "",
+          "code": "BD-073",
+          "description": "",
+          "visible": true,
+          "order": 72
+        },
+        {
+          "relPath": "Brincos/Cópia de Fotos pro Pessoal Atacado_20260529_161302_0005.png",
+          "name": "Brincos Item 74",
+          "price": "",
+          "code": "BD-074",
+          "description": "",
+          "visible": true,
+          "order": 73
+        },
+        {
+          "relPath": "Brincos/Cópia de Fotos pro Pessoal Atacado_20260529_161302_0006.png",
+          "name": "Brincos Item 75",
+          "price": "",
+          "code": "BD-075",
+          "description": "",
+          "visible": true,
+          "order": 74
+        },
+        {
+          "relPath": "Brincos/Cópia de Fotos pro Pessoal Atacado_20260529_161302_0007.png",
+          "name": "Brincos Item 76",
+          "price": "",
+          "code": "BD-076",
+          "description": "",
+          "visible": true,
+          "order": 75
+        },
+        {
+          "relPath": "Brincos/Cópia de Fotos pro Pessoal Atacado_20260529_161302_0008.png",
+          "name": "Brincos Item 77",
+          "price": "",
+          "code": "BD-077",
+          "description": "",
+          "visible": true,
+          "order": 76
+        },
+        {
+          "relPath": "Brincos/Cópia de Fotos pro Pessoal Atacado_20260529_161303_0009.png",
+          "name": "Brincos Item 78",
+          "price": "",
+          "code": "BD-078",
+          "description": "",
+          "visible": true,
+          "order": 77
+        },
+        {
+          "relPath": "Brincos/Cópia de Fotos pro Pessoal Atacado_20260529_163700_0000.png",
+          "name": "Brincos Item 79",
+          "price": "",
+          "code": "BD-079",
+          "description": "",
+          "visible": true,
+          "order": 78
+        },
+        {
+          "relPath": "Brincos/Cópia de Fotos pro Pessoal Atacado_20260529_163700_0001.png",
+          "name": "Brincos Item 80",
+          "price": "",
+          "code": "BD-080",
+          "description": "",
+          "visible": true,
+          "order": 79
+        },
+        {
+          "relPath": "Brincos/Cópia de Fotos pro Pessoal Atacado_20260529_163700_0002.png",
+          "name": "Brincos Item 81",
+          "price": "",
+          "code": "BD-081",
+          "description": "",
+          "visible": true,
+          "order": 80
+        },
+        {
+          "relPath": "Brincos/Cópia de Fotos pro Pessoal Atacado_20260529_163700_0003.png",
+          "name": "Brincos Item 82",
+          "price": "",
+          "code": "BD-082",
+          "description": "",
+          "visible": true,
+          "order": 81
+        },
+        {
+          "relPath": "Brincos/Cópia de Fotos pro Pessoal Atacado_20260529_163701_0004.png",
+          "name": "Brincos Item 83",
+          "price": "",
+          "code": "BD-083",
+          "description": "",
+          "visible": true,
+          "order": 82
+        },
+        {
+          "relPath": "Brincos/Cópia de Fotos pro Pessoal Atacado_20260529_163701_0005.png",
+          "name": "Brincos Item 84",
+          "price": "",
+          "code": "BD-084",
+          "description": "",
+          "visible": true,
+          "order": 83
+        },
+        {
+          "relPath": "Brincos/Cópia de Fotos pro Pessoal Atacado_20260529_163701_0006.png",
+          "name": "Brincos Item 85",
+          "price": "",
+          "code": "BD-085",
+          "description": "",
+          "visible": true,
+          "order": 84
+        },
+        {
+          "relPath": "Brincos/Cópia de Fotos pro Pessoal Atacado_20260529_163701_0007.png",
+          "name": "Brincos Item 86",
+          "price": "",
+          "code": "BD-086",
+          "description": "",
+          "visible": true,
+          "order": 85
+        },
+        {
+          "relPath": "Brincos/Cópia de Fotos pro Pessoal Atacado_20260529_163701_0008.png",
+          "name": "Brincos Item 87",
+          "price": "",
+          "code": "BD-087",
+          "description": "",
+          "visible": true,
+          "order": 86
+        },
+        {
+          "relPath": "Brincos/Cópia de Fotos pro Pessoal Atacado_20260529_163701_0009.png",
+          "name": "Brincos Item 88",
+          "price": "",
+          "code": "BD-088",
+          "description": "",
+          "visible": true,
+          "order": 87
+        },
+        {
+          "relPath": "Brincos/Cópia de Fotos pro Pessoal Atacado_20260529_163701_0010.png",
+          "name": "Brincos Item 89",
+          "price": "",
+          "code": "BD-089",
+          "description": "",
+          "visible": true,
+          "order": 88
+        },
+        {
+          "relPath": "Brincos/Cópia de Fotos pro Pessoal Atacado_20260529_163701_0011.png",
+          "name": "Brincos Item 90",
+          "price": "",
+          "code": "BD-090",
+          "description": "",
+          "visible": true,
+          "order": 89
+        },
+        {
+          "relPath": "Brincos/Cópia de Fotos pro Pessoal Atacado_20260529_163701_0012.png",
+          "name": "Brincos Item 91",
+          "price": "",
+          "code": "BD-091",
+          "description": "",
+          "visible": true,
+          "order": 90
+        },
+        {
+          "relPath": "Brincos/IMG-20260521-WA0251.jpg",
+          "name": "Brincos Item 92",
+          "price": "",
+          "code": "BD-092",
+          "description": "",
+          "visible": true,
+          "order": 91
+        },
+        {
+          "relPath": "Brincos/IMG-20260521-WA0252.jpg",
+          "name": "Brincos Item 93",
+          "price": "",
+          "code": "BD-093",
+          "description": "",
+          "visible": true,
+          "order": 92
+        },
+        {
+          "relPath": "Brincos/IMG-20260521-WA0253.jpg",
+          "name": "Brincos Item 94",
+          "price": "",
+          "code": "BD-094",
+          "description": "",
+          "visible": true,
+          "order": 93
+        },
+        {
+          "relPath": "Brincos/IMG-20260521-WA0254.jpg",
+          "name": "Brincos Item 95",
+          "price": "",
+          "code": "BD-095",
+          "description": "",
+          "visible": true,
+          "order": 94
+        },
+        {
+          "relPath": "Brincos/IMG-20260521-WA0255.jpg",
+          "name": "Brincos Item 96",
+          "price": "",
+          "code": "BD-096",
+          "description": "",
+          "visible": true,
+          "order": 95
+        },
+        {
+          "relPath": "Brincos/IMG-20260521-WA0256.jpg",
+          "name": "Brincos Item 97",
+          "price": "",
+          "code": "BD-097",
+          "description": "",
+          "visible": true,
+          "order": 96
+        },
+        {
+          "relPath": "Brincos/IMG-20260521-WA0258.jpg",
+          "name": "Brincos Item 98",
+          "price": "",
+          "code": "BD-098",
+          "description": "",
+          "visible": true,
+          "order": 97
+        },
+        {
+          "relPath": "Brincos/IMG-20260521-WA0259.jpg",
+          "name": "Brincos Item 99",
+          "price": "",
+          "code": "BD-099",
+          "description": "",
+          "visible": true,
+          "order": 98
+        }
+      ]
+    },
+    {
+      "name": "Choker",
+      "displayName": "Choker",
+      "products": [
+        {
+          "relPath": "Choker/IMG-20260529-WA0031.jpg",
+          "name": "Choker Item 1",
+          "price": "",
+          "code": "CD-001",
+          "description": "",
+          "visible": true,
+          "order": 0
+        },
+        {
+          "relPath": "Choker/IMG-20260529-WA0032.jpg",
+          "name": "Choker Item 2",
+          "price": "",
+          "code": "CD-002",
+          "description": "",
+          "visible": true,
+          "order": 1
+        },
+        {
+          "relPath": "Choker/IMG-20260529-WA0033.jpg",
+          "name": "Choker Item 3",
+          "price": "",
+          "code": "CD-003",
+          "description": "",
+          "visible": true,
+          "order": 2
+        },
+        {
+          "relPath": "Choker/IMG-20260529-WA0034.jpg",
+          "name": "Choker Item 4",
+          "price": "",
+          "code": "CD-004",
+          "description": "",
+          "visible": true,
+          "order": 3
+        },
+        {
+          "relPath": "Choker/IMG-20260529-WA0035.jpg",
+          "name": "Choker Item 5",
+          "price": "",
+          "code": "CD-005",
+          "description": "",
+          "visible": true,
+          "order": 4
+        },
+        {
+          "relPath": "Choker/IMG-20260529-WA0036.jpg",
+          "name": "Choker Item 6",
+          "price": "",
+          "code": "CD-006",
+          "description": "",
+          "visible": true,
+          "order": 5
+        },
+        {
+          "relPath": "Choker/IMG-20260529-WA0037.jpg",
+          "name": "Choker Item 7",
+          "price": "",
+          "code": "CD-007",
+          "description": "",
+          "visible": true,
+          "order": 6
+        },
+        {
+          "relPath": "Choker/IMG-20260529-WA0038.jpg",
+          "name": "Choker Item 8",
+          "price": "",
+          "code": "CD-008",
+          "description": "",
+          "visible": true,
+          "order": 7
+        }
+      ]
+    },
+    {
+      "name": "Colares",
+      "displayName": "Colares",
+      "products": [
+        {
+          "relPath": "Colares/63_20260525_084155_0000.png",
+          "name": "Colares Item 1",
+          "price": "",
+          "code": "CD-001",
+          "description": "",
+          "visible": true,
+          "order": 0
+        },
+        {
+          "relPath": "Colares/64_20260523_121434_0000.png",
+          "name": "Colares Item 2",
+          "price": "",
+          "code": "CD-002",
+          "description": "",
+          "visible": true,
+          "order": 1
+        },
+        {
+          "relPath": "Colares/64_20260525_084155_0001.png",
+          "name": "Colares Item 3",
+          "price": "",
+          "code": "CD-003",
+          "description": "",
+          "visible": true,
+          "order": 2
+        },
+        {
+          "relPath": "Colares/64_20260525_090153_0000.png",
+          "name": "Colares Item 4",
+          "price": "",
+          "code": "CD-004",
+          "description": "",
+          "visible": true,
+          "order": 3
+        },
+        {
+          "relPath": "Colares/64_20260525_142412_0000.png",
+          "name": "Colares Item 5",
+          "price": "",
+          "code": "CD-005",
+          "description": "",
+          "visible": true,
+          "order": 4
+        },
+        {
+          "relPath": "Colares/65_20260523_121434_0001.png",
+          "name": "Colares Item 6",
+          "price": "",
+          "code": "CD-006",
+          "description": "",
+          "visible": true,
+          "order": 5
+        },
+        {
+          "relPath": "Colares/65_20260525_084155_0002.png",
+          "name": "Colares Item 7",
+          "price": "",
+          "code": "CD-007",
+          "description": "",
+          "visible": true,
+          "order": 6
+        },
+        {
+          "relPath": "Colares/65_20260525_090153_0001.png",
+          "name": "Colares Item 8",
+          "price": "",
+          "code": "CD-008",
+          "description": "",
+          "visible": true,
+          "order": 7
+        },
+        {
+          "relPath": "Colares/65_20260525_142412_0001.png",
+          "name": "Colares Item 9",
+          "price": "",
+          "code": "CD-009",
+          "description": "",
+          "visible": true,
+          "order": 8
+        },
+        {
+          "relPath": "Colares/66_20260525_090154_0002.png",
+          "name": "Colares Item 10",
+          "price": "",
+          "code": "CD-010",
+          "description": "",
+          "visible": true,
+          "order": 9
+        },
+        {
+          "relPath": "Colares/67_20260525_084155_0004.png",
+          "name": "Colares Item 11",
+          "price": "",
+          "code": "CD-011",
+          "description": "",
+          "visible": true,
+          "order": 10
+        },
+        {
+          "relPath": "Colares/67_20260525_090154_0003.png",
+          "name": "Colares Item 12",
+          "price": "",
+          "code": "CD-012",
+          "description": "",
+          "visible": true,
+          "order": 11
+        },
+        {
+          "relPath": "Colares/68_20260523_121434_0004.png",
+          "name": "Colares Item 13",
+          "price": "",
+          "code": "CD-013",
+          "description": "",
+          "visible": true,
+          "order": 12
+        },
+        {
+          "relPath": "Colares/68_20260525_084155_0005.png",
+          "name": "Colares Item 14",
+          "price": "",
+          "code": "CD-014",
+          "description": "",
+          "visible": true,
+          "order": 13
+        },
+        {
+          "relPath": "Colares/68_20260525_090154_0004.png",
+          "name": "Colares Item 15",
+          "price": "",
+          "code": "CD-015",
+          "description": "",
+          "visible": true,
+          "order": 14
+        },
+        {
+          "relPath": "Colares/68_20260525_142412_0004.png",
+          "name": "Colares Item 16",
+          "price": "",
+          "code": "CD-016",
+          "description": "",
+          "visible": true,
+          "order": 15
+        },
+        {
+          "relPath": "Colares/69_20260525_084156_0006.png",
+          "name": "Colares Item 17",
+          "price": "",
+          "code": "CD-017",
+          "description": "",
+          "visible": true,
+          "order": 16
+        },
+        {
+          "relPath": "Colares/69_20260525_090154_0005.png",
+          "name": "Colares Item 18",
+          "price": "",
+          "code": "CD-018",
+          "description": "",
+          "visible": true,
+          "order": 17
+        },
+        {
+          "relPath": "Colares/69_20260525_142412_0005.png",
+          "name": "Colares Item 19",
+          "price": "",
+          "code": "CD-019",
+          "description": "",
+          "visible": true,
+          "order": 18
+        },
+        {
+          "relPath": "Colares/70_20260525_084156_0007.png",
+          "name": "Colares Item 20",
+          "price": "",
+          "code": "CD-020",
+          "description": "",
+          "visible": true,
+          "order": 19
+        },
+        {
+          "relPath": "Colares/70_20260525_090154_0006.png",
+          "name": "Colares Item 21",
+          "price": "",
+          "code": "CD-021",
+          "description": "",
+          "visible": true,
+          "order": 20
+        },
+        {
+          "relPath": "Colares/70_20260525_142412_0006.png",
+          "name": "Colares Item 22",
+          "price": "",
+          "code": "CD-022",
+          "description": "",
+          "visible": true,
+          "order": 21
+        },
+        {
+          "relPath": "Colares/71_20260523_121435_0007.png",
+          "name": "Colares Item 23",
+          "price": "",
+          "code": "CD-023",
+          "description": "",
+          "visible": true,
+          "order": 22
+        },
+        {
+          "relPath": "Colares/71_20260525_084156_0008.png",
+          "name": "Colares Item 24",
+          "price": "",
+          "code": "CD-024",
+          "description": "",
+          "visible": true,
+          "order": 23
+        },
+        {
+          "relPath": "Colares/71_20260525_142412_0007.png",
+          "name": "Colares Item 25",
+          "price": "",
+          "code": "CD-025",
+          "description": "",
+          "visible": true,
+          "order": 24
+        },
+        {
+          "relPath": "Colares/72_20260523_121435_0008.png",
+          "name": "Colares Item 26",
+          "price": "",
+          "code": "CD-026",
+          "description": "",
+          "visible": true,
+          "order": 25
+        },
+        {
+          "relPath": "Colares/72_20260525_084156_0009.png",
+          "name": "Colares Item 27",
+          "price": "",
+          "code": "CD-027",
+          "description": "",
+          "visible": true,
+          "order": 26
+        },
+        {
+          "relPath": "Colares/72_20260525_090154_0008.png",
+          "name": "Colares Item 28",
+          "price": "",
+          "code": "CD-028",
+          "description": "",
+          "visible": true,
+          "order": 27
+        },
+        {
+          "relPath": "Colares/72_20260525_142412_0008.png",
+          "name": "Colares Item 29",
+          "price": "",
+          "code": "CD-029",
+          "description": "",
+          "visible": true,
+          "order": 28
+        },
+        {
+          "relPath": "Colares/73_20260523_121435_0009.png",
+          "name": "Colares Item 30",
+          "price": "",
+          "code": "CD-030",
+          "description": "",
+          "visible": true,
+          "order": 29
+        },
+        {
+          "relPath": "Colares/74_20260525_085915_0001.png",
+          "name": "Colares Item 31",
+          "price": "",
+          "code": "CD-031",
+          "description": "",
+          "visible": true,
+          "order": 30
+        },
+        {
+          "relPath": "Colares/20260608_110536_0000.png",
+          "name": "Colares Item 32",
+          "price": "",
+          "code": "CD-032",
+          "description": "",
+          "visible": true,
+          "order": 31
+        },
+        {
+          "relPath": "Colares/WhatsApp Image 2026-05-26 at 11.54.22 (1).jpeg",
+          "name": "Colares Item 33",
+          "price": "",
+          "code": "CD-033",
+          "description": "",
+          "visible": true,
+          "order": 32
+        },
+        {
+          "relPath": "Colares/WhatsApp Image 2026-05-26 at 11.54.22 (2).jpeg",
+          "name": "Colares Item 34",
+          "price": "",
+          "code": "CD-034",
+          "description": "",
+          "visible": true,
+          "order": 33
+        },
+        {
+          "relPath": "Colares/WhatsApp Image 2026-05-26 at 11.54.22 (3).jpeg",
+          "name": "Colares Item 35",
+          "price": "",
+          "code": "CD-035",
+          "description": "",
+          "visible": true,
+          "order": 34
+        },
+        {
+          "relPath": "Colares/WhatsApp Image 2026-05-26 at 11.54.22.jpeg",
+          "name": "Colares Item 36",
+          "price": "",
+          "code": "CD-036",
+          "description": "",
+          "visible": true,
+          "order": 35
+        },
+        {
+          "relPath": "Colares/WhatsApp Image 2026-05-26 at 11.54.24 (1).jpeg",
+          "name": "Colares Item 37",
+          "price": "",
+          "code": "CD-037",
+          "description": "",
+          "visible": true,
+          "order": 36
+        },
+        {
+          "relPath": "Colares/WhatsApp Image 2026-05-26 at 11.54.24.jpeg",
+          "name": "Colares Item 38",
+          "price": "",
+          "code": "CD-038",
+          "description": "",
+          "visible": true,
+          "order": 37
+        },
+        {
+          "relPath": "Colares/WhatsApp Image 2026-05-26 at 11.54.25 (1).jpeg",
+          "name": "Colares Item 39",
+          "price": "",
+          "code": "CD-039",
+          "description": "",
+          "visible": true,
+          "order": 38
+        },
+        {
+          "relPath": "Colares/WhatsApp Image 2026-05-26 at 11.54.25 (2).jpeg",
+          "name": "Colares Item 40",
+          "price": "",
+          "code": "CD-040",
+          "description": "",
+          "visible": true,
+          "order": 39
+        },
+        {
+          "relPath": "Colares/WhatsApp Image 2026-05-26 at 14.51.12.jpeg",
+          "name": "Colares Item 41",
+          "price": "",
+          "code": "CD-041",
+          "description": "",
+          "visible": true,
+          "order": 40
+        },
+        {
+          "relPath": "Colares/WhatsApp Image 2026-05-26 at 14.51.13 (1).jpeg",
+          "name": "Colares Item 42",
+          "price": "",
+          "code": "CD-042",
+          "description": "",
+          "visible": true,
+          "order": 41
+        },
+        {
+          "relPath": "Colares/WhatsApp Image 2026-05-26 at 14.51.13 (2).jpeg",
+          "name": "Colares Item 43",
+          "price": "",
+          "code": "CD-043",
+          "description": "",
+          "visible": true,
+          "order": 42
+        },
+        {
+          "relPath": "Colares/WhatsApp Image 2026-05-26 at 14.51.13.jpeg",
+          "name": "Colares Item 44",
+          "price": "",
+          "code": "CD-044",
+          "description": "",
+          "visible": true,
+          "order": 43
+        },
+        {
+          "relPath": "Colares/WhatsApp Image 2026-05-26 at 14.51.14 (1).jpeg",
+          "name": "Colares Item 45",
+          "price": "",
+          "code": "CD-045",
+          "description": "",
+          "visible": true,
+          "order": 44
+        },
+        {
+          "relPath": "Colares/WhatsApp Image 2026-05-26 at 14.51.14 (2).jpeg",
+          "name": "Colares Item 46",
+          "price": "",
+          "code": "CD-046",
+          "description": "",
+          "visible": true,
+          "order": 45
+        },
+        {
+          "relPath": "Colares/WhatsApp Image 2026-05-26 at 14.51.14.jpeg",
+          "name": "Colares Item 47",
+          "price": "",
+          "code": "CD-047",
+          "description": "",
+          "visible": true,
+          "order": 46
+        },
+        {
+          "relPath": "Colares/WhatsApp Image 2026-05-26 at 14.51.15 (1).jpeg",
+          "name": "Colares Item 48",
+          "price": "",
+          "code": "CD-048",
+          "description": "",
+          "visible": true,
+          "order": 47
+        },
+        {
+          "relPath": "Colares/WhatsApp Image 2026-05-26 at 14.51.15.jpeg",
+          "name": "Colares Item 49",
+          "price": "",
+          "code": "CD-049",
+          "description": "",
+          "visible": true,
+          "order": 48
+        },
+        {
+          "relPath": "Colares/WhatsApp Image 2026-05-26 at 14.51.16.jpeg",
+          "name": "Colares Item 50",
+          "price": "",
+          "code": "CD-050",
+          "description": "",
+          "visible": true,
+          "order": 49
+        }
+      ]
+    },
+    {
+      "name": "Coleção Afeto",
+      "displayName": "Coleção Afeto",
+      "products": [
+        {
+          "relPath": "Coleção Afeto/63_20260525_085914_0000.png",
+          "name": "Coleção Afeto Item 1",
+          "price": "",
+          "code": "CA-001",
+          "description": "",
+          "visible": true,
+          "order": 0
+        },
+        {
+          "relPath": "Coleção Afeto/66_20260523_121434_0002.png",
+          "name": "Coleção Afeto Item 2",
+          "price": "",
+          "code": "CA-002",
+          "description": "",
+          "visible": true,
+          "order": 1
+        },
+        {
+          "relPath": "Coleção Afeto/66_20260525_084155_0003.png",
+          "name": "Coleção Afeto Item 3",
+          "price": "",
+          "code": "CA-003",
+          "description": "",
+          "visible": true,
+          "order": 2
+        },
+        {
+          "relPath": "Coleção Afeto/67_20260523_121434_0003.png",
+          "name": "Coleção Afeto Item 4",
+          "price": "",
+          "code": "CA-004",
+          "description": "",
+          "visible": true,
+          "order": 3
+        },
+        {
+          "relPath": "Coleção Afeto/67_20260525_142412_0003.png",
+          "name": "Coleção Afeto Item 5",
+          "price": "",
+          "code": "CA-005",
+          "description": "",
+          "visible": true,
+          "order": 4
+        },
+        {
+          "relPath": "Coleção Afeto/73_20260525_090154_0009.png",
+          "name": "Coleção Afeto Item 6",
+          "price": "",
+          "code": "CA-006",
+          "description": "",
+          "visible": true,
+          "order": 5
+        },
+        {
+          "relPath": "Coleção Afeto/115.png",
+          "name": "Coleção Afeto Item 7",
+          "price": "",
+          "code": "CA-007",
+          "description": "",
+          "visible": true,
+          "order": 6
+        },
+        {
+          "relPath": "Coleção Afeto/121.png",
+          "name": "Coleção Afeto Item 8",
+          "price": "",
+          "code": "CA-008",
+          "description": "",
+          "visible": true,
+          "order": 7
+        },
+        {
+          "relPath": "Coleção Afeto/126.png",
+          "name": "Coleção Afeto Item 9",
+          "price": "",
+          "code": "CA-009",
+          "description": "",
+          "visible": true,
+          "order": 8
+        },
+        {
+          "relPath": "Coleção Afeto/WhatsApp Image 2026-05-22 at 08.56.25 (2).jpeg",
+          "name": "Coleção Afeto Item 10",
+          "price": "",
+          "code": "CA-010",
+          "description": "",
+          "visible": true,
+          "order": 9
+        },
+        {
+          "relPath": "Coleção Afeto/WhatsApp Image 2026-05-22 at 08.56.26 (2).jpeg",
+          "name": "Coleção Afeto Item 11",
+          "price": "",
+          "code": "CA-011",
+          "description": "",
+          "visible": true,
+          "order": 10
+        },
+        {
+          "relPath": "Coleção Afeto/WhatsApp Image 2026-05-22 at 08.56.27 (4).jpeg",
+          "name": "Coleção Afeto Item 12",
+          "price": "",
+          "code": "CA-012",
+          "description": "",
+          "visible": true,
+          "order": 11
+        },
+        {
+          "relPath": "Coleção Afeto/WhatsApp Image 2026-05-22 at 08.56.28 (3).jpeg",
+          "name": "Coleção Afeto Item 13",
+          "price": "",
+          "code": "CA-013",
+          "description": "",
+          "visible": true,
+          "order": 12
+        },
+        {
+          "relPath": "Coleção Afeto/WhatsApp Image 2026-05-22 at 08.56.28 (4).jpeg",
+          "name": "Coleção Afeto Item 14",
+          "price": "",
+          "code": "CA-014",
+          "description": "",
+          "visible": true,
+          "order": 13
+        },
+        {
+          "relPath": "Coleção Afeto/WhatsApp Image 2026-05-26 at 11.54.23.jpeg",
+          "name": "Coleção Afeto Item 15",
+          "price": "",
+          "code": "CA-015",
+          "description": "",
+          "visible": true,
+          "order": 14
+        },
+        {
+          "relPath": "Coleção Afeto/WhatsApp Image 2026-05-26 at 11.54.25.jpeg",
+          "name": "Coleção Afeto Item 16",
+          "price": "",
+          "code": "CA-016",
+          "description": "",
+          "visible": true,
+          "order": 15
+        }
+      ]
+    },
+    {
+      "name": "Conjuntos",
+      "displayName": "Conjuntos",
+      "products": [
+        {
+          "relPath": "Conjuntos/72_20260526_161249_0000.png",
+          "name": "Conjuntos Item 1",
+          "price": "",
+          "code": "CD-001",
+          "description": "",
+          "visible": true,
+          "order": 0
+        },
+        {
+          "relPath": "Conjuntos/73_20260526_161249_0001.png",
+          "name": "Conjuntos Item 2",
+          "price": "",
+          "code": "CD-002",
+          "description": "",
+          "visible": true,
+          "order": 1
+        },
+        {
+          "relPath": "Conjuntos/74_20260526_161249_0002.png",
+          "name": "Conjuntos Item 3",
+          "price": "",
+          "code": "CD-003",
+          "description": "",
+          "visible": true,
+          "order": 2
+        },
+        {
+          "relPath": "Conjuntos/75_20260526_161249_0003.png",
+          "name": "Conjuntos Item 4",
+          "price": "",
+          "code": "CD-004",
+          "description": "",
+          "visible": true,
+          "order": 3
+        },
+        {
+          "relPath": "Conjuntos/76_20260526_161249_0004.png",
+          "name": "Conjuntos Item 5",
+          "price": "",
+          "code": "CD-005",
+          "description": "",
+          "visible": true,
+          "order": 4
+        },
+        {
+          "relPath": "Conjuntos/77_20260526_161249_0005.png",
+          "name": "Conjuntos Item 6",
+          "price": "",
+          "code": "CD-006",
+          "description": "",
+          "visible": true,
+          "order": 5
+        },
+        {
+          "relPath": "Conjuntos/78_20260526_161249_0006.png",
+          "name": "Conjuntos Item 7",
+          "price": "",
+          "code": "CD-007",
+          "description": "",
+          "visible": true,
+          "order": 6
+        },
+        {
+          "relPath": "Conjuntos/79_20260526_161249_0007.png",
+          "name": "Conjuntos Item 8",
+          "price": "",
+          "code": "CD-008",
+          "description": "",
+          "visible": true,
+          "order": 7
+        },
+        {
+          "relPath": "Conjuntos/108_20260527_163058_0000.png",
+          "name": "Conjuntos Item 9",
+          "price": "",
+          "code": "CD-009",
+          "description": "",
+          "visible": true,
+          "order": 8
+        },
+        {
+          "relPath": "Conjuntos/109_20260527_163058_0001.png",
+          "name": "Conjuntos Item 10",
+          "price": "",
+          "code": "CD-010",
+          "description": "",
+          "visible": true,
+          "order": 9
+        },
+        {
+          "relPath": "Conjuntos/110_20260527_163058_0002.png",
+          "name": "Conjuntos Item 11",
+          "price": "",
+          "code": "CD-011",
+          "description": "",
+          "visible": true,
+          "order": 10
+        },
+        {
+          "relPath": "Conjuntos/111_20260527_163058_0003.png",
+          "name": "Conjuntos Item 12",
+          "price": "",
+          "code": "CD-012",
+          "description": "",
+          "visible": true,
+          "order": 11
+        },
+        {
+          "relPath": "Conjuntos/112_20260527_163058_0004.png",
+          "name": "Conjuntos Item 13",
+          "price": "",
+          "code": "CD-013",
+          "description": "",
+          "visible": true,
+          "order": 12
+        },
+        {
+          "relPath": "Conjuntos/113_20260527_163058_0005.png",
+          "name": "Conjuntos Item 14",
+          "price": "",
+          "code": "CD-014",
+          "description": "",
+          "visible": true,
+          "order": 13
+        },
+        {
+          "relPath": "Conjuntos/114_20260527_163058_0006.png",
+          "name": "Conjuntos Item 15",
+          "price": "",
+          "code": "CD-015",
+          "description": "",
+          "visible": true,
+          "order": 14
+        },
+        {
+          "relPath": "Conjuntos/115_20260527_163058_0007.png",
+          "name": "Conjuntos Item 16",
+          "price": "",
+          "code": "CD-016",
+          "description": "",
+          "visible": true,
+          "order": 15
+        },
+        {
+          "relPath": "Conjuntos/122_20260528_102914_0000.png",
+          "name": "Conjuntos Item 17",
+          "price": "",
+          "code": "CD-017",
+          "description": "",
+          "visible": true,
+          "order": 16
+        },
+        {
+          "relPath": "Conjuntos/123_20260528_102914_0001.png",
+          "name": "Conjuntos Item 18",
+          "price": "",
+          "code": "CD-018",
+          "description": "",
+          "visible": true,
+          "order": 17
+        },
+        {
+          "relPath": "Conjuntos/124_20260528_102914_0002.png",
+          "name": "Conjuntos Item 19",
+          "price": "",
+          "code": "CD-019",
+          "description": "",
+          "visible": true,
+          "order": 18
+        },
+        {
+          "relPath": "Conjuntos/125_20260528_102914_0003.png",
+          "name": "Conjuntos Item 20",
+          "price": "",
+          "code": "CD-020",
+          "description": "",
+          "visible": true,
+          "order": 19
+        },
+        {
+          "relPath": "Conjuntos/126_20260528_102914_0004.png",
+          "name": "Conjuntos Item 21",
+          "price": "",
+          "code": "CD-021",
+          "description": "",
+          "visible": true,
+          "order": 20
+        },
+        {
+          "relPath": "Conjuntos/127_20260528_102914_0005.png",
+          "name": "Conjuntos Item 22",
+          "price": "",
+          "code": "CD-022",
+          "description": "",
+          "visible": true,
+          "order": 21
+        },
+        {
+          "relPath": "Conjuntos/128_20260528_102914_0006.png",
+          "name": "Conjuntos Item 23",
+          "price": "",
+          "code": "CD-023",
+          "description": "",
+          "visible": true,
+          "order": 22
+        },
+        {
+          "relPath": "Conjuntos/129_20260528_102914_0007.png",
+          "name": "Conjuntos Item 24",
+          "price": "",
+          "code": "CD-024",
+          "description": "",
+          "visible": true,
+          "order": 23
+        },
+        {
+          "relPath": "Conjuntos/131_20260528_102914_0009.png",
+          "name": "Conjuntos Item 25",
+          "price": "",
+          "code": "CD-025",
+          "description": "",
+          "visible": true,
+          "order": 24
+        }
+      ]
+    },
+    {
+      "name": "Escapularios",
+      "displayName": "Escapularios",
+      "products": [
+        {
+          "relPath": "Escapularios/20260608_121551_0008.png",
+          "name": "Escapularios Item 1",
+          "price": "",
+          "code": "ED-001",
+          "description": "",
+          "visible": true,
+          "order": 0
+        },
+        {
+          "relPath": "Escapularios/20260610_162409_0000.png",
+          "name": "Escapularios Item 2",
+          "price": "",
+          "code": "ED-002",
+          "description": "",
+          "visible": true,
+          "order": 1
+        },
+        {
+          "relPath": "Escapularios/20260610_162420_0000.png",
+          "name": "Escapularios Item 3",
+          "price": "",
+          "code": "ED-003",
+          "description": "",
+          "visible": true,
+          "order": 2
+        },
+        {
+          "relPath": "Escapularios/20260610_162429_0000.png",
+          "name": "Escapularios Item 4",
+          "price": "",
+          "code": "ED-004",
+          "description": "",
+          "visible": true,
+          "order": 3
+        },
+        {
+          "relPath": "Escapularios/20260610_162437_0000.png",
+          "name": "Escapularios Item 5",
+          "price": "",
+          "code": "ED-005",
+          "description": "",
+          "visible": true,
+          "order": 4
+        }
+      ]
+    },
+    {
+      "name": "Masculinos",
+      "displayName": "Masculinos",
+      "products": [
+        {
+          "relPath": "Masculinos/90_20260613_105749_0000.png",
+          "name": "Masculinos Item 1",
+          "price": "",
+          "code": "MD-001",
+          "description": "",
+          "visible": true,
+          "order": 0
+        },
+        {
+          "relPath": "Masculinos/90_20260613_105759_0000.png",
+          "name": "Masculinos Item 2",
+          "price": "",
+          "code": "MD-002",
+          "description": "",
+          "visible": true,
+          "order": 1
+        },
+        {
+          "relPath": "Masculinos/90_20260613_105948_0000.png",
+          "name": "Masculinos Item 3",
+          "price": "",
+          "code": "MD-003",
+          "description": "",
+          "visible": true,
+          "order": 2
+        },
+        {
+          "relPath": "Masculinos/90_20260613_110013_0000.png",
+          "name": "Masculinos Item 4",
+          "price": "",
+          "code": "MD-004",
+          "description": "",
+          "visible": true,
+          "order": 3
+        },
+        {
+          "relPath": "Masculinos/90_20260613_110100_0000.png",
+          "name": "Masculinos Item 5",
+          "price": "",
+          "code": "MD-005",
+          "description": "",
+          "visible": true,
+          "order": 4
+        },
+        {
+          "relPath": "Masculinos/90_20260613_110143_0000.png",
+          "name": "Masculinos Item 6",
+          "price": "",
+          "code": "MD-006",
+          "description": "",
+          "visible": true,
+          "order": 5
+        },
+        {
+          "relPath": "Masculinos/90_20260613_110200_0000.png",
+          "name": "Masculinos Item 7",
+          "price": "",
+          "code": "MD-007",
+          "description": "",
+          "visible": true,
+          "order": 6
+        },
+        {
+          "relPath": "Masculinos/20260608_121552_0015.png",
+          "name": "Masculinos Item 8",
+          "price": "",
+          "code": "MD-008",
+          "description": "",
+          "visible": true,
+          "order": 7
+        },
+        {
+          "relPath": "Masculinos/20260608_121552_0017.png",
+          "name": "Masculinos Item 9",
+          "price": "",
+          "code": "MD-009",
+          "description": "",
+          "visible": true,
+          "order": 8
+        },
+        {
+          "relPath": "Masculinos/20260608_121552_0018.png",
+          "name": "Masculinos Item 10",
+          "price": "",
+          "code": "MD-010",
+          "description": "",
+          "visible": true,
+          "order": 9
+        },
+        {
+          "relPath": "Masculinos/20260608_121552_0019.png",
+          "name": "Masculinos Item 11",
+          "price": "",
+          "code": "MD-011",
+          "description": "",
+          "visible": true,
+          "order": 10
+        }
+      ]
+    },
+    {
+      "name": "Peças Premium",
+      "displayName": "Peças Premium",
+      "products": [
+        {
+          "relPath": "Peças Premium/41.png",
+          "name": "Peças Premium Item 1",
+          "price": "",
+          "code": "PP-001",
+          "description": "",
+          "visible": true,
+          "order": 0
+        },
+        {
+          "relPath": "Peças Premium/78.png",
+          "name": "Peças Premium Item 2",
+          "price": "",
+          "code": "PP-002",
+          "description": "",
+          "visible": true,
+          "order": 1
+        },
+        {
+          "relPath": "Peças Premium/79.png",
+          "name": "Peças Premium Item 3",
+          "price": "",
+          "code": "PP-003",
+          "description": "",
+          "visible": true,
+          "order": 2
+        },
+        {
+          "relPath": "Peças Premium/80_20260527_112349_0000.png",
+          "name": "Peças Premium Item 4",
+          "price": "",
+          "code": "PP-004",
+          "description": "",
+          "visible": true,
+          "order": 3
+        },
+        {
+          "relPath": "Peças Premium/80.png",
+          "name": "Peças Premium Item 5",
+          "price": "",
+          "code": "PP-005",
+          "description": "",
+          "visible": true,
+          "order": 4
+        },
+        {
+          "relPath": "Peças Premium/81_20260527_112349_0001.png",
+          "name": "Peças Premium Item 6",
+          "price": "",
+          "code": "PP-006",
+          "description": "",
+          "visible": true,
+          "order": 5
+        },
+        {
+          "relPath": "Peças Premium/82_20260527_112349_0002.png",
+          "name": "Peças Premium Item 7",
+          "price": "",
+          "code": "PP-007",
+          "description": "",
+          "visible": true,
+          "order": 6
+        },
+        {
+          "relPath": "Peças Premium/82.png",
+          "name": "Peças Premium Item 8",
+          "price": "",
+          "code": "PP-008",
+          "description": "",
+          "visible": true,
+          "order": 7
+        },
+        {
+          "relPath": "Peças Premium/83_20260527_112349_0003.png",
+          "name": "Peças Premium Item 9",
+          "price": "",
+          "code": "PP-009",
+          "description": "",
+          "visible": true,
+          "order": 8
+        },
+        {
+          "relPath": "Peças Premium/83.png",
+          "name": "Peças Premium Item 10",
+          "price": "",
+          "code": "PP-010",
+          "description": "",
+          "visible": true,
+          "order": 9
+        },
+        {
+          "relPath": "Peças Premium/84_20260527_112349_0004.png",
+          "name": "Peças Premium Item 11",
+          "price": "",
+          "code": "PP-011",
+          "description": "",
+          "visible": true,
+          "order": 10
+        },
+        {
+          "relPath": "Peças Premium/84.png",
+          "name": "Peças Premium Item 12",
+          "price": "",
+          "code": "PP-012",
+          "description": "",
+          "visible": true,
+          "order": 11
+        },
+        {
+          "relPath": "Peças Premium/85_20260527_112349_0005.png",
+          "name": "Peças Premium Item 13",
+          "price": "",
+          "code": "PP-013",
+          "description": "",
+          "visible": true,
+          "order": 12
+        },
+        {
+          "relPath": "Peças Premium/86_20260527_112349_0006.png",
+          "name": "Peças Premium Item 14",
+          "price": "",
+          "code": "PP-014",
+          "description": "",
+          "visible": true,
+          "order": 13
+        },
+        {
+          "relPath": "Peças Premium/87_20260527_112349_0007.png",
+          "name": "Peças Premium Item 15",
+          "price": "",
+          "code": "PP-015",
+          "description": "",
+          "visible": true,
+          "order": 14
+        },
+        {
+          "relPath": "Peças Premium/88_20260527_112349_0008.png",
+          "name": "Peças Premium Item 16",
+          "price": "",
+          "code": "PP-016",
+          "description": "",
+          "visible": true,
+          "order": 15
+        },
+        {
+          "relPath": "Peças Premium/89_20260527_112349_0009.png",
+          "name": "Peças Premium Item 17",
+          "price": "",
+          "code": "PP-017",
+          "description": "",
+          "visible": true,
+          "order": 16
+        },
+        {
+          "relPath": "Peças Premium/90_20260527_112349_0010.png",
+          "name": "Peças Premium Item 18",
+          "price": "",
+          "code": "PP-018",
+          "description": "",
+          "visible": true,
+          "order": 17
+        },
+        {
+          "relPath": "Peças Premium/91_20260527_112349_0011.png",
+          "name": "Peças Premium Item 19",
+          "price": "",
+          "code": "PP-019",
+          "description": "",
+          "visible": true,
+          "order": 18
+        },
+        {
+          "relPath": "Peças Premium/95_20260527_112350_0015.png",
+          "name": "Peças Premium Item 20",
+          "price": "",
+          "code": "PP-020",
+          "description": "",
+          "visible": true,
+          "order": 19
+        },
+        {
+          "relPath": "Peças Premium/97_20260527_112350_0017.png",
+          "name": "Peças Premium Item 21",
+          "price": "",
+          "code": "PP-021",
+          "description": "",
+          "visible": true,
+          "order": 20
+        },
+        {
+          "relPath": "Peças Premium/98_20260527_112350_0018.png",
+          "name": "Peças Premium Item 22",
+          "price": "",
+          "code": "PP-022",
+          "description": "",
+          "visible": true,
+          "order": 21
+        },
+        {
+          "relPath": "Peças Premium/99_20260527_112350_0019.png",
+          "name": "Peças Premium Item 23",
+          "price": "",
+          "code": "PP-023",
+          "description": "",
+          "visible": true,
+          "order": 22
+        },
+        {
+          "relPath": "Peças Premium/100_20260527_112350_0020.png",
+          "name": "Peças Premium Item 24",
+          "price": "",
+          "code": "PP-024",
+          "description": "",
+          "visible": true,
+          "order": 23
+        },
+        {
+          "relPath": "Peças Premium/101_20260527_112350_0021.png",
+          "name": "Peças Premium Item 25",
+          "price": "",
+          "code": "PP-025",
+          "description": "",
+          "visible": true,
+          "order": 24
+        },
+        {
+          "relPath": "Peças Premium/102_20260527_112350_0022.png",
+          "name": "Peças Premium Item 26",
+          "price": "",
+          "code": "PP-026",
+          "description": "",
+          "visible": true,
+          "order": 25
+        },
+        {
+          "relPath": "Peças Premium/103_20260527_112350_0023.png",
+          "name": "Peças Premium Item 27",
+          "price": "",
+          "code": "PP-027",
+          "description": "",
+          "visible": true,
+          "order": 26
+        },
+        {
+          "relPath": "Peças Premium/104_20260527_112350_0024.png",
+          "name": "Peças Premium Item 28",
+          "price": "",
+          "code": "PP-028",
+          "description": "",
+          "visible": true,
+          "order": 27
+        },
+        {
+          "relPath": "Peças Premium/105_20260527_112350_0025.png",
+          "name": "Peças Premium Item 29",
+          "price": "",
+          "code": "PP-029",
+          "description": "",
+          "visible": true,
+          "order": 28
+        },
+        {
+          "relPath": "Peças Premium/106_20260527_112350_0026.png",
+          "name": "Peças Premium Item 30",
+          "price": "",
+          "code": "PP-030",
+          "description": "",
+          "visible": true,
+          "order": 29
+        },
+        {
+          "relPath": "Peças Premium/107_20260527_112350_0027.png",
+          "name": "Peças Premium Item 31",
+          "price": "",
+          "code": "PP-031",
+          "description": "",
+          "visible": true,
+          "order": 30
+        },
+        {
+          "relPath": "Peças Premium/WhatsApp Image 2026-05-22 at 08.56.25.jpeg",
+          "name": "Peças Premium Item 32",
+          "price": "",
+          "code": "PP-032",
+          "description": "",
+          "visible": true,
+          "order": 31
+        }
+      ]
+    },
+    {
+      "name": "Pulseiras",
+      "displayName": "Pulseiras",
+      "products": [
+        {
+          "relPath": "Pulseiras/85.png",
+          "name": "Pulseiras Item 1",
+          "price": "",
+          "code": "PD-001",
+          "description": "",
+          "visible": true,
+          "order": 0
+        },
+        {
+          "relPath": "Pulseiras/86.png",
+          "name": "Pulseiras Item 2",
+          "price": "",
+          "code": "PD-002",
+          "description": "",
+          "visible": true,
+          "order": 1
+        },
+        {
+          "relPath": "Pulseiras/87.png",
+          "name": "Pulseiras Item 3",
+          "price": "",
+          "code": "PD-003",
+          "description": "",
+          "visible": true,
+          "order": 2
+        },
+        {
+          "relPath": "Pulseiras/88.png",
+          "name": "Pulseiras Item 4",
+          "price": "",
+          "code": "PD-004",
+          "description": "",
+          "visible": true,
+          "order": 3
+        },
+        {
+          "relPath": "Pulseiras/90.png",
+          "name": "Pulseiras Item 5",
+          "price": "",
+          "code": "PD-005",
+          "description": "",
+          "visible": true,
+          "order": 4
+        },
+        {
+          "relPath": "Pulseiras/91.png",
+          "name": "Pulseiras Item 6",
+          "price": "",
+          "code": "PD-006",
+          "description": "",
+          "visible": true,
+          "order": 5
+        },
+        {
+          "relPath": "Pulseiras/92.png",
+          "name": "Pulseiras Item 7",
+          "price": "",
+          "code": "PD-007",
+          "description": "",
+          "visible": true,
+          "order": 6
+        },
+        {
+          "relPath": "Pulseiras/93.png",
+          "name": "Pulseiras Item 8",
+          "price": "",
+          "code": "PD-008",
+          "description": "",
+          "visible": true,
+          "order": 7
+        },
+        {
+          "relPath": "Pulseiras/94.png",
+          "name": "Pulseiras Item 9",
+          "price": "",
+          "code": "PD-009",
+          "description": "",
+          "visible": true,
+          "order": 8
+        },
+        {
+          "relPath": "Pulseiras/95.png",
+          "name": "Pulseiras Item 10",
+          "price": "",
+          "code": "PD-010",
+          "description": "",
+          "visible": true,
+          "order": 9
+        },
+        {
+          "relPath": "Pulseiras/96.png",
+          "name": "Pulseiras Item 11",
+          "price": "",
+          "code": "PD-011",
+          "description": "",
+          "visible": true,
+          "order": 10
+        },
+        {
+          "relPath": "Pulseiras/97.png",
+          "name": "Pulseiras Item 12",
+          "price": "",
+          "code": "PD-012",
+          "description": "",
+          "visible": true,
+          "order": 11
+        },
+        {
+          "relPath": "Pulseiras/98.png",
+          "name": "Pulseiras Item 13",
+          "price": "",
+          "code": "PD-013",
+          "description": "",
+          "visible": true,
+          "order": 12
+        },
+        {
+          "relPath": "Pulseiras/99.png",
+          "name": "Pulseiras Item 14",
+          "price": "",
+          "code": "PD-014",
+          "description": "",
+          "visible": true,
+          "order": 13
+        },
+        {
+          "relPath": "Pulseiras/100.png",
+          "name": "Pulseiras Item 15",
+          "price": "",
+          "code": "PD-015",
+          "description": "",
+          "visible": true,
+          "order": 14
+        },
+        {
+          "relPath": "Pulseiras/101.png",
+          "name": "Pulseiras Item 16",
+          "price": "",
+          "code": "PD-016",
+          "description": "",
+          "visible": true,
+          "order": 15
+        },
+        {
+          "relPath": "Pulseiras/102.png",
+          "name": "Pulseiras Item 17",
+          "price": "",
+          "code": "PD-017",
+          "description": "",
+          "visible": true,
+          "order": 16
+        },
+        {
+          "relPath": "Pulseiras/103.png",
+          "name": "Pulseiras Item 18",
+          "price": "",
+          "code": "PD-018",
+          "description": "",
+          "visible": true,
+          "order": 17
+        },
+        {
+          "relPath": "Pulseiras/104.png",
+          "name": "Pulseiras Item 19",
+          "price": "",
+          "code": "PD-019",
+          "description": "",
+          "visible": true,
+          "order": 18
+        },
+        {
+          "relPath": "Pulseiras/105.png",
+          "name": "Pulseiras Item 20",
+          "price": "",
+          "code": "PD-020",
+          "description": "",
+          "visible": true,
+          "order": 19
+        },
+        {
+          "relPath": "Pulseiras/106.png",
+          "name": "Pulseiras Item 21",
+          "price": "",
+          "code": "PD-021",
+          "description": "",
+          "visible": true,
+          "order": 20
+        },
+        {
+          "relPath": "Pulseiras/108.png",
+          "name": "Pulseiras Item 22",
+          "price": "",
+          "code": "PD-022",
+          "description": "",
+          "visible": true,
+          "order": 21
+        },
+        {
+          "relPath": "Pulseiras/109.png",
+          "name": "Pulseiras Item 23",
+          "price": "",
+          "code": "PD-023",
+          "description": "",
+          "visible": true,
+          "order": 22
+        },
+        {
+          "relPath": "Pulseiras/110.png",
+          "name": "Pulseiras Item 24",
+          "price": "",
+          "code": "PD-024",
+          "description": "",
+          "visible": true,
+          "order": 23
+        },
+        {
+          "relPath": "Pulseiras/111.png",
+          "name": "Pulseiras Item 25",
+          "price": "",
+          "code": "PD-025",
+          "description": "",
+          "visible": true,
+          "order": 24
+        },
+        {
+          "relPath": "Pulseiras/113.png",
+          "name": "Pulseiras Item 26",
+          "price": "",
+          "code": "PD-026",
+          "description": "",
+          "visible": true,
+          "order": 25
+        },
+        {
+          "relPath": "Pulseiras/114.png",
+          "name": "Pulseiras Item 27",
+          "price": "",
+          "code": "PD-027",
+          "description": "",
+          "visible": true,
+          "order": 26
+        },
+        {
+          "relPath": "Pulseiras/115.png",
+          "name": "Pulseiras Item 28",
+          "price": "",
+          "code": "PD-028",
+          "description": "",
+          "visible": true,
+          "order": 27
+        },
+        {
+          "relPath": "Pulseiras/116.png",
+          "name": "Pulseiras Item 29",
+          "price": "",
+          "code": "PD-029",
+          "description": "",
+          "visible": true,
+          "order": 28
+        },
+        {
+          "relPath": "Pulseiras/117.png",
+          "name": "Pulseiras Item 30",
+          "price": "",
+          "code": "PD-030",
+          "description": "",
+          "visible": true,
+          "order": 29
+        },
+        {
+          "relPath": "Pulseiras/118.png",
+          "name": "Pulseiras Item 31",
+          "price": "",
+          "code": "PD-031",
+          "description": "",
+          "visible": true,
+          "order": 30
+        },
+        {
+          "relPath": "Pulseiras/119.png",
+          "name": "Pulseiras Item 32",
+          "price": "",
+          "code": "PD-032",
+          "description": "",
+          "visible": true,
+          "order": 31
+        },
+        {
+          "relPath": "Pulseiras/120.png",
+          "name": "Pulseiras Item 33",
+          "price": "",
+          "code": "PD-033",
+          "description": "",
+          "visible": true,
+          "order": 32
+        },
+        {
+          "relPath": "Pulseiras/121.png",
+          "name": "Pulseiras Item 34",
+          "price": "",
+          "code": "PD-034",
+          "description": "",
+          "visible": true,
+          "order": 33
+        },
+        {
+          "relPath": "Pulseiras/122.png",
+          "name": "Pulseiras Item 35",
+          "price": "",
+          "code": "PD-035",
+          "description": "",
+          "visible": true,
+          "order": 34
+        },
+        {
+          "relPath": "Pulseiras/123.png",
+          "name": "Pulseiras Item 36",
+          "price": "",
+          "code": "PD-036",
+          "description": "",
+          "visible": true,
+          "order": 35
+        },
+        {
+          "relPath": "Pulseiras/124.png",
+          "name": "Pulseiras Item 37",
+          "price": "",
+          "code": "PD-037",
+          "description": "",
+          "visible": true,
+          "order": 36
+        },
+        {
+          "relPath": "Pulseiras/125.png",
+          "name": "Pulseiras Item 38",
+          "price": "",
+          "code": "PD-038",
+          "description": "",
+          "visible": true,
+          "order": 37
+        },
+        {
+          "relPath": "Pulseiras/126.png",
+          "name": "Pulseiras Item 39",
+          "price": "",
+          "code": "PD-039",
+          "description": "",
+          "visible": true,
+          "order": 38
+        },
+        {
+          "relPath": "Pulseiras/127.png",
+          "name": "Pulseiras Item 40",
+          "price": "",
+          "code": "PD-040",
+          "description": "",
+          "visible": true,
+          "order": 39
+        },
+        {
+          "relPath": "Pulseiras/128.png",
+          "name": "Pulseiras Item 41",
+          "price": "",
+          "code": "PD-041",
+          "description": "",
+          "visible": true,
+          "order": 40
+        },
+        {
+          "relPath": "Pulseiras/131.png",
+          "name": "Pulseiras Item 42",
+          "price": "",
+          "code": "PD-042",
+          "description": "",
+          "visible": true,
+          "order": 41
+        },
+        {
+          "relPath": "Pulseiras/132.png",
+          "name": "Pulseiras Item 43",
+          "price": "",
+          "code": "PD-043",
+          "description": "",
+          "visible": true,
+          "order": 42
+        },
+        {
+          "relPath": "Pulseiras/133.png",
+          "name": "Pulseiras Item 44",
+          "price": "",
+          "code": "PD-044",
+          "description": "",
+          "visible": true,
+          "order": 43
+        },
+        {
+          "relPath": "Pulseiras/134.png",
+          "name": "Pulseiras Item 45",
+          "price": "",
+          "code": "PD-045",
+          "description": "",
+          "visible": true,
+          "order": 44
+        }
+      ]
+    },
+    {
+      "name": "Religioso",
+      "displayName": "Religioso",
+      "products": [
+        {
+          "relPath": "Religioso/13.png",
+          "name": "Religioso Item 1",
+          "price": "",
+          "code": "RD-001",
+          "description": "",
+          "visible": true,
+          "order": 0
+        },
+        {
+          "relPath": "Religioso/66_20260525_142412_0002.png",
+          "name": "Religioso Item 2",
+          "price": "",
+          "code": "RD-002",
+          "description": "",
+          "visible": true,
+          "order": 1
+        },
+        {
+          "relPath": "Religioso/69_20260523_121434_0005.png",
+          "name": "Religioso Item 3",
+          "price": "",
+          "code": "RD-003",
+          "description": "",
+          "visible": true,
+          "order": 2
+        },
+        {
+          "relPath": "Religioso/71_20260525_090154_0007.png",
+          "name": "Religioso Item 4",
+          "price": "",
+          "code": "RD-004",
+          "description": "",
+          "visible": true,
+          "order": 3
+        },
+        {
+          "relPath": "Religioso/89.png",
+          "name": "Religioso Item 5",
+          "price": "",
+          "code": "RD-005",
+          "description": "",
+          "visible": true,
+          "order": 4
+        },
+        {
+          "relPath": "Religioso/107.png",
+          "name": "Religioso Item 6",
+          "price": "",
+          "code": "RD-006",
+          "description": "",
+          "visible": true,
+          "order": 5
+        },
+        {
+          "relPath": "Religioso/112.png",
+          "name": "Religioso Item 7",
+          "price": "",
+          "code": "RD-007",
+          "description": "",
+          "visible": true,
+          "order": 6
+        },
+        {
+          "relPath": "Religioso/129.png",
+          "name": "Religioso Item 8",
+          "price": "",
+          "code": "RD-008",
+          "description": "",
+          "visible": true,
+          "order": 7
+        },
+        {
+          "relPath": "Religioso/130_20260528_102914_0008.png",
+          "name": "Religioso Item 9",
+          "price": "",
+          "code": "RD-009",
+          "description": "",
+          "visible": true,
+          "order": 8
+        },
+        {
+          "relPath": "Religioso/130.png",
+          "name": "Religioso Item 10",
+          "price": "",
+          "code": "RD-010",
+          "description": "",
+          "visible": true,
+          "order": 9
+        },
+        {
+          "relPath": "Religioso/IMG-20260521-WA0250.jpg",
+          "name": "Religioso Item 11",
+          "price": "",
+          "code": "RD-011",
+          "description": "",
+          "visible": true,
+          "order": 10
+        },
+        {
+          "relPath": "Religioso/IMG-20260521-WA0257.jpg",
+          "name": "Religioso Item 12",
+          "price": "",
+          "code": "RD-012",
+          "description": "",
+          "visible": true,
+          "order": 11
+        },
+        {
+          "relPath": "Religioso/WhatsApp Image 2026-05-22 at 08.56.31 (2).jpeg",
+          "name": "Religioso Item 13",
+          "price": "",
+          "code": "RD-013",
+          "description": "",
+          "visible": true,
+          "order": 12
+        }
+      ]
+    },
+    {
+      "name": "Solitários",
+      "displayName": "Solitários",
+      "products": [
+        {
+          "relPath": "Solitários/WhatsApp Image 2026-05-22 at 08.56.25 (1).jpeg",
+          "name": "Solitários Item 1",
+          "price": "",
+          "code": "SD-001",
+          "description": "",
+          "visible": true,
+          "order": 0
+        },
+        {
+          "relPath": "Solitários/WhatsApp Image 2026-05-22 at 08.56.26 (3).jpeg",
+          "name": "Solitários Item 2",
+          "price": "",
+          "code": "SD-002",
+          "description": "",
+          "visible": true,
+          "order": 1
+        },
+        {
+          "relPath": "Solitários/WhatsApp Image 2026-05-22 at 08.56.26 (7).jpeg",
+          "name": "Solitários Item 3",
+          "price": "",
+          "code": "SD-003",
+          "description": "",
+          "visible": true,
+          "order": 2
+        },
+        {
+          "relPath": "Solitários/WhatsApp Image 2026-05-22 at 08.56.27 (2).jpeg",
+          "name": "Solitários Item 4",
+          "price": "",
+          "code": "SD-004",
+          "description": "",
+          "visible": true,
+          "order": 3
+        },
+        {
+          "relPath": "Solitários/WhatsApp Image 2026-05-22 at 08.56.28 (1).jpeg",
+          "name": "Solitários Item 5",
+          "price": "",
+          "code": "SD-005",
+          "description": "",
+          "visible": true,
+          "order": 4
+        },
+        {
+          "relPath": "Solitários/WhatsApp Image 2026-05-22 at 08.56.28.jpeg",
+          "name": "Solitários Item 6",
+          "price": "",
+          "code": "SD-006",
+          "description": "",
+          "visible": true,
+          "order": 5
+        },
+        {
+          "relPath": "Solitários/WhatsApp Image 2026-05-22 at 08.56.29 (1).jpeg",
+          "name": "Solitários Item 7",
+          "price": "",
+          "code": "SD-007",
+          "description": "",
+          "visible": true,
+          "order": 6
+        },
+        {
+          "relPath": "Solitários/WhatsApp Image 2026-05-22 at 08.56.30 (2).jpeg",
+          "name": "Solitários Item 8",
+          "price": "",
+          "code": "SD-008",
+          "description": "",
+          "visible": true,
+          "order": 7
+        },
+        {
+          "relPath": "Solitários/WhatsApp Image 2026-05-22 at 08.56.30 (3).jpeg",
+          "name": "Solitários Item 9",
+          "price": "",
+          "code": "SD-009",
+          "description": "",
+          "visible": true,
+          "order": 8
+        },
+        {
+          "relPath": "Solitários/WhatsApp Image 2026-05-22 at 08.56.31 (3).jpeg",
+          "name": "Solitários Item 10",
+          "price": "",
+          "code": "SD-010",
+          "description": "",
+          "visible": true,
+          "order": 9
+        },
+        {
+          "relPath": "Solitários/WhatsApp Image 2026-05-22 at 08.56.31 (5).jpeg",
+          "name": "Solitários Item 11",
+          "price": "",
+          "code": "SD-011",
+          "description": "",
+          "visible": true,
+          "order": 10
+        },
+        {
+          "relPath": "Solitários/WhatsApp Image 2026-05-22 at 08.56.32 (1).jpeg",
+          "name": "Solitários Item 12",
+          "price": "",
+          "code": "SD-012",
+          "description": "",
+          "visible": true,
+          "order": 11
+        },
+        {
+          "relPath": "Solitários/WhatsApp Image 2026-05-22 at 08.56.32 (4).jpeg",
+          "name": "Solitários Item 13",
+          "price": "",
+          "code": "SD-013",
+          "description": "",
+          "visible": true,
+          "order": 12
+        }
+      ]
+    },
+    {
+      "name": "Trios",
+      "displayName": "Trios",
+      "products": [
+        {
+          "relPath": "Trios/21.png",
+          "name": "Trios Item 1",
+          "price": "",
+          "code": "TD-001",
+          "description": "",
+          "visible": true,
+          "order": 0
+        },
+        {
+          "relPath": "Trios/22.png",
+          "name": "Trios Item 2",
+          "price": "",
+          "code": "TD-002",
+          "description": "",
+          "visible": true,
+          "order": 1
+        },
+        {
+          "relPath": "Trios/43.png",
+          "name": "Trios Item 3",
+          "price": "",
+          "code": "TD-003",
+          "description": "",
+          "visible": true,
+          "order": 2
+        },
+        {
+          "relPath": "Trios/48.png",
+          "name": "Trios Item 4",
+          "price": "",
+          "code": "TD-004",
+          "description": "",
+          "visible": true,
+          "order": 3
+        },
+        {
+          "relPath": "Trios/49.png",
+          "name": "Trios Item 5",
+          "price": "",
+          "code": "TD-005",
+          "description": "",
+          "visible": true,
+          "order": 4
+        }
+      ]
+    }
+  ]
+}

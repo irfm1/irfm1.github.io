@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo Virtual - Semijoias Premium</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header with Brand and Search -->
+  <header class="catalog-header">
+    <div class="header-container">
+      <div class="brand-info">
+        <h1 id="brand-title">Carregando...</h1>
+        <p id="brand-subtitle"></p>
+      </div>
+      
+      <!-- Search Input Area -->
+      <div class="search-wrapper">
+        <div class="search-box">
+          <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <input type="text" id="search-input" placeholder="Pesquisar por nome, código ou descrição...">
+          <button id="clear-search" class="clear-btn" style="display: none;">&times;</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Category Nav Bar (Horizontal Tabs) -->
+    <nav class="category-nav">
+      <div class="category-tabs-wrapper" id="category-tabs">
+        <button class="nav-tab active" data-category="all">Todos os Produtos</button>
+        <!-- Dynamically loaded -->
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Catalog Grid Area -->
+  <main class="catalog-container">
+    <div class="search-results-info" id="search-results-banner" style="display: none;">
+      <span>Resultados da busca para "<strong id="search-query-text"></strong>":</span>
+      <span id="search-results-count">0 itens</span>
+    </div>
+
+    <div class="products-grid" id="products-grid-production">
+      <!-- Products loaded here -->
+    </div>
+    
+    <!-- Empty State -->
+    <div class="empty-state" id="empty-state" style="display: none;">
+      <span class="empty-icon">💎</span>
+      <h3>Nenhum produto encontrado</h3>
+      <p>Tente alterar sua busca ou selecionar outra categoria.</p>
+    </div>
+  </main>
+
+  <!-- WhatsApp Floating Contact Bar -->
+  <a href="#" id="floating-whatsapp-btn" class="whatsapp-float-btn" target="_blank" style="display: none;">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.455L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.86-4.42 9.864-9.864.002-2.637-1.023-5.116-2.887-6.98C16.584 1.895 14.11 1.87 11.47 1.87 6.037 1.87 1.611 6.29 1.607 11.733c-.001 1.637.497 3.232 1.446 4.828l-.999 3.649 3.743-.981zM17.7 15.22c-.294-.148-1.743-.86-2.012-.959-.269-.098-.465-.148-.66.148-.196.294-.759.959-.93 1.155-.172.196-.343.22-.637.072-1.152-.576-1.923-1.03-2.69-2.342-.196-.343-.196-.66.072-.93.12-.12.269-.318.416-.49.147-.172.196-.294.294-.49.098-.196.049-.368-.025-.515-.074-.147-.66-1.593-.905-2.18-.239-.576-.48-.497-.66-.507-.172-.008-.368-.01-.564-.01-.196 0-.515.074-.784.368-.269.294-1.03 1.007-1.03 2.454 0 1.447 1.054 2.847 1.201 3.043.147.196 2.074 3.167 5.025 4.444.702.304 1.25.485 1.678.621.705.224 1.347.193 1.854.117.565-.084 1.743-.711 1.988-1.397.245-.686.245-1.275.172-1.398-.073-.122-.269-.22-.564-.368z"/></svg>
+    <span>Falar Conosco</span>
+  </a>
+
+  <!-- Image Zoom Lightbox Overlay -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightbox-close">&times;</button>
+    <button class="lightbox-nav lightbox-prev" id="lightbox-prev">&#10094;</button>
+    
+    <div class="lightbox-content">
+      <div class="lightbox-image-wrapper">
+        <img id="lightbox-img" src="" alt="Zoom Image">
+      </div>
+      <div class="lightbox-details">
+        <span id="lightbox-code" class="detail-code"></span>
+        <h3 id="lightbox-name" class="detail-name"></h3>
+        <p id="lightbox-desc" class="detail-desc"></p>
+        <span id="lightbox-price" class="detail-price"></span>
+        
+        <a href="#" id="lightbox-whatsapp-btn" class="btn btn-whatsapp" target="_blank">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.7 15.22c-.294-.148-1.743-.86-2.012-.959-.269-.098-.465-.148-.66.148-.196.294-.759.959-.93 1.155-.172.196-.343.22-.637.072-1.152-.576-1.923-1.03-2.69-2.342-.196-.343-.196-.66.072-.93.12-.12.269-.318.416-.49.147-.172.196-.294.294-.49.098-.196.049-.368-.025-.515-.074-.147-.66-1.593-.905-2.18-.239-.576-.48-.497-.66-.507-.172-.008-.368-.01-.564-.01-.196 0-.515.074-.784.368-.269.294-1.03 1.007-1.03 2.454 0 1.447 1.054 2.847 1.201 3.043.147.196 2.074 3.167 5.025 4.444.702.304 1.25.485 1.678.621.705.224 1.347.193 1.854.117.565-.084 1.743-.711 1.988-1.397.245-.686.245-1.275.172-1.398-.073-.122-.269-.22-.564-.368z"/></svg>
+          Solicitar pelo WhatsApp
+        </a>
+      </div>
+    </div>
+    
+    <button class="lightbox-nav lightbox-next" id="lightbox-next">&#10095;</button>
+  </div>
+
+  <footer class="catalog-footer">
+    <div class="footer-container">
+      <p id="footer-text"></p>
+      <div class="footer-socials" id="footer-socials">
+        <!-- Social links loaded dynamically -->
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
