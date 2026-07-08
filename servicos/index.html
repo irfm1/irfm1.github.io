@@ -407,7 +407,7 @@
 
     <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
-        import { getFirestore, collection, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+        import { getFirestore, collection, addDoc, serverTimestamp, getDocs, query, where } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 
         const firebaseConfig = {
             apiKey: "AIzaSyAc9f0fP9uG2kIFDbbfPm2l7Enkvfct_CQ",
@@ -421,36 +421,54 @@
         const app = initializeApp(firebaseConfig);
         const db = getFirestore(app);
 
-        // Dados dos Serviços
-        const services = [
-            { id: 'ti_formata', cat: 'Manutenção TI', title: 'Formatação Limpa', desc: 'Instalação do Windows/Linux, drivers atualizados e pacotes essenciais.', price: 100.00 },
-            { id: 'ti_prevent', cat: 'Manutenção TI', title: 'Manutenção Preventiva', desc: 'Limpeza interna, troca de pasta térmica e otimização de sistema.', price: 120.00 },
-            { id: 'ti_reparo', cat: 'Manutenção TI', title: 'Reparo de Hardware', desc: 'Diagnóstico e reparo de placas, memórias ou fontes (Preço inicial, sujeito a análise).', price: 80.00 },
-            { id: 'ti_backup', cat: 'Manutenção TI', title: 'Backup de Dados', desc: 'Cópia de segurança de arquivos importantes (até 500GB).', price: 90.00 },
-            { id: 'dev_site', cat: 'Desenvolvimento', title: 'Site Institucional Básico', desc: 'Criação de site responsivo, moderno e otimizado para SEO.', price: 800.00 },
-            { id: 'dev_app', cat: 'Desenvolvimento', title: 'Aplicativo Android', desc: 'App nativo para o seu negócio. Valores sob consulta detalhada.', price: 2000.00 },
-            { id: 'dev_ops', cat: 'DevOps', title: 'Setup de Servidor Cloud', desc: 'Configuração de VPS, AWS, Docker e pipelines CI/CD básicos.', price: 500.00 },
-            { id: 'consult', cat: 'Consultoria', title: 'Consultoria em TI', desc: 'Análise de infraestrutura, segurança e direcionamento de arquitetura (Hora/Aula).', price: 150.00 }
-        ];
-
+        let services = [];
         let cart = [];
         let selectedTimeWindow = "08:00 - 11:00";
 
         // Render Services
-        const grid = document.getElementById('servicesGrid');
-        services.forEach(s => {
-            grid.innerHTML += `
-                <div class="service-card" onclick="addToCart('${s.id}')">
-                    <span class="service-cat">${s.cat}</span>
-                    <h3 class="service-title">${s.title}</h3>
-                    <p class="service-desc">${s.desc}</p>
-                    <div class="service-footer">
-                        <span class="service-price">R$ ${s.price.toFixed(2).replace('.', ',')}</span>
-                        <button class="btn-add">+</button>
+        function renderServices() {
+            const grid = document.getElementById('servicesGrid');
+            grid.innerHTML = '';
+            
+            services.forEach(s => {
+                grid.innerHTML += `
+                    <div class="service-card" onclick="addToCart('${s.id}')">
+                        <span class="service-cat">${s.cat}</span>
+                        <h3 class="service-title">${s.title}</h3>
+                        <p class="service-desc">${s.desc}</p>
+                        <div class="service-footer">
+                            <span class="service-price">R$ ${Number(s.price).toFixed(2).replace('.', ',')}</span>
+                            <button class="btn-add">+</button>
+                        </div>
                     </div>
-                </div>
-            `;
-        });
+                `;
+            });
+        }
+
+        // Load Services from Firebase
+        async function loadServices() {
+            const grid = document.getElementById('servicesGrid');
+            grid.innerHTML = '<p style="color: var(--text-muted); text-align: center; width: 100%; grid-column: 1 / -1;">Carregando serviços...</p>';
+            
+            try {
+                const q = query(collection(db, "services"), where("isActive", "==", true));
+                const snapshot = await getDocs(q);
+                
+                services = snapshot.docs.map(doc => doc.data());
+                
+                if (services.length === 0) {
+                    grid.innerHTML = '<p style="color: var(--text-muted); text-align: center; width: 100%; grid-column: 1 / -1;">Nenhum serviço disponível no momento.</p>';
+                    return;
+                }
+                
+                renderServices();
+            } catch (error) {
+                console.error("Erro ao carregar serviços: ", error);
+                grid.innerHTML = '<p style="color: var(--text-muted); text-align: center; width: 100%; grid-column: 1 / -1;">Erro ao carregar serviços. Tente novamente mais tarde.</p>';
+            }
+        }
+        
+        loadServices();
 
         // Cart Logic
         function addToCart(id) {
@@ -474,6 +492,10 @@
             }
             renderCart();
         }
+        
+        // Exportando para o escopo global (já que estamos em um type="module")
+        window.addToCart = addToCart;
+        window.updateQty = updateQty;
 
         function renderCart() {
             const cartContainer = document.getElementById('cartItems');
@@ -506,6 +528,24 @@
             
             cartContainer.innerHTML = html;
             totalEl.textContent = `R$ ${total.toFixed(2).replace('.', ',')}`;
+
+            // Lógica de Visita Técnica
+            const allowVisit = cart.length > 0 && cart.every(item => item.allowsVisit !== false);
+            const locationSelect = document.getElementById('locationType');
+            const visitOption = Array.from(locationSelect.options).find(opt => opt.value === 'visit');
+            
+            if (visitOption) {
+                visitOption.disabled = !allowVisit;
+                if (!allowVisit) {
+                    visitOption.text = "Visita Técnica (Indisponível para os itens)";
+                    if (locationSelect.value === 'visit') {
+                        locationSelect.value = 'im_solutions';
+                        locationSelect.dispatchEvent(new Event('change'));
+                    }
+                } else {
+                    visitOption.text = "Visita Técnica (No meu local)";
+                }
+            }
         }
 
         // UI Interactions
