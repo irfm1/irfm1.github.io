@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IM Solutions - Serviços de TI e Desenvolvimento</title>
+    <meta name="description" content="Catálogo online de serviços de TI, desenvolvimento, devops e consultoria da IM Solutions.">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary: #1A237E; /* Deep Indigo */
+            --secondary: #3949AB;
+            --accent: #FFC107;
+            --bg-dark: #0F111A;
+            --bg-card: rgba(26, 35, 126, 0.15);
+            --text-light: #F5F5F5;
+            --text-muted: #A0AAB2;
+            --border: rgba(255, 255, 255, 0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-light);
+            background-image: 
+                radial-gradient(circle at 15% 50%, rgba(26, 35, 126, 0.2), transparent 25%),
+                radial-gradient(circle at 85% 30%, rgba(57, 73, 171, 0.15), transparent 25%);
+            background-attachment: fixed;
+            min-height: 100vh;
+        }
+
+        header {
+            padding: 2rem;
+            text-align: center;
+            background: linear-gradient(180deg, rgba(15,17,26,0.9) 0%, rgba(15,17,26,0) 100%);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            backdrop-filter: blur(10px);
+        }
+
+        header h1 {
+            font-family: 'Outfit', sans-serif;
+            font-size: 2.5rem;
+            background: linear-gradient(90deg, #FFFFFF, #9FA8DA);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            color: var(--text-muted);
+            font-weight: 300;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 2rem;
+        }
+
+        @media (max-width: 900px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Glassmorphism Cards */
+        .glass-panel {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 1.5rem;
+            backdrop-filter: blur(12px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        .section-title {
+            font-family: 'Outfit', sans-serif;
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            color: #FFF;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* Services Grid */
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+
+        .service-card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1rem;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255, 255, 255, 0.08);
+            border-color: var(--secondary);
+            box-shadow: 0 4px 15px rgba(57, 73, 171, 0.3);
+        }
+
+        .service-cat {
+            font-size: 0.75rem;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .service-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .service-desc {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 1rem;
+            line-height: 1.4;
+        }
+
+        .service-footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: auto;
+        }
+
+        .service-price {
+            font-weight: 800;
+            color: #FFF;
+        }
+
+        .btn-add {
+            background: var(--primary);
+            color: #FFF;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: background 0.2s;
+        }
+
+        .btn-add:hover {
+            background: var(--secondary);
+        }
+
+        /* Sidebar / Cart */
+        .cart-section {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+            color: var(--text-light);
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 0.8rem;
+            background: rgba(0, 0, 0, 0.2);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            color: #FFF;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: var(--secondary);
+        }
+
+        select.form-control option {
+            background: var(--bg-dark);
+            color: #FFF;
+        }
+
+        /* Radio Buttons for Windows */
+        .radio-group {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .radio-btn {
+            flex: 1;
+            padding: 0.8rem;
+            background: rgba(0, 0, 0, 0.2);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-size: 0.9rem;
+        }
+
+        .radio-btn.active {
+            background: var(--primary);
+            border-color: var(--secondary);
+        }
+
+        .info-box {
+            background: rgba(255, 193, 7, 0.1);
+            border-left: 4px solid var(--accent);
+            padding: 1rem;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            color: #E0E0E0;
+            line-height: 1.5;
+        }
+
+        .cart-items {
+            min-height: 100px;
+            margin-bottom: 1rem;
+        }
+
+        .cart-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.8rem 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .cart-item-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .cart-item-title {
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+
+        .cart-item-price {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        .cart-item-actions {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .cart-btn {
+            background: rgba(255, 255, 255, 0.1);
+            border: none;
+            color: #FFF;
+            width: 24px;
+            height: 24px;
+            border-radius: 4px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .cart-btn:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        .cart-total {
+            display: flex;
+            justify-content: space-between;
+            font-size: 1.2rem;
+            font-weight: 800;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 2px solid var(--border);
+        }
+
+        .btn-submit {
+            width: 100%;
+            padding: 1rem;
+            background: linear-gradient(45deg, var(--primary), var(--secondary));
+            color: #FFF;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            cursor: pointer;
+            margin-top: 1.5rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .btn-submit:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(57, 73, 171, 0.4);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>IM Solutions</h1>
+        <p>Soluções Profissionais em TI, Desenvolvimento e DevOps</p>
+    </header>
+
+    <div class="container">
+        
+        <!-- Lista de Serviços -->
+        <main class="glass-panel">
+            <h2 class="section-title">Nossos Serviços</h2>
+            <div class="services-grid" id="servicesGrid">
+                <!-- Injetado via JS -->
+            </div>
+        </main>
+
+        <!-- Carrinho e Agendamento -->
+        <aside class="cart-section">
+            <div class="glass-panel">
+                <h2 class="section-title">Sua Solicitação</h2>
+                
+                <div class="cart-items" id="cartItems">
+                    <!-- Itens do carrinho -->
+                    <p style="color: var(--text-muted); font-size: 0.9rem; text-align: center; margin-top: 2rem;">Seu carrinho está vazio.</p>
+                </div>
+                
+                <div class="cart-total">
+                    <span>Total Estimado:</span>
+                    <span id="cartTotal">R$ 0,00</span>
+                </div>
+            </div>
+
+            <div class="glass-panel">
+                <h2 class="section-title">Agendamento</h2>
+                
+                <div class="form-group">
+                    <label>Dados para Contato</label>
+                    <input type="text" id="clientName" class="form-control" placeholder="Seu Nome Completo" style="margin-bottom: 0.5rem;" required>
+                    <input type="tel" id="clientPhone" class="form-control" placeholder="WhatsApp (com DDD)" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Data Desejada (Seg-Sex)</label>
+                    <input type="date" id="serviceDate" class="form-control" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Janela de Atendimento</label>
+                    <div class="radio-group" id="timeWindowGroup">
+                        <div class="radio-btn active" data-value="08:00 - 11:00">Manhã<br>08h - 11h</div>
+                        <div class="radio-btn" data-value="14:00 - 18:00">Tarde<br>14h - 18h</div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Localidade do Serviço</label>
+                    <select id="locationType" class="form-control">
+                        <option value="im_solutions">Vou levar na IM Solutions</option>
+                        <option value="visit">Visita Técnica (No meu local)</option>
+                        <option value="remote">Atendimento Remoto</option>
+                    </select>
+                </div>
+                
+                <div id="visitInfoBox" class="info-box" style="display: none;">
+                    <strong>Atenção:</strong> Visitas técnicas possuem uma <b>taxa mínima de deslocamento de R$ 30,00</b>, que será calculada após a aprovação, dependendo da sua localização.<br><br>
+                    <i>Gratuidade: Para clientes recorrentes em ordens acima de R$ 300, ou novos clientes acima de R$ 200.</i>
+                </div>
+
+                <div class="form-group" id="addressGroup" style="display: none; margin-top: 1rem;">
+                    <label>Seu Endereço Completo</label>
+                    <textarea id="clientAddress" class="form-control" rows="2" placeholder="Rua, Número, Bairro, CEP"></textarea>
+                </div>
+
+                <button class="btn-submit" id="submitOrderBtn">Solicitar Orçamento</button>
+            </div>
+        </aside>
+
+    </div>
+
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+        import { getFirestore, collection, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyAc9f0fP9uG2kIFDbbfPm2l7Enkvfct_CQ",
+            authDomain: "it-invoice-fb94c.firebaseapp.com",
+            projectId: "it-invoice-fb94c",
+            storageBucket: "it-invoice-fb94c.firebasestorage.app",
+            messagingSenderId: "74979856275",
+            appId: "1:74979856275:web:b51aff72766861cbdd2266"
+        };
+
+        const app = initializeApp(firebaseConfig);
+        const db = getFirestore(app);
+
+        // Dados dos Serviços
+        const services = [
+            { id: 'ti_formata', cat: 'Manutenção TI', title: 'Formatação Limpa', desc: 'Instalação do Windows/Linux, drivers atualizados e pacotes essenciais.', price: 100.00 },
+            { id: 'ti_prevent', cat: 'Manutenção TI', title: 'Manutenção Preventiva', desc: 'Limpeza interna, troca de pasta térmica e otimização de sistema.', price: 120.00 },
+            { id: 'ti_reparo', cat: 'Manutenção TI', title: 'Reparo de Hardware', desc: 'Diagnóstico e reparo de placas, memórias ou fontes (Preço inicial, sujeito a análise).', price: 80.00 },
+            { id: 'ti_backup', cat: 'Manutenção TI', title: 'Backup de Dados', desc: 'Cópia de segurança de arquivos importantes (até 500GB).', price: 90.00 },
+            { id: 'dev_site', cat: 'Desenvolvimento', title: 'Site Institucional Básico', desc: 'Criação de site responsivo, moderno e otimizado para SEO.', price: 800.00 },
+            { id: 'dev_app', cat: 'Desenvolvimento', title: 'Aplicativo Android', desc: 'App nativo para o seu negócio. Valores sob consulta detalhada.', price: 2000.00 },
+            { id: 'dev_ops', cat: 'DevOps', title: 'Setup de Servidor Cloud', desc: 'Configuração de VPS, AWS, Docker e pipelines CI/CD básicos.', price: 500.00 },
+            { id: 'consult', cat: 'Consultoria', title: 'Consultoria em TI', desc: 'Análise de infraestrutura, segurança e direcionamento de arquitetura (Hora/Aula).', price: 150.00 }
+        ];
+
+        let cart = [];
+        let selectedTimeWindow = "08:00 - 11:00";
+
+        // Render Services
+        const grid = document.getElementById('servicesGrid');
+        services.forEach(s => {
+            grid.innerHTML += `
+                <div class="service-card" onclick="addToCart('${s.id}')">
+                    <span class="service-cat">${s.cat}</span>
+                    <h3 class="service-title">${s.title}</h3>
+                    <p class="service-desc">${s.desc}</p>
+                    <div class="service-footer">
+                        <span class="service-price">R$ ${s.price.toFixed(2).replace('.', ',')}</span>
+                        <button class="btn-add">+</button>
+                    </div>
+                </div>
+            `;
+        });
+
+        // Cart Logic
+        function addToCart(id) {
+            const service = services.find(s => s.id === id);
+            const existing = cart.find(item => item.id === id);
+            if (existing) {
+                existing.qty += 1;
+            } else {
+                cart.push({ ...service, qty: 1 });
+            }
+            renderCart();
+        }
+
+        function updateQty(id, delta) {
+            const existing = cart.find(item => item.id === id);
+            if (existing) {
+                existing.qty += delta;
+                if (existing.qty <= 0) {
+                    cart = cart.filter(item => item.id !== id);
+                }
+            }
+            renderCart();
+        }
+
+        function renderCart() {
+            const cartContainer = document.getElementById('cartItems');
+            const totalEl = document.getElementById('cartTotal');
+            
+            if (cart.length === 0) {
+                cartContainer.innerHTML = '<p style="color: var(--text-muted); font-size: 0.9rem; text-align: center; margin-top: 2rem;">Seu carrinho está vazio.</p>';
+                totalEl.textContent = 'R$ 0,00';
+                return;
+            }
+
+            let html = '';
+            let total = 0;
+            cart.forEach(item => {
+                total += item.price * item.qty;
+                html += `
+                    <div class="cart-item">
+                        <div class="cart-item-info">
+                            <span class="cart-item-title">${item.title}</span>
+                            <span class="cart-item-price">R$ ${item.price.toFixed(2).replace('.', ',')}</span>
+                        </div>
+                        <div class="cart-item-actions">
+                            <button class="cart-btn" onclick="updateQty('${item.id}', -1)">-</button>
+                            <span style="font-weight: bold; width: 20px; text-align: center;">${item.qty}</span>
+                            <button class="cart-btn" onclick="updateQty('${item.id}', 1)">+</button>
+                        </div>
+                    </div>
+                `;
+            });
+            
+            cartContainer.innerHTML = html;
+            totalEl.textContent = `R$ ${total.toFixed(2).replace('.', ',')}`;
+        }
+
+        // UI Interactions
+        document.querySelectorAll('.radio-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.radio-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                selectedTimeWindow = this.dataset.value;
+            });
+        });
+
+        document.getElementById('locationType').addEventListener('change', function() {
+            const visitInfo = document.getElementById('visitInfoBox');
+            const addrGroup = document.getElementById('addressGroup');
+            if (this.value === 'visit') {
+                visitInfo.style.display = 'block';
+                addrGroup.style.display = 'block';
+            } else {
+                visitInfo.style.display = 'none';
+                addrGroup.style.display = 'none';
+            }
+        });
+
+        // Data de hoje minima
+        const dateInput = document.getElementById('serviceDate');
+        const today = new Date().toISOString().split('T')[0];
+        dateInput.setAttribute('min', today);
+
+        // Submit logic (Firebase Integration)
+        document.getElementById('submitOrderBtn').addEventListener('click', async () => {
+            if (cart.length === 0) {
+                alert("Por favor, adicione ao menos um serviço ao carrinho.");
+                return;
+            }
+            
+            const name = document.getElementById('clientName').value;
+            const phone = document.getElementById('clientPhone').value;
+            const date = document.getElementById('serviceDate').value;
+            const locationType = document.getElementById('locationType').value;
+            const clientAddress = document.getElementById('clientAddress').value;
+            
+            if (!name || !phone || !date) {
+                alert("Por favor, preencha seus dados de contato e a data desejada.");
+                return;
+            }
+
+            const btn = document.getElementById('submitOrderBtn');
+            const originalText = btn.textContent;
+            btn.textContent = "Enviando...";
+            btn.disabled = true;
+
+            try {
+                // Cálculo do total
+                const total = cart.reduce((acc, item) => acc + (item.price * item.qty), 0);
+                
+                const requestData = {
+                    clientName: name,
+                    clientPhone: phone,
+                    serviceDate: date,
+                    timeWindow: selectedTimeWindow,
+                    locationType: locationType,
+                    clientAddress: locationType === 'visit' ? clientAddress : '',
+                    items: cart,
+                    estimatedTotal: total,
+                    status: 'PENDING',
+                    createdAt: serverTimestamp()
+                };
+
+                await addDoc(collection(db, "service_requests"), requestData);
+
+                alert("Sua solicitação foi enviada com sucesso! O profissional receberá a notificação imediatamente.");
+                
+                // Limpar formulário e carrinho
+                cart = [];
+                renderCart();
+                document.getElementById('clientName').value = '';
+                document.getElementById('clientPhone').value = '';
+                document.getElementById('clientAddress').value = '';
+                
+            } catch (error) {
+                console.error("Erro ao enviar solicitação: ", error);
+                alert("Ocorreu um erro ao enviar. Tente novamente mais tarde.");
+            } finally {
+                btn.textContent = originalText;
+                btn.disabled = false;
+            }
+        });
+
+    </script>
+</body>
+</html>
